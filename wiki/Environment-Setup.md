@@ -7,7 +7,7 @@
 
 ## Install
 ```bash
-git clone https://github.com/<owner>/ccc-2026 && cd ccc-2026
+git clone https://github.com/melissa0kosa/ccc-2026 && cd ccc-2026
 uv sync            # installs Python 3.14 if needed and creates .venv
 uv run ccc gpu     # torch / CUDA status
 uv run pytest -q   # toolkit self-test

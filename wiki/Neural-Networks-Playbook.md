@@ -77,4 +77,4 @@ pred = predict(model, Xva).ravel() * ys + ym
 - Option A: average the K fold models' predictions on test. Safe, and needs no retraining.
 - Option B: retrain on all data for about `best_epoch × 1.1` epochs with no validation set (`fit(..., X_va=None)` runs all epochs).
 
-See [NN Architectures by Data Type](NN-Architectures-by-Data-Type) and [Neural Networks from Scratch](Neural-Networks-from-Scratch).
+See [NN Architectures by Data Type](NN-Architectures-by-Data-Type.md) and [Neural Networks from Scratch](Neural-Networks-from-Scratch.md).

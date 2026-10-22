@@ -34,4 +34,4 @@ The team has heard that statements might come as **video or audio** this year. T
 2. Save the media and any visible text or attachments.
 3. Transcribe: `uv run python -m ccc_2026.media transcribe <file>` (Whisper, timestamps), or use the platform's captions. Write `STATEMENT.md` before coding.
 
-See also [Challenge Workflow](Challenge-Workflow).
+See also [Challenge Workflow](Challenge-Workflow.md).

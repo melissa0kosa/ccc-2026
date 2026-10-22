@@ -3,7 +3,7 @@
 Copy-paste PyTorch modules. All of them work with `ccc_2026.nn.fit` (any `nn.Module` taking a float tensor). For integer token inputs, write a short custom loop or cast inside `forward`.
 
 ## Tabular: MLP
-`ccc_2026.nn.MLP(n_in, n_out, hidden=(512,256,128), dropout=0.1)`. See [Neural Networks Playbook](Neural-Networks-Playbook).
+`ccc_2026.nn.MLP(n_in, n_out, hidden=(512,256,128), dropout=0.1)`. See [Neural Networks Playbook](Neural-Networks-Playbook.md).
 
 ## Sequences: strings, paths, event logs
 Example: in 2022, a 30-character string over the letters a–i mapped to 5 classes, solved with LSTM 256 → LSTM 128 → Dense at ~0.99 macro-F1.

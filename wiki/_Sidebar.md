@@ -1,19 +1,19 @@
 **CCC 2026**
-- [Home](Home)
-- [Contest Format](Contest-Format)
-- [Challenge Workflow](Challenge-Workflow)
+- [Home](Home.md)
+- [Contest Format](Contest-Format.md)
+- [Challenge Workflow](Challenge-Workflow.md)
 
 **Data & ML**
-- [Data Cleaning Checklist](Data-Cleaning-Checklist)
-- [Validation and Metrics](Validation-and-Metrics)
-- [Classic ML Playbook](Classic-ML-Playbook)
+- [Data Cleaning Checklist](Data-Cleaning-Checklist.md)
+- [Validation and Metrics](Validation-and-Metrics.md)
+- [Classic ML Playbook](Classic-ML-Playbook.md)
 
 **Neural networks**
-- [Neural Networks Playbook](Neural-Networks-Playbook)
-- [NN Architectures by Data Type](NN-Architectures-by-Data-Type)
-- [Neural Networks from Scratch](Neural-Networks-from-Scratch)
+- [Neural Networks Playbook](Neural-Networks-Playbook.md)
+- [NN Architectures by Data Type](NN-Architectures-by-Data-Type.md)
+- [Neural Networks from Scratch](Neural-Networks-from-Scratch.md)
 
 **Reference**
-- [Past Challenges](Past-Challenges)
-- [Pitfalls](Pitfalls)
-- [Environment Setup](Environment-Setup)
+- [Past Challenges](Past-Challenges.md)
+- [Pitfalls](Pitfalls.md)
+- [Environment Setup](Environment-Setup.md)

@@ -21,7 +21,7 @@ Write `levels/levelN/STATEMENT.md` with:
 Make `solve.py` produce `*_sample.out` exactly. The template prints `SAMPLE OK` or a diff. Format bugs cost penalty minutes, and modelling can't fix them.
 
 ## 3. Look at the data (5–10 min)
-Work through the [Data Cleaning Checklist](Data-Cleaning-Checklist). Before modelling, ask: **is there a shortcut?**
+Work through the [Data Cleaning Checklist](Data-Cleaning-Checklist.md). Before modelling, ask: **is there a shortcut?**
 - Exact / analysis levels (sort, count, PCA std, unit conversion) need no model.
 - Leaks: ids that encode the label, rows duplicated between train and test, test equal to a mirrored or shifted copy of train (2025 L6 was a time-reversed copy of L5).
 - Hidden puzzles: predictions reshaped into an image spell a password (2023 L2 and L7).
@@ -34,8 +34,8 @@ run_baselines(X, y, metric="rmse", task="regression")   # ridge, RF, HistGB, Lig
 If a baseline already beats the threshold **with margin**, submit and move on.
 
 ## 5. Improve only as much as needed
-- Tabular: feature engineering, then LightGBM/CatBoost tuning, then an ensemble. See [Classic ML Playbook](Classic-ML-Playbook).
-- Sequences, images, audio, or "build a neural network" levels: see [Neural Networks Playbook](Neural-Networks-Playbook).
+- Tabular: feature engineering, then LightGBM/CatBoost tuning, then an ensemble. See [Classic ML Playbook](Classic-ML-Playbook.md).
+- Sequences, images, audio, or "build a neural network" levels: see [Neural Networks Playbook](Neural-Networks-Playbook.md).
 - Aim for CV **10–20% better than the threshold**, because hidden graders can shift.
 
 ## 6. Predict, check, upload

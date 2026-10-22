@@ -8,22 +8,22 @@ The official track description says: *"Whether you're exploring machine learning
 
 | Page | Read it when |
 |---|---|
-| [Contest Format](Contest-Format) | Before the contest: rules, files, scoring |
-| [Challenge Workflow](Challenge-Workflow) | At the start of every level, step by step |
-| [Data Cleaning Checklist](Data-Cleaning-Checklist) | First 10 minutes of every data level |
-| [Validation and Metrics](Validation-and-Metrics) | Before trusting any score |
-| [Classic ML Playbook](Classic-ML-Playbook) | Regression, random forests, boosting |
-| [Neural Networks Playbook](Neural-Networks-Playbook) | **Main NN page**: PyTorch recipes, tuning, debugging |
-| [NN Architectures by Data Type](NN-Architectures-by-Data-Type) | Tabular, sequence, image, audio, time series |
-| [Neural Networks from Scratch](Neural-Networks-from-Scratch) | Given weights, "implement the forward pass", backprop by hand |
-| [Past Challenges](Past-Challenges) | What the 2022/2023/2025 AI rounds looked like |
-| [Pitfalls](Pitfalls) | Before every upload |
-| [Environment Setup](Environment-Setup) | Setting up a laptop |
+| [Contest Format](Contest-Format.md) | Before the contest: rules, files, scoring |
+| [Challenge Workflow](Challenge-Workflow.md) | At the start of every level, step by step |
+| [Data Cleaning Checklist](Data-Cleaning-Checklist.md) | First 10 minutes of every data level |
+| [Validation and Metrics](Validation-and-Metrics.md) | Before trusting any score |
+| [Classic ML Playbook](Classic-ML-Playbook.md) | Regression, random forests, boosting |
+| [Neural Networks Playbook](Neural-Networks-Playbook.md) | **Main NN page**: PyTorch recipes, tuning, debugging |
+| [NN Architectures by Data Type](NN-Architectures-by-Data-Type.md) | Tabular, sequence, image, audio, time series |
+| [Neural Networks from Scratch](Neural-Networks-from-Scratch.md) | Given weights, "implement the forward pass", backprop by hand |
+| [Past Challenges](Past-Challenges.md) | What the 2022/2023/2025 AI rounds looked like |
+| [Pitfalls](Pitfalls.md) | Before every upload |
+| [Environment Setup](Environment-Setup.md) | Setting up a laptop |
 
 ## Quick start on contest day
 
 ```bash
-git clone https://github.com/<owner>/ccc-2026 && cd ccc-2026
+git clone https://github.com/melissa0kosa/ccc-2026 && cd ccc-2026
 uv sync                      # Python 3.14 + all packages (CUDA torch)
 uv run ccc gpu               # check the GPU is visible
 uv run ccc new 1             # levels/level1/ from template
