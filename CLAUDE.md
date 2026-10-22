@@ -8,6 +8,7 @@ The team knowledge base is in `wiki/` (also the GitHub wiki). Read the relevant 
 - Python 3.14 via **uv**. Always run code with `uv run python ...`; never pip-install into the system.
 - To add a package: `uv add <pkg>`. Torch is pinned to the `cu130` index (RTX 5070 Ti, sm_120); don't change that.
 - GPU check: `uv run ccc gpu`. Tests: `uv run pytest -q`.
+- The team edits and runs code in **PyCharm** (shared `.idea/` config, uv interpreter at `.venv`). Keep every `solve.py` runnable with PyCharm's ▶ button: no required CLI args, and paths relative to `__file__`. When you tell the user how to run something, give the PyCharm way (open the file, ▶) next to the `uv run` command. Don't commit `.idea/workspace.xml` or `.idea/misc.xml`.
 - Installed: numpy, pandas, polars, scipy, scikit-learn, xgboost, lightgbm, catboost, optuna, shap, torch/torchvision/torchaudio (CUDA), librosa, soundfile, opencv, pillow, pymupdf, yt-dlp, openai-whisper (+ ffmpeg on PATH), matplotlib, seaborn, jupyterlab.
 
 ## Toolkit (`src/ccc_2026/`), use it instead of rewriting

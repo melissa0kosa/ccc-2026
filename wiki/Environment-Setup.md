@@ -13,6 +13,16 @@ uv run ccc gpu     # torch / CUDA status
 uv run pytest -q   # toolkit self-test
 ```
 
+## PyCharm (team IDE)
+The repo ships a shared `.idea/` config: `src/` is the sources root, `tests/` the test root, pytest is the test runner, there's a **tests** run configuration, and `levels/*/data` is excluded from indexing.
+1. Run `uv sync` first, so `.venv/` exists.
+2. **File → Open** the repo folder. PyCharm 2025.2+ detects `uv.lock` + `.venv` and offers the **uv** interpreter; accept it. If it doesn't, go to **Settings → Python Interpreter → Add Interpreter → Add Local Interpreter → select existing**, with type **uv** and path `.venv\Scripts\python.exe`.
+3. Running a solution: open `levels/levelN/solve.py` and press the green ▶ (or Ctrl+Shift+F10). The template resolves `data/` and `out/` relative to itself, so the working directory doesn't matter.
+4. Adding packages: use `uv add <pkg>` in PyCharm's terminal, not the interpreter "+" button. That keeps `pyproject.toml` and `uv.lock` in sync.
+5. Optional: install the **Ruff** plugin (Settings → Plugins) for format/lint on save. It reads the `[tool.ruff]` config in `pyproject.toml`.
+
+The interpreter choice lives in `.idea/misc.xml`, which is gitignored because it is machine-specific. Each teammate picks it once.
+
 ## What's installed
 | Area | Packages |
 |---|---|

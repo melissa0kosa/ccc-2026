@@ -1,0 +1,7 @@
+# per-user / machine-specific PyCharm files
+workspace.xml
+shelf/
+usage.statistics.xml
+dataSources*
+misc.xml
+*.iws
