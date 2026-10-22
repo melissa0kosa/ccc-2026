@@ -1,0 +1,85 @@
+[project]
+name = "ccc-2026"
+version = "0.1.0"
+description = "Cloudflight Coding Contest 2026 workspace: ML / neural-network challenge toolkit"
+authors = [
+    { name = "melissa", email = "melissakosa727@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    # --- core numerics / data ---
+    "numpy",
+    "pandas",
+    "polars",
+    "pyarrow",
+    "scipy",
+    # --- classic ML ---
+    "scikit-learn",
+    "xgboost",
+    "lightgbm",
+    "catboost",
+    "optuna",
+    "shap",
+    # --- neural networks (CUDA wheels, see [tool.uv.sources]) ---
+    "torch",
+    "torchvision",
+    "torchaudio",
+    # --- images / audio / video ---
+    "pillow",
+    "opencv-python",
+    "soundfile",
+    "librosa",
+    # --- plotting / notebooks ---
+    "matplotlib",
+    "seaborn",
+    "jupyterlab",
+    "ipykernel",
+    "ipywidgets",
+    # --- utilities ---
+    "tqdm",
+    "rich",
+    "numba",
+    "sympy",
+    "networkx",
+    # --- reading challenge material (PDF statements, videos) ---
+    "pymupdf",
+    "yt-dlp",
+    "openai-whisper>=20250625",
+]
+
+[dependency-groups]
+dev = [
+    "ruff",
+    "pytest",
+    "ipython",
+    "mypy",
+]
+
+[project.scripts]
+ccc = "ccc_2026.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
+
+# PyTorch CUDA build for the RTX 50xx (Blackwell, sm_120) GPU -> needs CUDA >= 12.8 wheels.
+# On machines without an NVIDIA GPU, delete this block to get CPU wheels from PyPI.
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130", marker = "sys_platform == 'win32' or sys_platform == 'linux'" }
+torchvision = { index = "pytorch-cu130", marker = "sys_platform == 'win32' or sys_platform == 'linux'" }
+torchaudio = { index = "pytorch-cu130", marker = "sys_platform == 'win32' or sys_platform == 'linux'" }
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

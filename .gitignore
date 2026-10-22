@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Tooling
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Contest data & outputs (may not be redistributable; large)
+levels/*/data/
+levels/*/out/
+*.zip
+*.pdf
+*.mp4
+*.mp3
+*.wav
+*.webm
+*.m4a
+
+# Models / caches
+*.pt
+*.pth
+*.ckpt
+*.cbm
+catboost_info/
+.playwright-mcp/
