@@ -35,3 +35,4 @@ Live before hand_v2: stopgap_v1 took rating 1120 -> 1481 (rank ~80) in ~13 min.
 
 Live 15:09: az_res_v20 1996 (rank 16), 20 games 14 W (cyan 9/10, magenta 5/10).
 Settled levels (f7): hand_v2 ~1770, az_res_v6 ~1905-1940, az_res_v20 ~1990-2015 (settled ~15:05).
+Live 15:32: az_res4f_v2 2114 (rank 14), 16 games 10 W (cyan 6/8, magenta 4/8). Round-4 gate: no v2 derivative passes (best rsv125 58.8% [52,65]).

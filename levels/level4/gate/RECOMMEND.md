@@ -1,5 +1,36 @@
-# Upload gate (live seat az_res_v20.onnx since 14:53 UTC)
+# Upload gate (live seat az_res4f_v2.onnx since 15:19 UTC, md5 f0329dfae66e)
 
+## Round 4: candidates vs live az_res4f_v2 (updated 15:33 UTC). Nothing passes.
+
+Seat references:
+- az_res4f_v2 vs stopgap_v1: 58/60
+- az_res4f_v2 vs greedy: 20/20
+- Endgame check: 299 low-material positions (each side Kernel + <=1 piece, 12 live games), reviewer script copied to `gate/lowmat.py`. Sign = correct-sign rate, MSE = squared error, MAG-lost = mean value in positions MAGENTA later lost.
+
+| candidate | what it is | vs az_res4f_v2 (Wilson 95%) | cyan / magenta | distinct | greedy | stopgap | cpu/game | validator / caps | endgame sign / MSE / MAG-lost | gate |
+|---|---|---|---|---|---|---|---|---|---|---|
+| az_res4f_v2 (seat) | | | | | 20/20 | 58/60 | 1.28 s | ACCEPTED 102.5 ms / 278, 321 | 0.79 / 0.487 / -0.30 | live |
+| deriv_4f2_rsv125 | residual dv x1.25 (policy identical, value differs) | 141/240 = 58.8% [52.4, 64.8]; the fresh 140 alone: 78/140 = 55.7% | 61% / 57% | 240/240 | 20/20 | 55/60 (-5 pp) | 1.77 s | ACCEPTED 120.5 ms / 280, 322 | 0.80 / 0.452 / -0.33 | **FAIL** (lower 52.4 < 55) |
+| az_res4f_v2_warm (in `gate/`) | round-1 logits x3 | 166/320 = 51.9% [46.4, 57.3] | 56% / 47% | 318/320 | - | - | 1.9 s | ACCEPTED 99.0 ms / 289, 327 | = seat (value bit-identical) | **FAIL** (no warm effect on this base) |
+| deriv_4f2_w4 | warm variant | 56/100 = 56.0% [46.2, 65.3] | 54% / 58% | 100/100 | - | - | 2.18 s | - | - | FAIL (screen) |
+| deriv_4f2_tta4 | 4-symmetry TTA | 55/100 = 55.0% [45.2, 64.4] | 66% / 44% | 100/100 | - | - | **3.10 s** | contract ok 269.4 ms, then "too slow" 3x / 298, 336 | 0.80 / 0.490 / -0.31 | **FAIL** (magenta 44%, CPU, validator) |
+| deriv_4f2_tta8 | 8-symmetry TTA | 27/53 = 50.9% | 56% / 46% | 53/53 | - | - | **6.53 s** | - | 0.82 / 0.484 / -0.32 | **FAIL** (CPU 2x budget) |
+| deriv_4f2_tta2 | 2-symmetry TTA | deriv agent: 52/100 = 52% | 54% / 50% | | | | 2.3 s | - | 0.78 / 0.494 / -0.31 | not extended |
+| deriv_4f2_vt125 | value temperature 1.25 | 52/100 = 52.0% [42.3, 61.5] | 56% / 48% | 100/100 | - | - | 2.16 s | - | - | FAIL (screen) |
+| deriv_4f2_rsp125 | residual dp x1.25 | 48/100 = 48.0% [38.5, 57.7] | 58% / 38% | 100/100 | - | - | 1.79 s | - | - | FAIL (screen) |
+| prior_4f2_v0 | prior agent | 37/78 = 47.4% [36.7, 58.4] | 56% / 38% | 78/78 | - | - | 1.68 s | - | - | FAIL (futility stop) |
+
+Endgame check, other models: az_res_v20 0.71 / 0.704 / -0.22.
+
+Interpretation:
+- Inference-time tweaks of az_res4f_v2 (TTA, temperatures, warm factors, residual scaling) give at most a few pp.
+- None reaches a Wilson lower bound > 0.55 with 200+ games.
+- After 15:50 a candidate needs a lower bound > 0.60, which in practice means about 68%+ over 220 games. Realistically only a new trained model (az_res4f_v3+) can get there.
+
+UPLOAD: none (seat az_res4f_v2 stays)
+
+---
+## Round 3 (seat az_res_v20, 14:53-15:19): az_res4f_v2 released at 15:18
 ## 15:18 UTC: RELEASE az_res4f_v2.onnx now (md5 f0329dfae66e, file of 15:15:22 UTC); passes every criterion vs the live az_res_v20
 
 | criterion | measured | result |
@@ -42,7 +73,7 @@ Validator note:
 - Relative in-process latency (batch 8, referee evaluator) vs az_res_v20 = 1.00: warm 1.08, distill_v5s8 1.11, az_res4f_v1 1.31, distill_v5hf 1.46.
 - Re-validate on a quieter moment before any upload.
 
-UPLOAD: az_res4f_v2.onnx
+(15:18 verdict, deployed 15:19: az_res4f_v2.onnx)
 
 ---
 ## Round 2 (seat az_res_v6, 14:43-14:53): az_res_v20 released at 14:52
@@ -109,4 +140,6 @@ Baseline: hand_v2 vs stopgap_v1 = 75/98 = 76.5% (two fresh-seed runs: 49/60 and 
 
 (14:52 verdict, deployed 14:53: az_res_v20.onnx)
 
-UPLOAD: az_res4f_v2.onnx
+(15:18 verdict, deployed 15:19: az_res4f_v2.onnx)
+
+UPLOAD: none
