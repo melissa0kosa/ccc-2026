@@ -1,0 +1,89 @@
+--- page 1 ---
+COLONY: ONE
+COLONY: ONE
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+STORY
+You survived your first turns. The Ping locks onto your signal, 
+knowing that you would have also been able to destroy it with 
+your last turn, but you did not!?
+It patches itself straight to your side and refuses every 
+command to disengage. You didn't ask for a friend, but PING
+doesn't care and calls itself your bodyguard before you've even 
+agreed to the partnership.
+For the first time since the threshold opened, the fight in 
+front of you doesn't feel like a lonely one – together, you 
+turn on the same MAGENTA hunter that nearly ended you, and this 
+time it is the one running out of options.
+
+--- page 2 ---
+COLONY: ONE
+COLONY: ONE
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+LEVEL 2 – NEW FRIENDS
+Your objective:
+With your new friend PING, win both scenes as 
+CYAN.
+The next slide introduces additional game 
+rules.
+
+--- page 3 ---
+COLONY: ONE
+COLONY: ONE
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+KERNEL PROTECTION (BODYGUARD)
+A Kernel that has a friendly piece in any of the 8 adjacent tiles is 
+protected (marked by a shield icon). When a protected Kernel is attacked (by 
+move or shot), the protecting piece is destroyed instead:
+•
+The Kernel survives. The attacker stays on its tile, even if the attack 
+was a move.
+•
+Each attack removes one guard only: a second attack can hit the Kernel. 
+The firewall ignores guards.
+FIREWALL
+•
+The board shrinks: at the end of rounds 8, 16, 24 and 26 (after MAGENTA's 
+turn) its outermost ring of tiles disappears for good: 8×8 → 6×6 → 4×4 → 
+2×2 → none.
+•
+During those rounds the ring about to disappear is striped yellow. Pieces 
+on it when it disappears are destroyed.
+•
+If the firewall destroys a Kernel, the other team wins. If it destroys 
+both Kernels at once, MAGENTA wins.
+•
+Therefore, a game lasts at most 26 rounds: if nobody has won by then, 
+MAGENTA wins. There are no draws.
+KERNEL ENDGAME
+If only the two Kernels are left at the end of a turn…
+•
+Within 2 tiles of each other (diagonals count): the team that just 
+finished its turn loses;
+•
+Otherwise, the Kernel on the more central ring wins (central 2×2, then 
+4×4, then 6×6, then the edge); same ring: MAGENTA wins.
+ADDITIONAL RULES
+
+--- page 4 ---
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+GOOD LUCK!!
