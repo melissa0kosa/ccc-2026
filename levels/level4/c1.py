@@ -128,7 +128,7 @@ def export_onnx(model, path, check: bool = True) -> Path:
 
 # ----------------------------------------------------------------------------- agents
 
-@lru_cache(maxsize=None)
+@lru_cache(maxsize=4)  # bounded: long-lived workers would otherwise keep every generation's session
 def evaluator(path: str) -> OnnxEvaluator:
     return OnnxEvaluator(Path(path))
 

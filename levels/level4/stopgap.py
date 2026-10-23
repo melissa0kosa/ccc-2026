@@ -44,10 +44,11 @@ def reach(piece: str) -> np.ndarray:
 
 class Stopgap(nn.Module):
     def __init__(self, mat=1 / 40, w_danger=1.5, w_center=0.25, w_guard=0.35, w_thr=0.25,
-                 w_hang=0.3, prior_cap=1 / 20, prior_escape=1.5):
+                 w_hang=0.3, prior_cap=1 / 20, prior_escape=1.5, v_scale=1.0, p_scale=1.0):
         super().__init__()
         self.c = dict(mat=mat, w_danger=w_danger, w_center=w_center, w_guard=w_guard,
-                      w_thr=w_thr, w_hang=w_hang, prior_cap=prior_cap, prior_escape=prior_escape)
+                      w_thr=w_thr, w_hang=w_hang, prior_cap=prior_cap, prior_escape=prior_escape,
+                      v_scale=v_scale, p_scale=p_scale)
         # 1x1 picks: own kernel, enemy kernel, locked, urgency, own value map, enemy value map,
         # own non-kernel, enemy non-kernel
         pick = np.zeros((8, 16, 1, 1), np.float32)
@@ -92,11 +93,11 @@ class Stopgap(nn.Module):
         v = v + c["w_guard"] * s(own_k * own_guard - en_k * en_guard)
         v = v - c["w_thr"] * s(own_k * en_att * (1 - own_guard)) + c["w_thr"] * s(en_k * own_att * (1 - en_guard))
         v = v + c["w_hang"] * c["mat"] * s(en_val * own_att - 0.5 * own_val * en_att)
-        value = torch.tanh(v)
+        value = torch.tanh(c["v_scale"] * v)
 
         to_term = c["prior_cap"] * en_val - 0.5 * danger * urg          # capture big pieces, avoid fire
         from_term = c["prior_escape"] * own_k * danger * urg            # move a kernel standing in fire
-        policy = from_term.reshape(-1, 64, 1) + to_term.reshape(-1, 1, 64)
+        policy = c["p_scale"] * (from_term.reshape(-1, 64, 1) + to_term.reshape(-1, 1, 64))
         return policy.reshape(-1, 4096), value
 
 
