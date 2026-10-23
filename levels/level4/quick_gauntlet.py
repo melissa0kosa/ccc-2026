@@ -12,7 +12,8 @@ from c1 import MODELS, arena, validate  # noqa: E402
 
 MODEL = MODELS / "az_res4f_v6.onnx"
 GAUNTLET = [("greedy", 10), (MODELS / "stopgap_v1.onnx", 20), (MODELS / "hand_v4f.onnx", 20),
-            (MODELS / "az_res_v20.onnx", 30), (MODELS / "az_res4f_v2.onnx", 40)]
+            (MODELS / "az_res_v20.onnx", 30), (MODELS / "az_res4f_v2.onnx", 40),
+            (MODELS / "az_res4f_v6.onnx", 40), (MODELS / "az_res4f_s2.onnx", 100)]
 
 
 def main():

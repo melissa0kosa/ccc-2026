@@ -10,6 +10,7 @@
 | 15:49 | deriv_4f2_rsv125.onnx | USER DECISION (slight edge): 141/240 (58.8%) [52.4,64.8] vs az_res4f_v2 (below the 0.55 LB bar); validator ok, greedy 20/20, stopgap 55/60, 1.77 s cpu/game. Rollback rule: >75 below v2 after 20 games -> rollback_az_res4f_v2 |
 | 15:57 | az_res4f_v6.onnx | GPU sprint (312k pos, oracle/endgame/live data, MAGENTA x2, bf16, SWA): vs rsv125 69/100 (az) + 74/100 (main, fresh seeds) = 143/200 (71.5%) [64.9,77.3], cyan 75 / magenta 68; validator ok; 1.9-2.1 s cpu/game |
 | 16:19 | az_res4f_s2.onnx | Sprint-2 (1259 fresh v6 self-play games + fine-tune from v6, ~11 passes): vs v6 65/100 (sprint) + 63/100 (main, fresh) = 128/200 (64%) [57,70], cyan 64 / magenta 64; validator ok; chosen over v9 (221/400 = 55%) |
+| 16:23 | az_res4f_x3.onnx | Sprint-3 (5,753 v6@800-sim labels, count^4 targets, x3 on disagreements, value distilled to v6): vs s2 68/100 (sprint) + 70/100 (main) = 138/200 (69%) [62,75]; gauntlet greedy 10/10, stopgap 20/20, hand_v4f 20/20, v20 25/30, v2 35/40, v6 32/40; validator ok; 1.8 s cpu/game |
 
 Live before hand_v2: stopgap_v1 took rating 1120 -> 1481 (rank ~80) in ~13 min.
 
@@ -37,7 +38,8 @@ Live before hand_v2: stopgap_v1 took rating 1120 -> 1481 (rank ~80) in ~13 min.
 | az_res4f_v2.onnx | bca01a26679d | retired 15:49 at 2015 (rank 24; peak 2114 rank 14); kept as rollback_az_res4f_v2.onnx |
 | deriv_4f2_rsv125.onnx | bfea13e9a52a | retired 15:57 at 2009 (rank 27, ~8 min live); kept as rollback_rsv125.onnx |
 | az_res4f_v6.onnx | 2af4b513317b | retired 16:19 at 2083 (rank 21; peak 2234 rank 13); kept as rollback_az_res4f_v6.onnx |
-| az_res4f_s2.onnx | 88bdbe75e688 | LIVE since 16:19; pinned as champion.onnx |
+| az_res4f_s2.onnx | 88bdbe75e688 | retired 16:23 at 2008 (rank 29, ~5 min live); kept as rollback_az_res4f_s2.onnx |
+| az_res4f_x3.onnx | d6488e7d359f | LIVE since 16:23; pinned as champion.onnx (FINAL upload window) |
 
 Live 15:09: az_res_v20 1996 (rank 16), 20 games 14 W (cyan 9/10, magenta 5/10).
 Settled levels (f7): hand_v2 ~1770, az_res_v6 ~1905-1940, az_res_v20 ~1990-2015 (settled ~15:05).
