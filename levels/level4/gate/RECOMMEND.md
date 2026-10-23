@@ -1,6 +1,38 @@
 # Upload gate (live seat az_res4f_v2.onnx since 15:19 UTC, md5 f0329dfae66e)
 
-## Round 4: candidates vs live az_res4f_v2 (updated 15:33 UTC). Nothing passes.
+## Final round (bar after 15:50: Wilson lower > 0.60), updated 15:49 UTC. Nothing passes; keep az_res4f_v2.
+
+Fast protocol: md5, caps, validator, then a 60-game screen (kill if < 52%), then extend. All screens vs az_res4f_v2, fresh seeds.
+
+| candidate (md5) | vs az_res4f_v2 (Wilson 95%) | cyan / magenta | validator / caps | verdict |
+|---|---|---|---|---|
+| az_res4f_v3 (5af5b4c1, file of 15:32) | 66/120 = 55.0% [46.1, 63.6] | 62% / 48% | ACCEPTED 103.2 ms / 278, 321 | FAIL (< 58% at 120, magenta < 50%) |
+| az_res4f_v3_eg (c284f9c9, built on v3 5af5b4c1, matches) | 55/100 = 55.0% [45.2, 64.4] | 64% / 46% | hand agent: dry run 137 ms / 396, 421 | FAIL |
+| prior_4f2_v1w (e164f002) | 121/220 = 55.0% [48.4, 61.4]; the prior agent's 63% is not reproduced | 60% / 50% | not needed / 315, 347 | FAIL |
+| az_res4f_v4 (bbf56c25, 15:42) | 31/60 = 51.7% | 60% / 43% | ACCEPTED 67.8 ms / 278, 321 | FAIL (killed at 60) |
+| az_res4f_v5 (43913da1, 15:45) | 31/60 = 51.7% | 47% / 57% | ACCEPTED 87.7 ms / 278, 321 | FAIL (killed at 60) |
+| deriv_4f2_rtta2 | 96/160 = 60.0% [52.3, 67.3] | **72% / 48%** | - | FAIL (magenta < 50%, lower 52.3) |
+| deriv_4f2_rtta4 | 29/60 = 48.3% | 50% / 47% | - | FAIL |
+| az_res4f_v2_eg (e8d97daa) | 101/200 = 50.5% [43.6, 57.4]; pooled with the hand agent's 149/300: 250/500 = 50.0% [45.6, 54.4] | 51% / 50% | ACCEPTED 132.3 ms / 396, 421 | **neutral, confirmed** (lower 0.456 >= 0.45); no reason to upload |
+
+### az_res4f_v2_eg exactness: paired evidence
+
+- **Paired test, same seeds** (424242; games g with agent seeds seed+2g / seed+2g+1): v2_eg vs v2 compared with v2 vs v2.
+  - 124/200 games are action-for-action identical.
+  - 76 diverge, all after the 8-action warmup: gated endgame nodes in the search tree change the lookahead.
+  - Of the 76: 74 have the same result, 1 went loss to win, 1 went win to loss. Net 0; wins 101 vs 101.
+  - So the override is outcome-neutral to within a few games per 200 (2 discordant pairs).
+- **The hand agent's exact checks:**
+  - bit-identical outside the gate on 6,000 self-play positions
+  - brute force vs env: 0 value errors and 0 veto errors
+
+Conclusion: the trained az line has plateaued against v2 (v3 55%, v4 52%, v5 52%), and inference-time tweaks give at most a few pp. Nothing reaches even the ordinary 0.55 bound.
+
+UPLOAD: none (keep az_res4f_v2)
+
+---
+
+## Round 4: inference-time variants vs az_res4f_v2 (15:33 UTC). Nothing passes.
 
 Seat references:
 - az_res4f_v2 vs stopgap_v1: 58/60
@@ -27,7 +59,7 @@ Interpretation:
 - None reaches a Wilson lower bound > 0.55 with 200+ games.
 - After 15:50 a candidate needs a lower bound > 0.60, which in practice means about 68%+ over 220 games. Realistically only a new trained model (az_res4f_v3+) can get there.
 
-UPLOAD: none (seat az_res4f_v2 stays)
+(15:33: seat az_res4f_v2 stays)
 
 ---
 ## Round 3 (seat az_res_v20, 14:53-15:19): az_res4f_v2 released at 15:18
