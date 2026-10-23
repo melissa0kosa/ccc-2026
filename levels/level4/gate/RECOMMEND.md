@@ -1,4 +1,29 @@
-# Upload gate: live seat hand_v2.onnx
+# Upload gate (live seat az_res_v6.onnx since 14:43 UTC)
+
+## 14:52 UTC: RELEASE az_res_v20.onnx now (passes every criterion, measured vs the live az_res_v6)
+
+| criterion | measured | result |
+|---|---|---|
+| Official validator | ACCEPTED on the 1st try, 96.0 ms dry run | PASS |
+| Graph caps | 204 nodes / 258 initializers | PASS |
+| >= 200 games vs az_res_v6, Wilson lower > 0.55 | **170/220 = 77.3% [71.3, 82.3]**; lower bound > 0.60, so a big edge | PASS |
+| Effective sample | 220/220 distinct games, 216/217 distinct post-warmup boards, dedup Wilson [71.3, 82.3] | PASS |
+| Colours | cyan 77% (110) / magenta 77% (110) | PASS |
+| vs greedy | 20/20 | PASS |
+| vs stopgap_v1 (no gauntlet drop) | 60/60 = 100% (az_res_v6 56/60 = 93.3%, hand_v2 75/98 = 76.5%) | PASS |
+| CPU per game, both sides | 2.28 s (vs az_res_v6), 44 actions | PASS |
+
+Worth the swap cost (~2 forfeits + ~10 games of swing): yes. A 77% head-to-head rate against the live seat is about +210 Elo locally.
+
+Other results vs az_res_v6:
+- distill_v3: 120/200 = 60.0% [53.1, 66.5], cyan 59% / magenta 61%, 2.66 s. Below the bar, and v20 is stronger anyway.
+- distill_v3hb: 14/30, stopped (skipped per coordinator).
+
+Running now (4 workers, games9.jsonl): distill_v4s8 vs az_res_v20 (240), distill_v4s8 greedy/stopgap, az_res_v20 vs hand_v2 (60, sanity).
+distill_v4s8: validator ACCEPTED on the 1st try (50.8 ms), 134 nodes / 126 initializers.
+
+---
+## Earlier round (seat hand_v2), kept for the record
 
 **Status 14:43 UTC: RELEASE az_res_v6.onnx now.** Under the new policy ("release as soon as a candidate passes all gates") it qualifies: it is the first candidate to pass every criterion.
 Still running in the background (4 workers): distill_v3 vs hand_v2 (146/190 = 76.8% so far), distill_v3hb vs hand_v2 (39/56 = 69.6% so far) plus its greedy/stopgap gates, then distill_v3 vs az_res_v6 head-to-head (200). These decide whether a second upload is worth its ~2 forfeits.
@@ -35,4 +60,6 @@ Baseline: hand_v2 vs stopgap_v1 = 75/98 = 76.5% (two fresh-seed runs: 49/60 and 
 - **Caveat:** distinct is not the same as independent of the opponent pool. All games are against one local opponent; the live pool differs, and a deterministic model repeats its systematic mistakes in every game that reaches them. Treat the vs-hand_v2 margin as an upper bound on the live Elo gain, not a forecast.
 - Also, 40–60-game arenas carry ±12–15 pp of noise: az's identical-model sanity runs gave 35% and 45%.
 
-UPLOAD: az_res_v6.onnx
+(14:43 verdict, deployed: az_res_v6.onnx)
+
+UPLOAD: az_res_v20.onnx

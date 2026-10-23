@@ -5,6 +5,7 @@
 | ~13:51 | stopgap_v1.onnx | 35/40 (88%) vs seat_l3_material, 40/40 vs greedy, 1.1 s cpu/game |
 | ~14:01 | hand_v2.onnx | 68/80 (85%) vs stopgap_v1 (agent), 42/48 (88%) vs stopgap_v1 (main arena), cyan 82-83%; validator flaky under load (2/3 accept, dry run 111-186 ms) |
 | 14:43 | az_res_v6.onnx | gatekeeper: 138/200 (69%) [62,75] vs hand_v2, cyan 70 / magenta 68, 56/60 vs stopgap, 20/20 greedy, 503 nodes/444 inits, 1.98 s cpu/game |
+| 14:53 | az_res_v20.onnx | gatekeeper: 170/220 (77%) [71,82] vs az_res_v6, cyan 77 / magenta 77, 60/60 stopgap, 20/20 greedy, 204 nodes/258 inits, 2.28 s cpu/game |
 
 Live before hand_v2: stopgap_v1 took rating 1120 -> 1481 (rank ~80) in ~13 min.
 
@@ -23,4 +24,5 @@ Live before hand_v2: stopgap_v1 took rating 1120 -> 1481 (rank ~80) in ~13 min.
 |---|---|---|
 | stopgap_v1.onnx | 5be9a9fa78ae | retired 14:01 |
 | hand_v2.onnx | e19e320340c3 | retired 14:43 at 1773 (rank 34); kept as rollback_hand_v2.onnx |
-| az_res_v6.onnx | deb67cc5f367 | LIVE since 14:43; pinned as champion.onnx |
+| az_res_v6.onnx | deb67cc5f367 | retired 14:53 at 1907 (rank 17); kept as rollback_az_res_v6.onnx |
+| az_res_v20.onnx | 61531c6c73eb | LIVE since 14:53; pinned as champion.onnx |
