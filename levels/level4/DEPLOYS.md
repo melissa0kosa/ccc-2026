@@ -8,6 +8,7 @@
 | 14:53 | az_res_v20.onnx | gatekeeper: 170/220 (77%) [71,82] vs az_res_v6, cyan 77 / magenta 77, 60/60 stopgap, 20/20 greedy, 204 nodes/258 inits, 2.28 s cpu/game |
 | 15:19 | az_res4f_v2.onnx | gatekeeper: 144/220 (65.5%) [59.0,71.4] vs az_res_v20, cyan 69 / magenta 62, 20/20 greedy, 58/60 stopgap, 278 nodes/321 inits, 1.28 s cpu/game; residual on hand_v4f |
 | 15:49 | deriv_4f2_rsv125.onnx | USER DECISION (slight edge): 141/240 (58.8%) [52.4,64.8] vs az_res4f_v2 (below the 0.55 LB bar); validator ok, greedy 20/20, stopgap 55/60, 1.77 s cpu/game. Rollback rule: >75 below v2 after 20 games -> rollback_az_res4f_v2 |
+| 15:57 | az_res4f_v6.onnx | GPU sprint (312k pos, oracle/endgame/live data, MAGENTA x2, bf16, SWA): vs rsv125 69/100 (az) + 74/100 (main, fresh seeds) = 143/200 (71.5%) [64.9,77.3], cyan 75 / magenta 68; validator ok; 1.9-2.1 s cpu/game |
 
 Live before hand_v2: stopgap_v1 took rating 1120 -> 1481 (rank ~80) in ~13 min.
 
@@ -33,7 +34,8 @@ Live before hand_v2: stopgap_v1 took rating 1120 -> 1481 (rank ~80) in ~13 min.
 | az_res_v6.onnx | deb67cc5f367 | retired 14:53 at 1907 (rank 17); kept as rollback_az_res_v6.onnx |
 | az_res_v20.onnx | 61531c6c73eb | retired 15:19 at 1957 (rank 23; settled ~1990-2015); kept as rollback_az_res_v20.onnx |
 | az_res4f_v2.onnx | bca01a26679d | retired 15:49 at 2015 (rank 24; peak 2114 rank 14); kept as rollback_az_res4f_v2.onnx |
-| deriv_4f2_rsv125.onnx | bfea13e9a52a | LIVE since 15:49; pinned as champion.onnx |
+| deriv_4f2_rsv125.onnx | bfea13e9a52a | retired 15:57 at 2009 (rank 27, ~8 min live); kept as rollback_rsv125.onnx |
+| az_res4f_v6.onnx | 2af4b513317b | LIVE since 15:57; pinned as champion.onnx |
 
 Live 15:09: az_res_v20 1996 (rank 16), 20 games 14 W (cyan 9/10, magenta 5/10).
 Settled levels (f7): hand_v2 ~1770, az_res_v6 ~1905-1940, az_res_v20 ~1990-2015 (settled ~15:05).
