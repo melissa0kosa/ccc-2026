@@ -11,6 +11,7 @@
 | 15:57 | az_res4f_v6.onnx | GPU sprint (312k pos, oracle/endgame/live data, MAGENTA x2, bf16, SWA): vs rsv125 69/100 (az) + 74/100 (main, fresh seeds) = 143/200 (71.5%) [64.9,77.3], cyan 75 / magenta 68; validator ok; 1.9-2.1 s cpu/game |
 | 16:19 | az_res4f_s2.onnx | Sprint-2 (1259 fresh v6 self-play games + fine-tune from v6, ~11 passes): vs v6 65/100 (sprint) + 63/100 (main, fresh) = 128/200 (64%) [57,70], cyan 64 / magenta 64; validator ok; chosen over v9 (221/400 = 55%) |
 | 16:23 | az_res4f_x3.onnx | Sprint-3 (5,753 v6@800-sim labels, count^4 targets, x3 on disagreements, value distilled to v6): vs s2 68/100 (sprint) + 70/100 (main) = 138/200 (69%) [62,75]; gauntlet greedy 10/10, stopgap 20/20, hand_v4f 20/20, v20 25/30, v2 35/40, v6 32/40; validator ok; 1.8 s cpu/game |
+| 16:29 | az_res4f_x3_eg.onnx | USER DECISION: x3 + exact bare-Kernel override (eg_wrap.py). Bit-identical to x3 outside gate (6000 pos, 0 diffs), brute force 0 errors, validator ok. At 22402 a34: x3 picks suicide E3->F2 5/5 (value +0.61), x3_eg picks E3->D4 5/5 (value -0.95) |
 
 Live before hand_v2: stopgap_v1 took rating 1120 -> 1481 (rank ~80) in ~13 min.
 
@@ -39,7 +40,8 @@ Live before hand_v2: stopgap_v1 took rating 1120 -> 1481 (rank ~80) in ~13 min.
 | deriv_4f2_rsv125.onnx | bfea13e9a52a | retired 15:57 at 2009 (rank 27, ~8 min live); kept as rollback_rsv125.onnx |
 | az_res4f_v6.onnx | 2af4b513317b | retired 16:19 at 2083 (rank 21; peak 2234 rank 13); kept as rollback_az_res4f_v6.onnx |
 | az_res4f_s2.onnx | 88bdbe75e688 | retired 16:23 at 2008 (rank 29, ~5 min live); kept as rollback_az_res4f_s2.onnx |
-| az_res4f_x3.onnx | d6488e7d359f | LIVE since 16:23; pinned as champion.onnx (FINAL upload window) |
+| az_res4f_x3.onnx | d6488e7d359f | retired 16:29 at 1896 (rank 39; 0/2 live, lost 22402 to bare-Kernel suicide capture); kept as rollback_az_res4f_x3.onnx |
+| az_res4f_x3_eg.onnx | 3a7823c21a1f | LIVE since 16:29 (user decision); pinned as champion.onnx |
 
 Live 15:09: az_res_v20 1996 (rank 16), 20 games 14 W (cyan 9/10, magenta 5/10).
 Settled levels (f7): hand_v2 ~1770, az_res_v6 ~1905-1940, az_res_v20 ~1990-2015 (settled ~15:05).
