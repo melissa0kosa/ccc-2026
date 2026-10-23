@@ -192,5 +192,9 @@ Most of these numbers come from **19x19 Go** (KataGo) or Hex (ExIt). On a small 
 
 ## 7. Open questions
 - The server's structural budgets beyond 1024/512, and its CPU per match in Level 4, are not published.
+- **The az models look weaker as MAGENTA against the field** [obs, live replays `data/matches/matches_*.json`, score 1 = CYAN won]:
+  - v6 + v20 + v2 pooled: CYAN 25/35 (71%), MAGENTA 17/34 (50%), even though the field's CYAN win rate is 42%. z ≈ 1.8, so suggestive.
+  - hand_v2 was even (5/7 each), and local gates against our own models show MAGENTA fine (v2: C69 / M62).
+  - For P0: build a per-colour ladder, and review MAGENTA tiebreak and firewall-timing positions in the az training data.
 - The low-material share (13%) is a lower bound, because the 800-sim oracle shares v2's endgame value. Re-measure it against the DP once P2 exists.
 - How much of the 92.5% search-scaling ceiling distillation actually captures. The 40-game CI is wide ([80, 97]), and the gate ladder (P0) should track the fraction achieved per round.
