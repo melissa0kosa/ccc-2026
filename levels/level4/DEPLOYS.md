@@ -49,3 +49,6 @@ Live 15:32: az_res4f_v2 2114 (rank 14), 16 games 10 W (cyan 6/8, magenta 4/8). R
 Quick gauntlet az_res4f_v6 (16:01): greedy 10/10, stopgap 20/20, hand_v4f 18/20, az_res_v20 25/30, az_res4f_v2 28/40 (magenta 55%); validator ok.
 Live 16:08: az_res4f_v6 2234 (rank 13, best so far), 8 games 6 W (cyan 3/4, magenta 3/4). rsv125 had 5/8 in its 8 min. v7 (15k steps) vs v6: 54/100 [44,63] -> not shipped.
 x4 (16:33; 12,920 new x3@800 labels, 17,948 total): gauntlet greedy 10/10, stopgap 20/20, hand_v4f 18/20, v20 30/30, v2 35/40, v6 32/40, s2 35/40, x3 56/100 [46,65]. USER DECISION 16:35: keep x3_eg live (final); x4 not uploaded.
+
+## Final (16:54 UTC, 5:38 left)
+az_res4f_x3_eg live: 13/17 (76%), cyan 6/9, magenta 7/8; rating 2082, rank 30. Since 13:35: 1120 (rank 129) -> 2082.
