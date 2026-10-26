@@ -1,0 +1,10 @@
+gen: 148 live games -> 880 mid-game starts (1s)
+gen: 223 games 8528 pos 61s
+gen: 373 games 14283 pos 122s
+gen: 519 games 20369 pos 183s
+gen: 679 games 26606 pos 243s
+gen: 801 games 31370 pos 305s
+gen: 927 games 36163 pos 368s
+gen: 1097 games 42444 pos 429s
+gen: 1213 games 46924 pos 492s
+gen DONE sp_71183242.pkl: 1259 games (315 mid) 48696 pos cyan_won 0.50 cpu/game 2.12 511s

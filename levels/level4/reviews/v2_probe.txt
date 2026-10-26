@@ -1,0 +1,48 @@
+15273 a27 MAG r7 played KE G7->F7
+   az_res4f_v2  v=+0.31 top G7->F7 0.88 p(played)=0.88 | c100 G7->F7 root100 +0.28 | c800 F6->F5 Q800=+0.48 Q800(pl)=+0.25 root800 +0.43
+   az_res_v20   v=+0.23 top G7->F7 0.54 p(played)=0.54 | c100 G7->F7 root100 +0.45 | c800 G7->F7 Q800=+0.52 Q800(pl)=+0.52 root800 +0.52
+   az_res4f_v3  v=+0.04 top G7->F7 0.67 p(played)=0.67 | c100 F6->F5 root100 +0.40 | c800 F6->F5 Q800=+0.17 Q800(pl)=+0.08 root800 +0.13
+15273 a35 MAG r9 played KE F7->G7
+   az_res4f_v2  v=+0.33 top F7->G7 0.33 p(played)=0.33 | c100 F7->G7 root100 -0.24 | c800 F7->F6 Q800=-0.07 Q800(pl)=-0.42 root800 -0.13
+   az_res_v20   v=+0.56 top G6->G7 0.25 p(played)=0.14 | c100 F7->F6 root100 +0.11 | c800 F7->F6 Q800=+0.37 Q800(pl)=+0.15 root800 +0.32
+   az_res4f_v3  v=-0.18 top F7->G7 0.25 p(played)=0.25 | c100 G6->G7 root100 -0.39 | c800 F7->F6 Q800=-0.32 Q800(pl)=-0.58 root800 -0.38
+15273 a36 MAG r9 played KE G7->F7
+   az_res4f_v2  v=+0.23 top G7->F7 0.54 p(played)=0.54 | c100 G7->F7 root100 -0.36 | c800 G7->F7 Q800=-0.49 Q800(pl)=-0.49 root800 -0.52
+   az_res_v20   v=+0.38 top G7->F7 0.51 p(played)=0.51 | c100 G7->F7 root100 +0.17 | c800 G7->F7 Q800=+0.11 Q800(pl)=+0.11 root800 +0.09
+   az_res4f_v3  v=-0.43 top G7->F7 0.50 p(played)=0.50 | c100 G7->F7 root100 -0.43 | c800 G7->F7 Q800=-0.54 Q800(pl)=-0.54 root800 -0.57
+16438 a27 MAG r7 played TR G6->F6
+   az_res4f_v2  v=-0.04 top H8->G7 0.22 p(played)=0.19 | c100 G6->F6 root100 -0.18 | c800 H8->G8 Q800=+0.06 Q800(pl)=-0.08 root800 -0.05
+   az_res_v20   v=+0.23 top H8->G7 0.22 p(played)=0.17 | c100 G6->F6 root100 +0.27 | c800 G6->F6 Q800=+0.14 Q800(pl)=+0.14 root800 +0.22
+   az_res4f_v3  v=-0.10 top G6->F6 0.25 p(played)=0.25 | c100 G6->F6 root100 -0.15 | c800 G6->F6 Q800=-0.19 Q800(pl)=-0.19 root800 -0.21
+16438 a28 MAG r7 played KE H8->G7
+   az_res4f_v2  v=+0.04 top H8->G7 0.41 p(played)=0.41 | c100 H8->G7 root100 +0.32 | c800 H8->G8 Q800=-0.01 Q800(pl)=-0.17 root800 -0.08
+   az_res_v20   v=+0.11 top H8->G7 0.40 p(played)=0.40 | c100 H8->G7 root100 +0.55 | c800 F6->G6 Q800=+0.00 Q800(pl)=-0.04 root800 +0.03
+   az_res4f_v3  v=-0.33 top H8->G7 0.44 p(played)=0.44 | c100 H8->G7 root100 +0.04 | c800 H8->H7 Q800=-0.25 Q800(pl)=-0.33 root800 -0.29
+16438 a31 MAG r8 played TR F6->G6
+   az_res4f_v2  v=+0.38 top F6->G6 0.20 p(played)=0.20 | c100 F6->G6 root100 -0.31 | c800 G7->G6 Q800=-0.68 Q800(pl)=-0.72 root800 -0.71
+   az_res_v20   v=+0.64 top F6->F7 0.22 p(played)=0.21 | c100 G7->G6 root100 -0.22 | c800 G7->G6 Q800=-0.24 Q800(pl)=-0.40 root800 -0.27
+   az_res4f_v3  v=-0.16 top G7->G6 0.19 p(played)=0.19 | c100 F6->G6 root100 -0.67 | c800 G7->F7 Q800=-0.70 Q800(pl)=-0.72 root800 -0.72
+15778 a18 CYA r5 played IC D4->B6
+   az_res4f_v2  v=-0.08 top A1->B2 0.09 p(played)=0.04 | c100 D4->B6 root100 -0.09 | c800 D4->D5 Q800=+0.43 Q800(pl)=+0.02 root800 +0.35
+   az_res_v20   v=+0.10 top A1->B2 0.12 p(played)=0.05 | c100 D4->C4 root100 -0.06 | c800 D4->D5 Q800=+0.50 Q800(pl)=+0.21 root800 +0.38
+   az_res4f_v3  v=-0.23 top D4->C4 0.11 p(played)=0.03 | c100 D4->C4 root100 -0.09 | c800 D4->D5 Q800=+0.23 Q800(pl)=+0.01 root800 +0.18
+15778 a21 CYA r6 played IC B6->D6
+   az_res4f_v2  v=-0.15 top B6->D6 0.12 p(played)=0.12 | c100 B6->D6 root100 -0.34 | c800 B6->C6 Q800=+0.27 Q800(pl)=-0.44 root800 +0.08
+   az_res_v20   v=+0.06 top B6->D4 0.10 p(played)=0.09 | c100 A1->B2 root100 -0.32 | c800 B6->C6 Q800=+0.12 Q800(pl)=-0.41 root800 -0.02
+   az_res4f_v3  v=-0.04 top B6->D6 0.14 p(played)=0.14 | c100 B3->C3 root100 -0.41 | c800 B6->B5 Q800=+0.03 Q800(pl)=-0.60 root800 -0.18
+15778 a25 CYA r7 played IC D5->E6
+   az_res4f_v2  v=+0.03 top A1->B2 0.12 p(played)=0.11 | c100 D5->E6 root100 -0.28 | c800 A1->B2 Q800=-0.31 Q800(pl)=-0.45 root800 -0.37
+   az_res_v20   v=+0.18 top D5->E4 0.13 p(played)=0.10 | c100 D5->C5 root100 -0.44 | c800 A1->B2 Q800=-0.22 Q800(pl)=-0.80 root800 -0.34
+   az_res4f_v3  v=+0.14 top A1->B2 0.16 p(played)=0.08 | c100 A1->B2 root100 -0.45 | c800 A1->B2 Q800=-0.41 Q800(pl)=-0.51 root800 -0.48
+15778 a26 CYA r7 played KE A1->B2
+   az_res4f_v2  v=+0.29 top E6->G6 0.78 p(played)=0.10 | c100 A1->B2 root100 -0.32 | c800 B3->B2 Q800=-0.73 Q800(pl)=-0.75 root800 -0.78
+   az_res_v20   v=-0.33 top E6->G6 0.94 p(played)=0.01 | c100 A1->B2 root100 -0.32 | c800 A1->B2 Q800=-0.71 Q800(pl)=-0.71 root800 -0.77
+   az_res4f_v3  v=-0.16 top E6->G6 0.71 p(played)=0.13 | c100 A1->B2 root100 -0.45 | c800 A1->B2 Q800=-0.74 Q800(pl)=-0.74 root800 -0.78
+16003 a2 CYA r1 played EX F1->G3
+   az_res4f_v2  v=+0.05 top F1->D2 0.08 p(played)=0.05 | c100 B4->B3 root100 -0.14 | c800 B4->C4 Q800=-0.05 Q800(pl)=-0.24 root800 -0.10
+   az_res_v20   v=-0.08 top F1->D2 0.07 p(played)=0.05 | c100 F1->D2 root100 -0.19 | c800 F1->D2 Q800=-0.10 Q800(pl)=-0.41 root800 -0.14
+   az_res4f_v3  v=-0.08 top C1->C2 0.08 p(played)=0.03 | c100 B4->C4 root100 -0.09 | c800 B4->C4 Q800=-0.07 Q800(pl)=-0.41 root800 -0.12
+16211 a4 MAG r1 played IC G7->F6
+   az_res4f_v2  v=-0.10 top F5->F7 0.10 p(played)=0.02 | c100 F5->F7 root100 -0.22 | c800 F5->F4 Q800=-0.12 Q800(pl)=-0.20 root800 -0.17
+   az_res_v20   v=-0.33 top F5->F7 0.10 p(played)=0.02 | c100 F5->F7 root100 -0.26 | c800 H6->G6 Q800=-0.17 Q800(pl)=-0.35 root800 -0.22
+   az_res4f_v3  v=-0.15 top F5->F4 0.09 p(played)=0.02 | c100 F5->F4 root100 -0.17 | c800 F5->F4 Q800=-0.10 Q800(pl)=-0.20 root800 -0.16

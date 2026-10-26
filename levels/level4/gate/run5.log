@@ -1,0 +1,31 @@
+620 games, 3 workers -> levels\level4\gate\games5.jsonl
+20/620 15s
+40/620 29s
+60/620 47s
+80/620 59s
+100/620 78s
+120/620 92s
+140/620 113s
+160/620 137s
+180/620 161s
+200/620 176s
+220/620 182s
+240/620 193s
+260/620 204s
+280/620 216s
+300/620 227s
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=12396, pipe_handle=684)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\melis\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\multiprocessing\spawn.py", line 113, in spawn_main
+    new_handle = reduction.duplicate(pipe_handle,
+                                     source_process=source_process)
+  File "C:\Users\melis\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\multiprocessing\reduction.py", line 79, in duplicate
+    return _winapi.DuplicateHandle(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        source_process, handle, target_process,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        0, inheritable, _winapi.DUPLICATE_SAME_ACCESS)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied

@@ -1,0 +1,58 @@
+=== (1) v2 critical positions, v6 vs v2 (no noise)
+15273 a27 MAG r7 played(v2) KE G7->F7
+   az_res4f_v6  v=+0.30 top G7->F7 0.61 p(v2played)=0.61 | c100 F6->F5 | c400 F6->F5 Q400(c400)=+0.37 Q400(c100)=+0.37 Q400(v2played)=-0.37 root400 +0.30
+   az_res4f_v2  v=+0.31 top G7->F7 0.88 p(v2played)=0.88 | c100 G7->F7 | c400 F6->F5 Q400(c400)=+0.58 Q400(c100)=+0.27 Q400(v2played)=+0.27 root400 +0.48
+15273 a35 MAG r9 played(v2) KE F7->G7
+   az_res4f_v6  v=-0.17 top F7->G7 0.24 p(v2played)=0.24 | c100 F7->G7 | c400 F7->G7 Q400(c400)=-0.63 Q400(c100)=-0.63 Q400(v2played)=-0.63 root400 -0.64
+   az_res4f_v2  v=+0.33 top F7->G7 0.33 p(v2played)=0.33 | c100 F7->G7 | c400 F7->F6 Q400(c400)=+0.20 Q400(c100)=-0.37 Q400(v2played)=-0.37 root400 +0.06
+15273 a36 MAG r9 played(v2) KE G7->F7
+   az_res4f_v6  v=-0.11 top G7->F7 0.67 p(v2played)=0.67 | c100 G7->F7 | c400 G7->F7 Q400(c400)=-0.66 Q400(c100)=-0.66 Q400(v2played)=-0.66 root400 -0.68
+   az_res4f_v2  v=+0.23 top G7->F7 0.54 p(v2played)=0.54 | c100 G7->F7 | c400 G7->F7 Q400(c400)=-0.47 Q400(c100)=-0.47 Q400(v2played)=-0.47 root400 -0.50
+16438 a27 MAG r7 played(v2) TR G6->F6
+   az_res4f_v6  v=-0.62 top G6->F6 0.25 p(v2played)=0.25 | c100 G6->F6 | c400 G6->F6 Q400(c400)=-0.52 Q400(c100)=-0.52 Q400(v2played)=-0.52 root400 -0.57
+   az_res4f_v2  v=-0.04 top H8->G7 0.22 p(v2played)=0.19 | c100 G6->F6 | c400 G6->F6 Q400(c400)=-0.05 Q400(c100)=-0.05 Q400(v2played)=-0.05 root400 +0.02
+16438 a31 MAG r8 played(v2) TR F6->G6
+   az_res4f_v6  v=-0.75 top F6->G6 0.20 p(v2played)=0.20 | c100 F6->G6 | c400 F6->G6 Q400(c400)=-0.76 Q400(c100)=-0.76 Q400(v2played)=-0.76 root400 -0.77
+   az_res4f_v2  v=+0.38 top F6->G6 0.20 p(v2played)=0.20 | c100 F6->G6 | c400 G7->G6 Q400(c400)=-0.56 Q400(c100)=-0.62 Q400(v2played)=-0.62 root400 -0.61
+15778 a18 CYA r5 played(v2) IC D4->B6
+   az_res4f_v6  v=-0.04 top D4->C4 0.12 p(v2played)=0.03 | c100 D4->D5 | c400 D4->D5 Q400(c400)=+0.21 Q400(c100)=+0.21 Q400(v2played)=-0.01 root400 +0.13
+   az_res4f_v2  v=-0.08 top A1->B2 0.09 p(v2played)=0.04 | c100 D4->B6 | c400 D4->D5 Q400(c400)=+0.39 Q400(c100)=+0.02 Q400(v2played)=+0.02 root400 +0.25
+15778 a21 CYA r6 played(v2) IC B6->D6
+   az_res4f_v6  v=-0.11 top B6->C5 0.13 p(v2played)=0.11 | c100 B6->B4 | c400 B6->B5 Q400(c400)=+0.13 Q400(c100)=-0.44 Q400(v2played)=-0.54 root400 -0.21
+   az_res4f_v2  v=-0.15 top B6->D6 0.12 p(v2played)=0.12 | c100 B6->D6 | c400 B6->C6 Q400(c400)=+0.20 Q400(c100)=-0.44 Q400(v2played)=-0.44 root400 -0.14
+15778 a26 CYA r7 played(v2) KE A1->B2
+   az_res4f_v6  v=-0.54 top E6->G6 0.71 p(v2played)=0.14 | c100 A1->B2 | c400 A1->A2 Q400(c400)=-0.44 Q400(c100)=-0.53 Q400(v2played)=-0.53 root400 -0.56
+   az_res4f_v2  v=+0.29 top E6->G6 0.78 p(v2played)=0.10 | c100 A1->B2 | c400 B3->B2 Q400(c400)=-0.56 Q400(c100)=-0.59 Q400(v2played)=-0.59 root400 -0.65
+16003 a2 CYA r1 played(v2) EX F1->G3
+   az_res4f_v6  v=-0.06 top F1->D2 0.08 p(v2played)=0.02 | c100 B4->C4 | c400 B4->C4 Q400(c400)=-0.08 Q400(c100)=-0.08 Q400(v2played)=-0.19 root400 -0.14
+   az_res4f_v2  v=+0.05 top F1->D2 0.08 p(v2played)=0.05 | c100 B4->B3 | c400 F1->D2 Q400(c400)=-0.05 Q400(c100)=-0.07 Q400(v2played)=-0.21 root400 -0.10
+16211 a4 MAG r1 played(v2) IC G7->F6
+   az_res4f_v6  v=-0.29 top F5->F4 0.10 p(v2played)=0.03 | c100 F5->F4 | c400 F5->F4 Q400(c400)=-0.13 Q400(c100)=-0.13 Q400(v2played)=-0.34 root400 -0.20
+   az_res4f_v2  v=-0.10 top F5->F7 0.10 p(v2played)=0.02 | c100 F5->F7 | c400 F5->F4 Q400(c400)=-0.08 Q400(c100)=-0.19 Q400(v2played)=-0.24 root400 -0.15
+15780 a4 MAG r1 played(v2) DE F8->D8
+   az_res4f_v6  v=-0.03 top G5->G6 0.13 p(v2played)=0.01 | c100 G5->G3 | c400 G5->H5 Q400(c400)=+0.14 Q400(c100)=+0.04 Q400(v2played)=-0.56 root400 +0.06
+   az_res4f_v2  v=+0.15 top G5->G6 0.12 p(v2played)=0.01 | c100 G5->G6 | c400 G5->G6 Q400(c400)=+0.14 Q400(c100)=+0.14 Q400(v2played)=-0.56 root400 +0.08
+16438 a4 MAG r1 played(v2) DE F8->D8
+   az_res4f_v6  v=-0.10 top E7->F5 0.10 p(v2played)=0.01 | c100 E7->F5 | c400 E7->F5 Q400(c400)=-0.08 Q400(c100)=-0.08 Q400(v2played)=-0.53 root400 -0.15
+   az_res4f_v2  v=-0.14 top E7->G6 0.10 p(v2played)=0.01 | c100 E7->F5 | c400 E7->F5 Q400(c400)=-0.07 Q400(c100)=-0.07 Q400(v2played)=-0.56 root400 -0.14
+=== (2) v6 warmup sampling odds (referee: noise on, temp 1.0 for k<4, 0.5 for k<8), 60 seeds
+20222 a3 played TR H6->G6 temp 1.0: sampled 12/60
+20222 a4 played TR G6->F6 temp 1.0: sampled 4/60
+20258 a1 played DE C1->B1 temp 1.0: sampled 0/60
+20258 a2 played PI B4->C4 temp 1.0: sampled 8/60
+20258 a5 played PI C4->E4 temp 0.5: sampled 23/60
+=== (3) lowmat (each side K + <=1 piece) raw value in v6 live games
+  19499 MAG WON  no lowmat
+  19684 CYA WON  lowmat from a24 us ['cK', 'cT'] them ['mE', 'mK']
+  19847 CYA WON  lowmat from a24 us ['cK', 'cP'] them ['mD', 'mK']
+  19881 MAG WON  lowmat from a30 us ['mK', 'mT'] them ['cK']
+  19980 MAG WON  lowmat from a29 us ['mK', 'mP'] them ['cI', 'cK']
+  20020 CYA WON  lowmat from a29 us ['cK', 'cT'] them ['mK']
+  20222 MAG LOST no lowmat
+  20258 CYA LOST lowmat from a31 us ['cK'] them ['mK', 'mT']
+  az_res4f_v6: n=107 MSE 0.507 sign-acc 0.80
+  az_res4f_v2: n=107 MSE 0.600 sign-acc 0.77
+
+real	0m31.304s
+user	0m0.030s
+sys	0m0.000s

@@ -1,0 +1,3 @@
+14:47:34 res resumed levels/level4/agents/az/ckpt_res/az_res_v20.pt buf 101813 best ('C:\\Users\\melis\\Downloads\\cloudflight-coding-contest\\levels\\level4\\models\\hand_v2.onnx', 0.5)
+14:55:11 res gen v21: selfplay+mix 500 games 20494 samples cyan_won 0.51 len 41.0 cpu/game 2.12 458s buf 119979
+14:55:28 res gen v21: train 400 steps lpol 2.105 lval 0.343

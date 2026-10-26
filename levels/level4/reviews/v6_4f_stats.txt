@@ -1,0 +1,18 @@
+entries: 8 with protocol: 8 keys ['match_id', 'you', 'opponent', 'score', 'played_at', 'starting_observation', 'protocol']
+g 1 19499 15:58:41 MAG WON  32 ? score 0 ok  | kernel captured by MAGENTA PI MOVE
+     our caps: ['a8:DExIC', 'a11:ICxPI', 'a16:TRxDE', 'a20:TRxTR', 'a24:PIxEX', 'a32:PIxKE']  their caps: ['a10:PIxDE', 'a14:DExIC']  ev: []
+g 2 19684 16:00:18 CYA WON  50 CapyCode score 1 ok  | kernel captured by CYAN KE MOVE
+     our caps: ['a6:PIxPI', 'a13:ICxIC', 'a17:KExDE', 'a22:EXxTR', 'a49:KExEX', 'a50:KExKE']  their caps: ['a8:ICxPI', 'a12:ICxDE', 'a16:DExIC', 'a23:KExEX', 'a48:KExTR']  ev: ['FIREWALL ROUND 8: []']
+g 3 19847 16:01:48 CYA WON  48 Chip&Chris score 1 ok  | bare-kernel
+     our caps: ['a2:EXxPI', 'a9:PIxEX', 'a18:TRxIC', 'a22:ICxTR', 'a46:PIxDE']  their caps: ['a4:DExEX', 'a8:EXxDE', 'a20:TRxTR', 'a23:DExIC', 'a47:KExPI']  ev: ['FIREWALL ROUND 8: []', 'BARE KERNEL RULE TRIGGERS']
+g 4 19881 16:02:06 MAG WON  34 CVCT score 0 ok  | bare-kernel
+     our caps: ['a4:PIxPI', 'a12:DExEX', 'a16:EXxIC', 'a20:EXxTR', 'a28:ICxDE']  their caps: ['a6:EXxPI', 'a14:ICxDE', 'a21:DExEX', 'a29:KExIC', 'a34:KExTR']  ev: ['FIREWALL ROUND 8: []', 'BARE KERNEL RULE TRIGGERS']
+g 5 19980 16:03:07 MAG WON  38 Pregateste-ma score 0 ok  | bare-kernel
+     our caps: ['a8:EXxPI', 'a12:ICxDE', 'a20:TRxTR', 'a28:KExEX', 'a36:PIxIC']  their caps: ['a10:DExEX', 'a13:ICxIC', 'a18:TRxDE', 'a26:EXxTR', 'a37:KExPI']  ev: ['FIREWALL ROUND 8: []', 'BARE KERNEL RULE TRIGGERS']
+g 6 20020 16:03:29 CYA WON  52 Trei patrate score 1 ok  | bare-kernel
+     our caps: ['a6:EXxPI', 'a10:ICxIC', 'a14:DExEX', 'a22:TRxDE', 'a26:PIxTR']  their caps: ['a8:DExEX', 'a12:EXxIC', 'a16:DExDE', 'a28:KExPI', 'a52:KExTR']  ev: ['FIREWALL ROUND 8: []', 'BARE KERNEL RULE TRIGGERS']
+g 7 20222 16:05:23 MAG LOST 30 achilary score 1 ok  | kernel captured by CYAN DE SHOOT
+     our caps: ['a8:PIxTR', 'a16:ICxPI', 'a20:DExIC']  their caps: ['a6:TRxTR', 'a9:ICxPI', 'a18:ICxIC', 'a22:DExDE', 'a29:DExEX', 'a30:DExKE']  ev: []
+g 8 20258 16:05:42 CYA LOST 46 achilary score 0 ok  | bare-kernel
+     our caps: ['a6:PIxPI', 'a18:ICxIC', 'a22:TRxDE', 'a30:KExEX', 'a46:KExTR']  their caps: ['a7:EXxPI', 'a12:TRxEX', 'a16:ICxDE', 'a20:DExIC', 'a28:EXxTR']  ev: ['FIREWALL ROUND 8: []', 'BARE KERNEL RULE TRIGGERS']
+Counter({('MAG', True): 3, ('CYA', True): 3, ('MAG', False): 1, ('CYA', False): 1})

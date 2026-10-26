@@ -1,0 +1,231 @@
+13:50:59 bootstrap: 1500 games 53341 samples cyan_won 0.25 len 35.6 cpu/game 0.80 262s
+13:51:37 boot train: lpol 2.982 lval 0.663 N 53341
+13:52:32 gen 1 eval: seat 33/40=82% [68%,91%] C70%/M95% 0.9s | greedy 32/40=80% [65%,90%] C85%/M75% 0.5s | best - PROMOTED (validated)
+13:54:33 resumed levels/level4/agents/az/ckpt/az_v1.pt best None
+13:54:34 loaded data, buffer 53341
+13:55:36 v1 eval: seat 36/40=90% [77%,96%] C80%/M100% 1.2s | STOPGAP 6/60=10% [5%,20%] C13%/M7% 1.1s | greedy 16/20=80% [58%,92%] C70%/M90% 1.2s | best - PROMOTED (validated)
+13:59:07 teacher stopgap-vs-stopgap: 1000 games 32314 samples cyan_won 0.46 len 32.3 cpu/game 0.92 211s buf 85655
+13:59:41 boot train: lpol 2.848 lval 0.646 N 85655
+14:01:55 v2 eval: seat 37/40=92% [80%,97%] C85%/M100% 1.1s | STOPGAP 17/60=28% [19%,41%] C20%/M37% 1.6s | greedy 17/20=85% [64%,95%] C80%/M90% 1.0s | best 30/40=75% [60%,86%] C60%/M90% 1.9s PROMOTED (validated)
+14:02:56 resumed levels/level4/agents/az/ckpt/az_v2.pt best ('levels/level4/models/az_v2.onnx', 0.28)
+14:02:57 loaded data, buffer 85655
+14:07:15 gen v3: selfplay+mix 550 games 20203 samples cyan_won 0.46 len 36.7 cpu/game 1.79 258s buf 105858
+14:07:24 gen v3: train 236 steps lpol 2.798 lval 0.669
+14:07:48 v3 eval: STOPGAP 17/60=28% [19%,41%] C27%/M30% 1.4s | seat - | greedy - | prev-best - NEW BEST vs stopgap (validated)
+14:11:08 res v0 (== hand_v2) parity: max|dpolicy| 0.00e+00 max|dvalue| 0.00e+00
+14:11:29 res v0 vs hand_v2 sanity: 14/40=35% [22%,50%] C40%/M30% 1.5s
+14:11:30 res: loaded hand sp_v2 31838 positions
+14:12:34 res v1: boot train 800 steps lpol 2.278 lval 0.597
+14:13:56 res v1 eval: HAND_V2 24/60=40% [29%,53%] C47%/M33% 2.2s | stopgap 31/40=78% [62%,88%] C80%/M75% 2.2s | seat 18/20=90% [70%,97%] C80%/M100% 0.7s 
+14:14:18 res v2 (== hand_v2) parity: max|dpolicy| 0.00e+00 max|dvalue| 0.00e+00
+14:14:29 res v2 vs hand_v2 sanity: 18/40=45% [31%,60%] C65%/M25% 1.2s
+14:14:30 res: loaded hand sp_v2 31838 positions
+14:14:38 res v3: boot train 600 steps lpol 2.291 lval 0.707
+14:15:04 res v3 eval: HAND_V2 31/60=52% [39%,64%] C53%/M50% 0.9s | stopgap 34/40=85% [71%,93%] C70%/M100% 0.6s | seat 19/20=95% [76%,99%] C90%/M100% 0.4s NEW BEST vs hand_v2 (validated)
+14:17:37 res gen v4: selfplay+mix 500 games 20312 samples cyan_won 0.45 len 40.6 cpu/game 1.44 153s buf 52150
+14:17:40 res gen v4: train 158 steps lpol 2.285 lval 0.539
+14:18:01 res v4 eval: HAND_V2 43/60=72% [59%,81%] C67%/M77% 1.1s | stopgap - | seat - NEW BEST vs hand_v2 (validated)
+14:20:56 res gen v5: selfplay+mix 500 games 20421 samples cyan_won 0.46 len 40.8 cpu/game 1.65 176s buf 72571
+14:21:00 res gen v5: train 159 steps lpol 2.243 lval 0.486
+14:21:21 res v5 eval: HAND_V2 40/60=67% [54%,77%] C67%/M67% 1.5s | stopgap - | seat - 
+14:24:42 res gen v6: selfplay+mix 500 games 20408 samples cyan_won 0.49 len 40.8 cpu/game 1.86 201s buf 92979
+14:24:45 res gen v6: train 159 steps lpol 2.208 lval 0.451
+14:25:19 res v6 eval: HAND_V2 41/60=68% [56%,79%] C57%/M80% 1.3s | stopgap 34/40=85% [71%,93%] C80%/M90% 1.1s | seat 20/20=100% [84%,100%] C100%/M100% 0.8s 
+14:27:58 res gen v7: selfplay+mix 500 games 20258 samples cyan_won 0.49 len 40.5 cpu/game 1.51 159s buf 113237
+14:28:01 res gen v7: train 158 steps lpol 2.222 lval 0.427
+14:28:16 res v7 eval: HAND_V2 38/60=63% [51%,74%] C67%/M60% 1.1s | stopgap - | seat - 
+14:28:37 res resumed levels/level4/agents/az/ckpt_res/az_res_v7.pt buf 113237 best ('C:\\Users\\melis\\Downloads\\cloudflight-coding-contest\\levels\\level4\\models\\az_res_v4.onnx', 0.7166666666666667)
+14:34:43 res gen v8: selfplay+mix 500 games 20414 samples cyan_won 0.46 len 40.8 cpu/game 1.97 366s buf 101813
+14:34:48 res gen v8: train 159 steps lpol 2.151 lval 0.352
+14:35:23 res v8 eval: HAND_V2 42/60=70% [57%,80%] C67%/M73% 1.5s | stopgap - | seat - 
+14:38:00 resfast step0 parity vs hand_v2 on 3120 positions: max|dpolicy| 9.54e-07 max|dvalue| 3.28e-07; graph (210, 252)
+14:38:02 resfast offline data: 133651 positions
+14:39:49 resfast v20: offline 3000 steps lpol 2.183 lval 0.421 (89s)
+14:39:56 resfast v20: exported az_res_v20.onnx graph (204, 258) 2.56 ms/call b8, validator REJECTED
+14:42:02 res resumed levels/level4/agents/az/ckpt_res/az_res_v20.pt buf 101813 best ('C:\\Users\\melis\\Downloads\\cloudflight-coding-contest\\levels\\level4\\models\\hand_v2.onnx', 0.5)
+14:46:54 res v20 eval: vs az_res_v6 227/300=76% [71%,80%] C75% 2.0s | hand_v2 36/40=90% [77%,96%] C90%/M90% 1.5s | graph (204, 258) **CANDIDATE: beats az_res_v6 head-to-head, Wilson LB 0.71 > 0.5** (local validator ACCEPTED)
+14:47:34 res resumed levels/level4/agents/az/ckpt_res/az_res_v20.pt buf 101813 best ('C:\\Users\\melis\\Downloads\\cloudflight-coding-contest\\levels\\level4\\models\\hand_v2.onnx', 0.5)
+14:47:38 resfast step0 parity vs hand_v2 on 3120 positions: max|dpolicy| 9.54e-07 max|dvalue| 3.28e-07; graph (210, 252)
+14:47:41 resfast offline data: 133651 positions
+14:49:46 resfast v30: offline 6000 steps lpol 2.166 lval 0.408 (122s)
+14:49:54 resfast v30: exported az_res_v30.onnx graph (204, 258) 2.48 ms/call b8, validator REJECTED
+14:50:49 resfast step0 parity vs hand_v2 on 3120 positions: max|dpolicy| 9.54e-07 max|dvalue| 3.28e-07; graph (210, 252)
+14:50:54 resfast offline data: 133651 positions
+14:52:23 resfast v31: offline 3000 steps lpol 2.182 lval 0.308 (80s)
+14:52:31 resfast v31: exported az_res_v31.onnx graph (204, 258) 2.34 ms/call b8, validator ACCEPTED
+14:53:19 resfast az_res4f step0 parity vs hand_v4f on 3120 positions: max|dpolicy| 0.00e+00 max|dvalue| 0.00e+00; graph (284, 315)
+14:53:22 resfast offline data: 133651 positions
+14:55:09 resfast az_res4f v1: offline 3000 steps lpol 2.225 lval 0.415 (103s)
+14:55:11 res gen v21: selfplay+mix 500 games 20494 samples cyan_won 0.51 len 41.0 cpu/game 2.12 458s buf 119979
+14:55:19 resfast az_res4f v1: exported az_res4f_v1.onnx graph (278, 321) 4.30 ms/call b8, validator REJECTED
+14:55:28 res gen v21: train 400 steps lpol 2.105 lval 0.343
+15:00:42 resfast az_res step0 parity vs hand_v2 on 3316 positions: max|dpolicy| 9.54e-07 max|dvalue| 4.01e-07; graph (210, 252)
+15:00:47 resfast offline data: 154145 positions
+15:02:26 resfast az_res v32: offline 3000 steps lpol 2.166 lval 0.418 (92s)
+15:02:38 resfast az_res v32: exported az_res_v32.onnx graph (204, 258) 2.79 ms/call b8, validator REJECTED
+15:06:54 ens az_res_ens2: members ['levels/level4/agents/az/ckpt_res/az_res_v20.pt', 'levels/level4/agents/az/ckpt_res/az_res_v30.pt'] graph (239, 290) 2.05 ms/call b8
+15:12:01 gen_sp v20x: 900 games 36967 samples cyan_won 0.50 len 41.1 cpu/game 1.35 377s
+15:14:31 resfast az_res4f step0 parity vs hand_v4f on 3342 positions: max|dpolicy| 0.00e+00 max|dvalue| 0.00e+00; graph (284, 315)
+15:14:34 resfast: endgame data 4000 games 19442 positions x4 -> 26% of samples
+15:14:34 resfast offline data: 299345 positions
+15:15:21 resfast az_res4f v2: offline 3000 steps lpol 1.989 lval 0.360 (45s)
+15:15:27 resfast az_res4f v2: exported az_res4f_v2.onnx graph (278, 321) 1.27 ms/call b8, validator ACCEPTED
+15:28:49 gen_sp 4f2x: 900 games 40039 samples cyan_won 0.52 len 44.5 cpu/game 1.91 531s
+15:31:31 resfast az_res4f step0 parity vs hand_v4f on 3649 positions: max|dpolicy| 0.00e+00 max|dvalue| 0.00e+00; graph (284, 315)
+15:31:35 resfast: endgame data 3000 games 15958 positions x7 -> 30% of samples
+15:31:35 resfast offline data: 373322 positions
+15:32:35 resfast: lowmat outcome-only frac 0.61, sched onecycle
+15:32:35 resfast az_res4f v3: offline 3000 steps lpol 1.950 lval 0.390 (55s)
+15:32:43 resfast az_res4f v3: exported az_res4f_v3.onnx graph (278, 321) 2.01 ms/call b8, validator ACCEPTED
+15:40:57 resfast az_res4f step0 parity vs hand_v4f on 3649 positions: max|dpolicy| 0.00e+00 max|dvalue| 0.00e+00; graph (284, 315)
+15:41:01 resfast: endgame data 7883 games 70983 positions x2 -> 35% of samples
+15:41:01 resfast: teacher endgame labels 5718 positions x3
+15:41:01 resfast offline data: 420736 positions
+15:41:52 resfast: lowmat outcome-only frac 0.66, sched onecycle
+15:42:27 resfast: SWA over 21 snapshots (1000 extra steps), BN recomputed
+15:42:27 resfast az_res4f v4: offline 3000 steps lpol 1.982 lval 0.377 (84s)
+15:42:34 resfast az_res4f v4: exported az_res4f_v4.onnx graph (278, 321) 1.35 ms/call b8, validator ACCEPTED
+15:43:50 resfast az_res4f step0 parity vs hand_v4f on 3649 positions: max|dpolicy| 0.00e+00 max|dvalue| 0.00e+00; graph (284, 315)
+15:43:54 resfast: endgame data 7883 games 70983 positions x2 -> 35% of samples
+15:43:54 resfast: teacher endgame labels 5718 positions x3
+15:43:54 resfast: teacher2 labels 396 positions
+15:43:54 resfast offline data: 423904 positions
+15:44:51 resfast: lowmat outcome-only frac 0.66, sched onecycle
+15:45:38 resfast: SWA over 31 snapshots (1500 extra steps), BN recomputed
+15:45:38 resfast az_res4f v5: offline 3000 steps lpol 1.983 lval 0.379 (101s)
+15:45:44 resfast az_res4f v5: exported az_res4f_v5.onnx graph (278, 321) 2.17 ms/call b8, validator ACCEPTED
+15:53:42 sprint v6: N 312491 {'sp': 229778, 'end': 70983, 'teacher': 6114, 'oracle': 300, 'live': 5316} live games 140 magenta 0.49
+15:53:49 sprint v6: 126 ms/step at batch 2048 -> 2626 steps
+15:54:26 sprint v6: trained 2626 steps in 40s, last lpol 1.778 lval 0.355, SWA 11
+15:54:33 sprint: az_res4f_v6.onnx graph (278, 321) validator ACCEPTED
+15:54:38 sprint: az_res4f_v6s.onnx graph (278, 321) validator ACCEPTED
+15:54:59 sprint v7: N 312643 {'sp': 229778, 'end': 70983, 'teacher': 6114, 'oracle': 300, 'live': 5468} live games 144 magenta 0.49
+15:55:09 sprint v7: 94 ms/step at batch 2048 -> 15000 steps
+16:00:09 sprint v7: trained 15000 steps in 301s, last lpol 1.776 lval 0.310, SWA 60
+16:00:16 sprint: az_res4f_v7.onnx graph (278, 321) validator ACCEPTED
+16:00:23 sprint: az_res4f_v7s.onnx graph (278, 321) validator ACCEPTED
+16:01:02 sprint: live records added (weight 5.0); replayed-protocol live games skipped (same games)
+16:01:04 sprint v8: N 312643 {'sp': 229778, 'end': 70983, 'teacher': 6114, 'oracle': 300, 'live': 5468} live games 148 magenta 0.49
+16:01:19 sprint v8: 99 ms/step at batch 2048 -> 15000 steps
+16:01:42 sprint: live records added (weight 5.0); replayed-protocol live games skipped (same games)
+16:01:43 sprint v9: N 312643 {'sp': 229778, 'end': 70983, 'teacher': 6114, 'oracle': 300, 'live': 5468} live games 148 magenta 0.49
+16:01:49 sprint v9: 139 ms/step at batch 2048 -> 3000 steps
+16:03:50 sprint v9: trained 3000 steps in 124s, last lpol 1.743 lval 0.324, SWA 12
+16:04:05 sprint: az_res4f_v9.onnx graph (278, 321) validator ACCEPTED
+16:04:14 sprint: az_res4f_v9s.onnx graph (278, 321) validator ACCEPTED
+16:10:10 sprint v8: trained 15000 steps in 532s, last lpol 1.738 lval 0.340, SWA 60
+16:10:23 sprint: az_res4f_v8.onnx graph (278, 321) validator ACCEPTED
+16:10:32 sprint: az_res4f_v8s.onnx graph (278, 321) validator ACCEPTED
+16:14:15 s3: labels new 2918 (+2761 prior v2-labelled w0.5), held-out 431 from ['lab_31008.pkl']
+16:14:17 s3: replay 125529 positions
+16:14:22 s3: train mismatch frac 0.418 (weight x3.0), target pow 4.0, mode distill
+16:14:22 s3: trainable params 70257
+16:14:28 s3: ckpt vs v6.onnx parity max|dp| 6.22e-04 max|dv| 9.83e-07
+16:14:29 s3: BEFORE held-out CE 1.689 top1 0.552
+16:15:21 s3: labels new 3540 (+2761 prior v2-labelled w0.5), held-out 517 from ['lab_31008.pkl']
+16:15:24 s3: replay 125529 positions
+16:15:29 s3: train mismatch frac 0.417 (weight x3.0), target pow 4.0, mode distill
+16:15:29 s3: trainable params 70257
+16:15:42 s3: ckpt vs v6.onnx parity max|dp| 6.22e-04 max|dv| 9.83e-07
+16:15:43 s3: BEFORE held-out CE 1.678 top1 0.551
+16:15:44 s3 step 0: lpol_lab 1.957 lpol_rep 1.876 lval(distill) 0.0021 | held CE 1.677 top1 0.551 max|dv| 0.016
+16:15:53 s3 step 200: lpol_lab 1.556 lpol_rep 1.894 lval(distill) 0.0024 | held CE 1.347 top1 0.582 max|dv| 0.230
+16:16:07 s3 step 399: lpol_lab 1.454 lpol_rep 1.989 lval(distill) 0.0028 | held CE 1.327 top1 0.588 max|dv| 0.252
+16:16:07 s3: trained 400 steps in 25s, SWA 4
+16:16:08 s3: AFTER (SWA) held-out CE 1.678->1.328 top1(800-best) 0.551->0.588 max|dv| vs v6 0.288
+16:16:22 s3: exported levels\level4\agents\sprint3\smoke.onnx graph (278, 321)
+16:18:18 s3: labels new 5030 (+2761 prior v2-labelled w0.5), held-out 723 from ['lab_31008.pkl']
+16:18:21 s3: replay 125529 positions
+16:18:26 s3: train mismatch frac 0.423 (weight x3.0), target pow 4.0, mode freeze
+16:18:26 s3: trainable params 3168
+16:18:29 s3: labels new 5030 (+2761 prior v2-labelled w0.5), held-out 723 from ['lab_31008.pkl']
+16:18:31 s3: ckpt vs v6.onnx parity max|dp| 6.22e-04 max|dv| 9.83e-07
+16:18:31 s3: BEFORE held-out CE 1.701 top1 0.533
+16:18:31 s3: replay 125529 positions
+16:18:32 s3 step 0: lpol_lab 2.002 lpol_rep 1.875 lval(distill) 0.0000 | held CE 1.700 top1 0.531 max|dv| 0.000
+16:18:32 s3: train mismatch frac 0.423 (weight x3.0), target pow 4.0, mode distill
+16:18:32 s3: trainable params 70257
+16:18:34 s3: ckpt vs v6.onnx parity max|dp| 6.22e-04 max|dv| 9.83e-07
+16:18:34 s3: BEFORE held-out CE 1.701 top1 0.533
+16:18:35 s3 step 0: lpol_lab 2.009 lpol_rep 1.876 lval(distill) 0.0027 | held CE 1.700 top1 0.530 max|dv| 0.032
+16:18:36 s3 step 200: lpol_lab 1.696 lpol_rep 1.872 lval(distill) 0.0000 | held CE 1.417 top1 0.585 max|dv| 0.000
+16:18:41 s3 step 200: lpol_lab 1.447 lpol_rep 1.939 lval(distill) 0.0042 | held CE 1.317 top1 0.588 max|dv| 0.381
+16:18:42 s3 step 400: lpol_lab 1.589 lpol_rep 1.933 lval(distill) 0.0000 | held CE 1.398 top1 0.596 max|dv| 0.000
+16:18:49 s3 step 400: lpol_lab 1.310 lpol_rep 2.008 lval(distill) 0.0045 | held CE 1.261 top1 0.602 max|dv| 0.454
+16:18:49 s3 step 600: lpol_lab 1.507 lpol_rep 1.961 lval(distill) 0.0000 | held CE 1.397 top1 0.582 max|dv| 0.000
+16:18:56 s3 step 800: lpol_lab 1.543 lpol_rep 1.967 lval(distill) 0.0000 | held CE 1.396 top1 0.588 max|dv| 0.000
+16:18:56 s3 step 600: lpol_lab 1.192 lpol_rep 2.064 lval(distill) 0.0045 | held CE 1.258 top1 0.603 max|dv| 0.449
+16:19:03 s3 step 1000: lpol_lab 1.556 lpol_rep 1.928 lval(distill) 0.0000 | held CE 1.393 top1 0.588 max|dv| 0.000
+16:19:04 s3 step 800: lpol_lab 1.156 lpol_rep 2.077 lval(distill) 0.0039 | held CE 1.251 top1 0.596 max|dv| 0.491
+16:19:10 s3 step 1199: lpol_lab 1.642 lpol_rep 2.001 lval(distill) 0.0000 | held CE 1.392 top1 0.589 max|dv| 0.000
+16:19:10 s3: trained 1200 steps in 39s, SWA 10
+16:19:10 s3: AFTER (SWA) held-out CE 1.701->1.393 top1(800-best) 0.533->0.589 max|dv| vs v6 0.000
+16:19:11 s3: exported levels\level4\agents\sprint3\candB.onnx graph (278, 321)
+16:19:11 s3 step 1000: lpol_lab 1.223 lpol_rep 2.049 lval(distill) 0.0038 | held CE 1.250 top1 0.602 max|dv| 0.461
+16:19:16 s3 step 1199: lpol_lab 1.290 lpol_rep 2.100 lval(distill) 0.0047 | held CE 1.245 top1 0.606 max|dv| 0.480
+16:19:16 s3: trained 1200 steps in 42s, SWA 10
+16:19:16 s3: AFTER (SWA) held-out CE 1.701->1.245 top1(800-best) 0.533->0.606 max|dv| vs v6 0.530
+16:19:17 s3: exported levels\level4\agents\sprint3\candA.onnx graph (278, 321)
+16:19:54 s3: labels new 5030 (+0 prior v2-labelled w0.0), held-out 723 from ['lab_31008.pkl']
+16:19:54 s3: labels new 5030 (+2761 prior v2-labelled w0.5), held-out 723 from ['lab_31008.pkl']
+16:19:58 s3: replay 125529 positions
+16:19:59 s3: replay 125529 positions
+16:19:59 s3: train mismatch frac 0.434 (weight x4.0), target pow 4.0, mode distill
+16:19:59 s3: trainable params 70257
+16:19:59 s3: train mismatch frac 0.423 (weight x4.0), target pow 4.0, mode distill
+16:19:59 s3: trainable params 70257
+16:20:01 s3: ckpt vs v6.onnx parity max|dp| 6.22e-04 max|dv| 9.83e-07
+16:20:01 s3: BEFORE held-out CE 1.701 top1 0.533
+16:20:01 s3: ckpt vs v6.onnx parity max|dp| 6.22e-04 max|dv| 9.83e-07
+16:20:02 s3: BEFORE held-out CE 1.701 top1 0.533
+16:20:02 s3 step 0: lpol_lab 2.047 lpol_rep 1.875 lval(distill) 0.0027 | held CE 1.696 top1 0.533 max|dv| 0.026
+16:20:02 s3 step 0: lpol_lab 2.020 lpol_rep 1.875 lval(distill) 0.0027 | held CE 1.698 top1 0.531 max|dv| 0.031
+16:20:09 s3 step 200: lpol_lab 1.259 lpol_rep 2.170 lval(distill) 0.0096 | held CE 1.333 top1 0.584 max|dv| 0.732
+16:20:09 s3 step 200: lpol_lab 1.319 lpol_rep 2.021 lval(distill) 0.0066 | held CE 1.313 top1 0.578 max|dv| 0.564
+16:20:15 s3 step 400: lpol_lab 1.109 lpol_rep 2.300 lval(distill) 0.0103 | held CE 1.377 top1 0.566 max|dv| 0.757
+16:20:15 s3 step 400: lpol_lab 1.248 lpol_rep 2.131 lval(distill) 0.0068 | held CE 1.270 top1 0.593 max|dv| 0.722
+16:20:21 s3 step 600: lpol_lab 0.945 lpol_rep 2.496 lval(distill) 0.0089 | held CE 1.391 top1 0.592 max|dv| 1.090
+16:20:21 s3 step 600: lpol_lab 1.234 lpol_rep 2.234 lval(distill) 0.0066 | held CE 1.290 top1 0.602 max|dv| 0.610
+16:20:28 s3 step 800: lpol_lab 0.912 lpol_rep 2.531 lval(distill) 0.0103 | held CE 1.413 top1 0.575 max|dv| 0.621
+16:20:28 s3 step 800: lpol_lab 1.075 lpol_rep 2.240 lval(distill) 0.0071 | held CE 1.279 top1 0.609 max|dv| 0.713
+16:20:34 s3 step 1000: lpol_lab 0.834 lpol_rep 2.534 lval(distill) 0.0094 | held CE 1.442 top1 0.595 max|dv| 0.606
+16:20:34 s3 step 1000: lpol_lab 1.105 lpol_rep 2.228 lval(distill) 0.0056 | held CE 1.289 top1 0.618 max|dv| 0.678
+16:20:41 s3 step 1200: lpol_lab 0.768 lpol_rep 2.588 lval(distill) 0.0076 | held CE 1.429 top1 0.592 max|dv| 0.628
+16:20:41 s3 step 1200: lpol_lab 1.043 lpol_rep 2.253 lval(distill) 0.0062 | held CE 1.282 top1 0.610 max|dv| 0.785
+16:20:48 s3 step 1400: lpol_lab 0.794 lpol_rep 2.721 lval(distill) 0.0086 | held CE 1.462 top1 0.586 max|dv| 0.631
+16:20:48 s3 step 1400: lpol_lab 1.017 lpol_rep 2.315 lval(distill) 0.0073 | held CE 1.285 top1 0.610 max|dv| 0.578
+16:20:52 s3 step 1499: lpol_lab 0.765 lpol_rep 2.503 lval(distill) 0.0086 | held CE 1.443 top1 0.588 max|dv| 0.672
+16:20:52 s3: trained 1500 steps in 51s, SWA 12
+16:20:52 s3 step 1499: lpol_lab 1.028 lpol_rep 2.191 lval(distill) 0.0067 | held CE 1.287 top1 0.602 max|dv| 0.574
+16:20:52 s3: trained 1500 steps in 51s, SWA 12
+16:20:52 s3: AFTER (SWA) held-out CE 1.701->1.469 top1(800-best) 0.533->0.592 max|dv| vs v6 0.470
+16:20:52 s3: AFTER (SWA) held-out CE 1.701->1.290 top1(800-best) 0.533->0.613 max|dv| vs v6 0.529
+16:20:53 s3: exported levels\level4\agents\sprint3\candC.onnx graph (278, 321)
+16:20:53 s3: exported levels\level4\agents\sprint3\candD.onnx graph (278, 321)
+16:27:02 s3: labels new 5251 (+2761 prior v2-labelled w0.5), held-out 723 from ['lab_31008.pkl']
+16:27:06 s3: replay 125529 positions
+16:27:09 s3: train mismatch frac 0.305 (weight x3.0), target pow 4.0, mode distill
+16:27:09 s3: trainable params 70257
+16:27:11 s3: ckpt vs v6.onnx parity max|dp| 9.31e-04 max|dv| 8.94e-07
+16:27:11 s3: BEFORE held-out CE 1.245 top1 0.606
+16:27:12 s3 step 0: lpol_lab 1.400 lpol_rep 2.119 lval(distill) 0.0009 | held CE 1.355 top1 0.560 max|dv| 0.290
+16:27:12 s3 step 29: lpol_lab 1.400 lpol_rep 1.963 lval(distill) 0.0010 | held CE 1.267 top1 0.618 max|dv| 0.184
+16:27:12 s3: trained 30 steps in 1s, SWA 1
+16:27:13 s3: AFTER (SWA) held-out CE 1.245->1.264 top1(800-best) 0.606->0.621 max|dv| vs v6 0.322
+16:27:14 s3: exported levels\level4\agents\sprint3\smoke2.onnx graph (278, 321)
+16:32:11 s3: labels new 17948 (+2761 prior v2-labelled w0.5), held-out 725 from ['lab_32027.pkl']
+16:32:15 s3: replay 125529 positions
+16:32:16 s3: train mismatch frac 0.291 (weight x3.0), target pow 4.0, mode distill
+16:32:16 s3: trainable params 70257
+16:32:18 s3: ckpt vs v6.onnx parity max|dp| 1.01e-03 max|dv| 1.13e-06
+16:32:18 s3: BEFORE held-out CE 1.036 top1 0.746
+16:32:19 s3 step 0: lpol_lab 1.437 lpol_rep 2.111 lval(distill) 0.0015 | held CE 1.035 top1 0.748 max|dv| 0.023
+16:32:23 s3 step 200: lpol_lab 1.385 lpol_rep 1.968 lval(distill) 0.0027 | held CE 0.930 top1 0.760 max|dv| 0.197
+16:32:27 s3 step 400: lpol_lab 1.282 lpol_rep 2.031 lval(distill) 0.0024 | held CE 0.842 top1 0.810 max|dv| 0.220
+16:32:31 s3 step 600: lpol_lab 1.181 lpol_rep 2.082 lval(distill) 0.0024 | held CE 0.818 top1 0.815 max|dv| 0.330
+16:32:34 s3 step 800: lpol_lab 1.239 lpol_rep 2.071 lval(distill) 0.0024 | held CE 0.801 top1 0.818 max|dv| 0.198
+16:32:38 s3 step 1000: lpol_lab 1.226 lpol_rep 2.049 lval(distill) 0.0025 | held CE 0.797 top1 0.833 max|dv| 0.248
+16:32:41 s3 step 1199: lpol_lab 1.119 lpol_rep 2.097 lval(distill) 0.0024 | held CE 0.796 top1 0.833 max|dv| 0.254
+16:32:41 s3: trained 1200 steps in 23s, SWA 10
+16:32:42 s3: AFTER (SWA) held-out CE 1.036->0.796 top1(800-best) 0.746->0.817 max|dv| vs v6 0.297
+16:32:42 s3: exported levels\level4\models\az_res4f_x4.onnx graph (278, 321)

@@ -1,0 +1,6 @@
+16:01:02 sprint: live records added (weight 5.0); replayed-protocol live games skipped (same games)
+16:01:04 sprint v8: N 312643 {'sp': 229778, 'end': 70983, 'teacher': 6114, 'oracle': 300, 'live': 5468} live games 148 magenta 0.49
+16:01:19 sprint v8: 99 ms/step at batch 2048 -> 15000 steps
+16:10:10 sprint v8: trained 15000 steps in 532s, last lpol 1.738 lval 0.340, SWA 60
+16:10:23 sprint: az_res4f_v8.onnx graph (278, 321) validator ACCEPTED
+16:10:32 sprint: az_res4f_v8s.onnx graph (278, 321) validator ACCEPTED

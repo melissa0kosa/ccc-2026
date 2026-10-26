@@ -1,0 +1,12 @@
+11621 CYA WON  lowmat positions  42  mean ring us 1.93 them 1.98  share(us deeper) 0.33 share(us shallower) 0.38  last us 3 them 3
+11686 MAG LOST lowmat positions   5  mean ring us 2.20 them 1.00  share(us deeper) 1.00 share(us shallower) 0.00  last us 3 them 1
+11791 MAG LOST lowmat positions  40  mean ring us 1.07 them 1.12  share(us deeper) 0.00 share(us shallower) 0.05  last us 2 them 2
+11912 CYA WON  lowmat positions   5  mean ring us 1.00 them 1.60  share(us deeper) 0.00 share(us shallower) 0.60  last us 1 them 1
+11982 CYA WON  lowmat positions   8  mean ring us 2.62 them 1.25  share(us deeper) 0.88 share(us shallower) 0.00  last us 3 them 2
+12113 MAG LOST lowmat positions  15  mean ring us 1.00 them 1.47  share(us deeper) 0.00 share(us shallower) 0.47  last us 1 them 2
+12278 MAG LOST lowmat positions  14  mean ring us 1.29 them 1.93  share(us deeper) 0.07 share(us shallower) 0.43  last us 2 them 3
+12411 CYA WON  lowmat positions  33  mean ring us 2.33 them 1.45  share(us deeper) 0.64 share(us shallower) 0.00  last us 3 them 3
+12768 MAG WON  lowmat positions  34  mean ring us 2.44 them 1.24  share(us deeper) 0.74 share(us shallower) 0.00  last us 3 them 2
+12845 CYA WON  lowmat positions  42  mean ring us 1.38 them 2.26  share(us deeper) 0.10 share(us shallower) 0.67  last us 3 them 2
+13136 MAG LOST lowmat positions  19  mean ring us 0.95 them 1.58  share(us deeper) 0.05 share(us shallower) 0.68  last us 2 them 2
+13365 CYA LOST lowmat positions  42  mean ring us 1.60 them 2.71  share(us deeper) 0.00 share(us shallower) 0.74  last us 3 them 3

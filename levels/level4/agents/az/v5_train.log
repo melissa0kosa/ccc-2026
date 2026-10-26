@@ -1,0 +1,6 @@
+15:43:54 resfast: teacher2 labels 396 positions
+15:43:54 resfast offline data: 423904 positions
+15:44:51 resfast: lowmat outcome-only frac 0.66, sched onecycle
+15:45:38 resfast: SWA over 31 snapshots (1500 extra steps), BN recomputed
+15:45:38 resfast az_res4f v5: offline 3000 steps lpol 1.983 lval 0.379 (101s)
+15:45:44 resfast az_res4f v5: exported az_res4f_v5.onnx graph (278, 321) 2.17 ms/call b8, validator ACCEPTED

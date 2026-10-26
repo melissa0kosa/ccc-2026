@@ -58,8 +58,10 @@ if __name__ == "__main__":
     sims = 100
     matches = []
     for m in sys.argv[3:]:
-        a, b, n = m.split(":")
-        matches.append((f"{a}~{b}~{secrets.randbits(16):04x}", a, b, int(n), secrets.randbits(30)))
+        parts = m.split(":")
+        a, b, n = parts[:3]
+        sd = int(parts[3]) if len(parts) > 3 else secrets.randbits(30)  # optional fixed seed (paired tests)
+        matches.append((f"{a}~{b}~{secrets.randbits(16):04x}", a, b, int(n), sd))
     # interleave: all jobs of match 1, then match 2... (priority order)
     jobs = [(mid, a, b, g, sims, seed) for mid, a, b, n, seed in matches for g in range(n)]
     print(f"{len(jobs)} games, {workers} workers -> {log}", flush=True)

@@ -1,0 +1,11 @@
+nodes 503 initializers 444 opset [17] inputs [('observation', ['batch', 16, 8, 8])] outputs [('policy', ['batch', 4096]), ('value', ['batch'])]
+sha256 deb67cc5f367967b rollback same: True
+session create: 125 ms cpu, 268 ms wall
+live positions 431
+batch 1: 0.94 ms cpu/call
+batch 8: 2.81 ms cpu/call
+value finite=True min=-0.9994 max=+0.9999 |v|>0.9 20.9% mean|v| 0.53; logits finite=True [-6.52,12.81]
+validate try 1 REJECTED
+validate try 2 REJECTED
+validate try 3 REJECTED
+validate try 4 REJECTED

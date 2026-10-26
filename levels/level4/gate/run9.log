@@ -1,0 +1,35 @@
+380 games, 4 workers -> levels\level4\gate\games9.jsonl
+20/380 18s
+40/380 35s
+60/380 49s
+80/380 65s
+100/380 86s
+120/380 105s
+140/380 123s
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=13948, pipe_handle=668)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\melis\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\multiprocessing\spawn.py", line 108, in spawn_main
+    source_process = _winapi.OpenProcess(
+        _winapi.SYNCHRONIZE | _winapi.PROCESS_DUP_HANDLE,
+        False, parent_pid)
+OSError: [WinError 87] The parameter is incorrect
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=13948, pipe_handle=636)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\melis\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\multiprocessing\spawn.py", line 108, in spawn_main
+    source_process = _winapi.OpenProcess(
+        _winapi.SYNCHRONIZE | _winapi.PROCESS_DUP_HANDLE,
+        False, parent_pid)
+OSError: [WinError 87] The parameter is incorrect
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=13948, pipe_handle=664)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\melis\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\multiprocessing\spawn.py", line 108, in spawn_main
+    source_process = _winapi.OpenProcess(
+        _winapi.SYNCHRONIZE | _winapi.PROCESS_DUP_HANDLE,
+        False, parent_pid)
+OSError: [WinError 87] The parameter is incorrect

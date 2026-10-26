@@ -1,0 +1,2 @@
+distill_v3hb.onnx vs distill_v3.onnx: 30/60 = 50% [38%,62%] elo +0 | as cyan 43% as magenta 57% | 53 actions, 3.1s cpu/game (both sides), 241s
+distill_v3hb.onnx vs hand_v2.onnx: 49/60 = 82% [70%,89%] elo +260 | as cyan 83% as magenta 80% | 43 actions, 2.2s cpu/game (both sides), 146s

@@ -1,0 +1,13 @@
+VALIDATOR ACCEPTED
+, CPU 0.03 s
+        the Linux server measures virtual address space and CPU time via hard POSIX rlimits; psutil RSS and polled CPU are approximations
+
+3/3  Level 3 match limits
+  [ok] one Level 3 match fits the server's limits (14 actions vs GreedyAgent)
+        resource usage: peak RSS 5 MiB, CPU 0.02 s
+        the server allows 15 s of CPU time per match; matches vary in length, so leave headroom
+
+====================================================================
+ACCEPTED -- this model satisfies the submission contract.
+====================================================================
+

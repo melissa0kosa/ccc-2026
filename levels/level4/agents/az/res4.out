@@ -1,0 +1,2 @@
+14:42:02 res resumed levels/level4/agents/az/ckpt_res/az_res_v20.pt buf 101813 best ('C:\\Users\\melis\\Downloads\\cloudflight-coding-contest\\levels\\level4\\models\\hand_v2.onnx', 0.5)
+14:46:54 res v20 eval: vs az_res_v6 227/300=76% [71%,80%] C75% 2.0s | hand_v2 36/40=90% [77%,96%] C90%/M90% 1.5s | graph (204, 258) **CANDIDATE: beats az_res_v6 head-to-head, Wilson LB 0.71 > 0.5** (local validator ACCEPTED)

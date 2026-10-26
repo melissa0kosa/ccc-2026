@@ -1,0 +1,17 @@
+14:14:18 res v2 (== hand_v2) parity: max|dpolicy| 0.00e+00 max|dvalue| 0.00e+00
+14:14:29 res v2 vs hand_v2 sanity: 18/40=45% [31%,60%] C65%/M25% 1.2s
+14:14:30 res: loaded hand sp_v2 31838 positions
+14:14:38 res v3: boot train 600 steps lpol 2.291 lval 0.707
+14:15:04 res v3 eval: HAND_V2 31/60=52% [39%,64%] C53%/M50% 0.9s | stopgap 34/40=85% [71%,93%] C70%/M100% 0.6s | seat 19/20=95% [76%,99%] C90%/M100% 0.4s NEW BEST vs hand_v2 (validated)
+14:17:37 res gen v4: selfplay+mix 500 games 20312 samples cyan_won 0.45 len 40.6 cpu/game 1.44 153s buf 52150
+14:17:40 res gen v4: train 158 steps lpol 2.285 lval 0.539
+14:18:01 res v4 eval: HAND_V2 43/60=72% [59%,81%] C67%/M77% 1.1s | stopgap - | seat - NEW BEST vs hand_v2 (validated)
+14:20:56 res gen v5: selfplay+mix 500 games 20421 samples cyan_won 0.46 len 40.8 cpu/game 1.65 176s buf 72571
+14:21:00 res gen v5: train 159 steps lpol 2.243 lval 0.486
+14:21:21 res v5 eval: HAND_V2 40/60=67% [54%,77%] C67%/M67% 1.5s | stopgap - | seat - 
+14:24:42 res gen v6: selfplay+mix 500 games 20408 samples cyan_won 0.49 len 40.8 cpu/game 1.86 201s buf 92979
+14:24:45 res gen v6: train 159 steps lpol 2.208 lval 0.451
+14:25:19 res v6 eval: HAND_V2 41/60=68% [56%,79%] C57%/M80% 1.3s | stopgap 34/40=85% [71%,93%] C80%/M90% 1.1s | seat 20/20=100% [84%,100%] C100%/M100% 0.8s 
+14:27:58 res gen v7: selfplay+mix 500 games 20258 samples cyan_won 0.49 len 40.5 cpu/game 1.51 159s buf 113237
+14:28:01 res gen v7: train 158 steps lpol 2.222 lval 0.427
+14:28:16 res v7 eval: HAND_V2 38/60=63% [51%,74%] C67%/M60% 1.1s | stopgap - | seat - 

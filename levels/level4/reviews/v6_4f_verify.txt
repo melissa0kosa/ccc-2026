@@ -1,0 +1,8 @@
+nodes 278 initializers 321 opset [17] inputs [('observation', ['batch', 16, 8, 8])] outputs [('policy', ['batch', 4096]), ('value', ['batch'])]
+sha256 2af4b513317b8d7f md5 b4acd69e5486
+session create: 78 ms cpu, 98 ms wall
+live positions 330
+batch 1: 0.73 ms cpu/call
+batch 8: 2.76 ms cpu/call
+value finite=True min=-1.0000 max=+1.0000 |v|>0.9 22.4% mean|v| 0.51; logits finite=True [-9.29,11.05]
+validate try 1 REJECTED

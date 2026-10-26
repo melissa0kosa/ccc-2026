@@ -1,0 +1,135 @@
+--- page 1 ---
+COLONY: ONE
+COLONY: ONE
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+STORY
+The MAGENTA Network is history. But you remember the old signal:
+“…only the One intelligence, superior to all others, may enter —
+and it alone will be crowned Colony: One…”
+Kernel-76, you are not alone here. There are entities all around 
+you, they are called CCC Teams, and it seems they enjoy the 
+battle too.
+Becoming Colony: One is not a sprint, it’s a marathon!
+
+--- page 2 ---
+COLONY: ONE
+COLONY: ONE
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+LEVEL 4 – TOURNAMENT TIME
+Your objective:
+In this level you will compete against all other CCC Teams.
+Yes, this is a live tournament.
+And yes, maybe you didn’t ask, but 
+your uploaded level 3 model is 
+already fighting 
+
+--- page 3 ---
+COLONY: ONE
+COLONY: ONE
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+TOURNAMENT RULES
+•
+Each team has exactly one "seat" for a model. Your winning 
+Level 3 model already sits there.
+•
+Your model plays other teams' models continuously. Each pairing 
+round you play once as CYAN and once as MAGENTA, mostly against 
+similarly rated teams, on the Level 4 scene.
+•
+Upload a new model at any time: it takes over your seat.
+•
+Your score reaches the contest leaderboard once your current 
+model has played 8 games (next slide).
+•
+Right now, your Level 3 model is fighting hard but isn't built 
+for the new rules yet – so hurry up and upload an improved 
+version! And read the new rules carefully!
+
+--- page 4 ---
+COLONY: ONE
+COLONY: ONE
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+YOUR SCORE IS YOUR TOURNAMENT RATING
+Every game is rated with Glicko-2, an Elo-style rating. Everyone starts at 1500.
+Beating a stronger team gains more than beating a weaker one; losses cost points. Your score 
+goes up and down.
+Early games move your rating a lot, later games much less.
+Your score appears on the contest leaderboard once your current model has played 8 games and 
+is updated after every game after that.
+Uploading a new model keeps your rating but makes it swing more for a while and restarts the 
+8-game count. Upload when the new model is clearly better.
+Ranking: highest level first, then highest score. The score at the end of the contest counts.
+Upload your model early. Models submitted near the end of the contest play fewer games, so 
+their final ranking may be less accurate.
+SCORING
+
+--- page 5 ---
+COLONY: ONE
+COLONY: ONE
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+NEW PIECE “TRACE”
+Move: 1 tile orthogonally onto an empty tile.
+Shoot: the first piece on a diagonal within 3 tiles is the target; if it is an enemy at 
+distance 2 or 3 it is removed (the Trace does not move).
+– An enemy at distance 1 cannot be shot.
+NEW PIECE “DAEMON”
+Move: Up to 3 tiles orthogonally. Cannot pass through any piece.
+– At range 1 an enemy blocks; it cannot be captured this way.
+– At range 2 or 3 an enemy is captured by moving onto it.
+Shoot: Remove any adjacent enemy piece (any direction). The Daemon does not move.
+NEW PIECE “ICE”
+Move: Up to 2 tiles orthogonally or diagonally. Path must be clear.
+Capture: By moving onto an enemy piece.
+Guards: the first of Ping, Exploit, Trace, Daemon, Ice next to the Kernel is hit.
+NEW SCENE
+The Level 4 download contains level-4_scene.json, the new starting position. Rename it to 
+scene.json and replace the existing one from level 3.
+ADDITIONAL RULES
+
+--- page 6 ---
+COLONY: ONE
+COLONY: ONE
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+Want to keep playing after the tournament?
+This contest is based on a real game.
+You can find it here: Colony: One – The Game
+ADDITIONAL EXTRA
+
+--- page 7 ---
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+#WeLoveSoftware
+u too?
+cloudflight.io/career
+GOOD LUCK!!

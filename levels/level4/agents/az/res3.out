@@ -1,0 +1,4 @@
+14:28:37 res resumed levels/level4/agents/az/ckpt_res/az_res_v7.pt buf 113237 best ('C:\\Users\\melis\\Downloads\\cloudflight-coding-contest\\levels\\level4\\models\\az_res_v4.onnx', 0.7166666666666667)
+14:34:43 res gen v8: selfplay+mix 500 games 20414 samples cyan_won 0.46 len 40.8 cpu/game 1.97 366s buf 101813
+14:34:48 res gen v8: train 159 steps lpol 2.151 lval 0.352
+14:35:23 res v8 eval: HAND_V2 42/60=70% [57%,80%] C67%/M73% 1.5s | stopgap - | seat - 

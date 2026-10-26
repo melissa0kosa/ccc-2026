@@ -1,0 +1,8 @@
+15780 a3 MAG played E7->F5 temp 1.0: sampled 1/60 (2%), mean visit share 0.017 | no-noise c100 H6->H5 Q100=+0.49, played N=0 Q100=+nan
+15780 a4 MAG played F8->D8 temp 1.0: sampled 0/60 (0%), mean visit share 0.010 | no-noise c100 G5->G6 Q100=+0.23, played N=1 Q100=-0.56
+16438 a4 MAG played F8->D8 temp 1.0: sampled 1/60 (2%), mean visit share 0.010 | no-noise c100 E7->F5 Q100=+0.02, played N=1 Q100=-0.56
+16003 a2 CYA played F1->G3 temp 1.0: sampled 0/60 (0%), mean visit share 0.018 | no-noise c100 B4->B3 Q100=-0.10, played N=2 Q100=-0.23
+16211 a3 MAG played F8->F5 temp 1.0: sampled 1/60 (2%), mean visit share 0.053 | no-noise c100 F8->F7 Q100=-0.14, played N=6 Q100=-0.16
+16211 a4 MAG played G7->F6 temp 1.0: sampled 2/60 (3%), mean visit share 0.030 | no-noise c100 F5->F7 Q100=-0.14, played N=3 Q100=-0.24
+14956 a5 CYA played B3->C3 temp 0.5: sampled 0/60 (0%), mean visit share 0.046 | no-noise c100 B3->B4 Q100=+0.49, played N=5 Q100=+0.03
+14998 a4 MAG played H8->H7 temp 1.0: sampled 1/60 (2%), mean visit share 0.020 | no-noise c100 F6->F7 Q100=+0.03, played N=2 Q100=-0.12

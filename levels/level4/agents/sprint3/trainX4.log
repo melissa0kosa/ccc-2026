@@ -1,0 +1,16 @@
+16:32:11 s3: labels new 17948 (+2761 prior v2-labelled w0.5), held-out 725 from ['lab_32027.pkl']
+16:32:15 s3: replay 125529 positions
+16:32:16 s3: train mismatch frac 0.291 (weight x3.0), target pow 4.0, mode distill
+16:32:16 s3: trainable params 70257
+16:32:18 s3: ckpt vs v6.onnx parity max|dp| 1.01e-03 max|dv| 1.13e-06
+16:32:18 s3: BEFORE held-out CE 1.036 top1 0.746
+16:32:19 s3 step 0: lpol_lab 1.437 lpol_rep 2.111 lval(distill) 0.0015 | held CE 1.035 top1 0.748 max|dv| 0.023
+16:32:23 s3 step 200: lpol_lab 1.385 lpol_rep 1.968 lval(distill) 0.0027 | held CE 0.930 top1 0.760 max|dv| 0.197
+16:32:27 s3 step 400: lpol_lab 1.282 lpol_rep 2.031 lval(distill) 0.0024 | held CE 0.842 top1 0.810 max|dv| 0.220
+16:32:31 s3 step 600: lpol_lab 1.181 lpol_rep 2.082 lval(distill) 0.0024 | held CE 0.818 top1 0.815 max|dv| 0.330
+16:32:34 s3 step 800: lpol_lab 1.239 lpol_rep 2.071 lval(distill) 0.0024 | held CE 0.801 top1 0.818 max|dv| 0.198
+16:32:38 s3 step 1000: lpol_lab 1.226 lpol_rep 2.049 lval(distill) 0.0025 | held CE 0.797 top1 0.833 max|dv| 0.248
+16:32:41 s3 step 1199: lpol_lab 1.119 lpol_rep 2.097 lval(distill) 0.0024 | held CE 0.796 top1 0.833 max|dv| 0.254
+16:32:41 s3: trained 1200 steps in 23s, SWA 10
+16:32:42 s3: AFTER (SWA) held-out CE 1.036->0.796 top1(800-best) 0.746->0.817 max|dv| vs v6 0.297
+16:32:42 s3: exported levels\level4\models\az_res4f_x4.onnx graph (278, 321)

@@ -1,0 +1,21 @@
+300 games, 2 workers -> levels\level4\gate\games12.jsonl
+20/300 39s
+40/300 84s
+60/300 121s
+80/300 160s
+100/300 199s
+120/300 232s
+140/300 267s
+160/300 296s
+180/300 324s
+200/300 353s
+220/300 376s
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=4296, pipe_handle=648)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\melis\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\multiprocessing\spawn.py", line 108, in spawn_main
+    source_process = _winapi.OpenProcess(
+        _winapi.SYNCHRONIZE | _winapi.PROCESS_DUP_HANDLE,
+        False, parent_pid)
+OSError: [WinError 87] The parameter is incorrect

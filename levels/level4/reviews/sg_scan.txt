@@ -1,0 +1,207 @@
+5640 a 3 MAG r1 al2 TR H6->H5   Qp=-0.07(n  1) best F8->F5   Qb=+0.54(n211) root=+0.44 vSG=-0.06 vHV=+0.03  <<<
+5640 a 4 MAG r1 al1 PI G5->F5   Qp=-0.44(n 16) best G5->G4   Qb=-0.33(n 94) root=-0.39 vSG=-0.06 vHV=-0.07
+5640 a 7 MAG r2 al2 PI F5->F6   Qp=+0.30(n 76) best E7->C6   Qb=+0.29(n 93) root=+0.25 vSG=+0.29 vHV=+0.14
+5640 a 8 MAG r2 al1 PI F6->D4   Qp=+0.16(n187) best F6->D4   Qb=+0.16(n187) root=+0.11 vSG=+0.39 vHV=+0.10
+5640 a11 MAG r3 al2 EX E7->F5   Qp=-0.03(n 78) best E7->F5   Qb=-0.03(n 78) root=-0.09 vSG=-0.57 vHV=+0.04
+5640 a12 MAG r3 al1 EX F5->D4   Qp=-0.26(n248) best F5->D4   Qb=-0.26(n248) root=-0.25 vSG=-0.18 vHV=+0.08
+5640 a15 MAG r4 al2 IC G7->F6   Qp=+1.00(n167) best G7->E5   Qb=+1.00(n217) root=+0.95 vSG=-0.02 vHV=+0.96
+5640 a16 MAG r4 al1 IC F6->D4   Qp=+1.00(n400) best F6->D4   Qb=+1.00(n400) root=+1.00 vSG=+0.67 vHV=+0.97
+5590 a 3 MAG r1 al2 DE F8->F7   Qp=-0.02(n  9) best E7->F5   Qb=+0.13(n108) root=+0.05 vSG=+0.00 vHV=+0.03
+5590 a 4 MAG r1 al1 IC G7->F8   Qp=-0.22(n  5) best H8->G8   Qb=-0.04(n 59) root=-0.12 vSG=+0.00 vHV=-0.02
+5590 a 7 MAG r2 al2 DE F7->F4   Qp=-0.02(n 94) best F7->F4   Qb=-0.02(n 94) root=-0.10 vSG=-0.48 vHV=-0.22
+5590 a 8 MAG r2 al1 KE H8->G7   Qp=-0.13(n  2) best F4->E5   Qb=+0.28(n356) root=+0.18 vSG=-0.05 vHV=-0.44  <<<
+5590 a11 MAG r3 al2 DE F4->E5   Qp=+0.51(n182) best F4->E5   Qb=+0.51(n182) root=+0.53 vSG=+0.86 vHV=+0.44
+5590 a12 MAG r3 al1 EX E7->D5   Qp=+0.53(n121) best E7->D5   Qb=+0.53(n121) root=+0.49 vSG=+0.94 vHV=+0.46
+5590 a15 MAG r4 al2 IC F8->D6   Qp=+0.54(n 46) best F8->D6   Qb=+0.54(n 46) root=+0.46 vSG=+0.36 vHV=+0.44
+5590 a16 MAG r4 al1 IC D6->D5   Qp=+0.50(n377) best D6->D5   Qb=+0.50(n377) root=+0.50 vSG=+0.51 vHV=+0.53
+5590 a19 MAG r5 al2 IC D5->D3   Qp=+0.77(n 17) best D5->C4   Qb=+0.87(n 95) root=+0.86 vSG=+0.91 vHV=+0.76
+5590 a20 MAG r5 al1 IC D3->C3   Qp=+0.77(n259) best D3->C3   Qb=+0.77(n259) root=+0.79 vSG=+0.98 vHV=+0.83
+5590 a23 MAG r6 al2 IC D3->C2   Qp=+1.00(n400) best D3->C2   Qb=+1.00(n400) root=+1.00 vSG=+1.00 vHV=+1.00
+5530 a 1 CYA r1 al2 PI B4->C4   Qp=-0.10(n  5) best D2->E4   Qb=+0.15(n154) root=+0.08 vSG=+0.00 vHV=+0.03
+5530 a 2 CYA r1 al1 EX D2->F1   Qp=-0.01(n  6) best A3->B3   Qb=+0.10(n 41) root=+0.04 vSG=+0.00 vHV=-0.10
+5530 a 5 CYA r2 al2 PI C4->C5   Qp=-0.14(n 21) best C1->C2   Qb=-0.07(n 36) root=-0.14 vSG=+0.00 vHV=-0.03
+5530 a 6 CYA r2 al1 PI C5->E7   Qp=-0.08(n 52) best F1->E3   Qb=+0.03(n 54) root=-0.03 vSG=+0.19 vHV=-0.19
+5530 a 9 CYA r3 al2 KE A1->A2   Qp=-0.11(n 11) best C1->C2   Qb=-0.01(n 48) root=-0.10 vSG=+0.24 vHV=+0.04
+5530 a10 CYA r3 al1 KE A2->B3   Qp=-0.22(n  6) best F1->E3   Qb=-0.08(n 36) root=-0.11 vSG=+0.24 vHV=-0.04
+5530 a13 CYA r4 al2 KE B3->C2   Qp=-0.60(n 46) best C1->C4   Qb=-0.28(n171) root=-0.53 vSG=-0.04 vHV=-0.42
+5530 a14 CYA r4 al1 EX F1->E3   Qp=-0.48(n 34) best F1->D2   Qb=-0.41(n124) root=-0.49 vSG=+0.32 vHV=-0.56
+5530 a17 CYA r5 al2 DE C1->B2   Qp=-0.57(n 99) best C2->B2   Qb=-0.42(n213) root=-0.52 vSG=-0.66 vHV=-0.44
+5530 a18 CYA r5 al1 EX E3->G4   Qp=-0.69(n  8) best C2->D2   Qb=-0.44(n148) root=-0.54 vSG=-0.34 vHV=-0.35
+5530 a21 CYA r6 al2 KE C2->B3   Qp=-0.74(n 24) best C2->B2   Qb=-0.69(n231) root=-0.75 vSG=-0.66 vHV=-0.64
+5530 a22 CYA r6 al1 DE C1->C3   Qp=-0.73(n 46) best C1->C3   Qb=-0.73(n 46) root=-0.74 vSG=-0.81 vHV=-0.73
+5530 a25 CYA r7 al2 DE C3->C4   Qp=-0.74(n 14) best C3->D3   Qb=-0.45(n226) root=-0.59 vSG=-0.54 vHV=-0.40
+5530 a26 CYA r7 al1 DE C4->E4   Qp=-0.77(n142) best C4->E4   Qb=-0.77(n142) root=-0.67 vSG=-0.41 vHV=-0.29
+5530 a29 CYA r8 al2 KE B3->B2   Qp=-0.78(n 27) best B3->C4   Qb=-0.64(n133) root=-0.66 vSG=-0.98 vHV=-0.57
+5530 a30 CYA r8 al1 KE B2->C3   Qp=-0.82(n234) best B2->C3   Qb=-0.82(n234) root=-0.85 vSG=-0.98 vHV=-0.63
+5530 a33 CYA r9 al2 KE C3->D4   Qp=+1.00(n389) best C3->D4   Qb=+1.00(n389) root=+0.95 vSG=-0.75 vHV=-0.82
+5530 a34 CYA r9 al1 KE D4->E4   Qp=+1.00(n400) best D4->E4   Qb=+1.00(n400) root=+1.00 vSG=-0.82 vHV=-0.48
+5471 a 1 CYA r1 al2 KE A1->B1   Qp=-0.07(n  3) best D2->E4   Qb=+0.15(n154) root=+0.08 vSG=+0.00 vHV=+0.03
+5471 a 2 CYA r1 al1 EX D2->F3   Qp=-0.09(n  8) best B1->C2   Qb=+0.13(n 57) root=+0.05 vSG=+0.00 vHV=-0.05
+5471 a 5 CYA r2 al2 KE B1->C2   Qp=-0.42(n 12) best C1->C3   Qb=-0.29(n155) root=-0.37 vSG=-0.55 vHV=-0.34
+5471 a 6 CYA r2 al1 PI B4->C4   Qp=-0.28(n 63) best B4->C4   Qb=-0.28(n 63) root=-0.38 vSG=-0.17 vHV=-0.37
+5471 a 9 CYA r3 al2 TR A3->D6   Qp=+0.05(n172) best A3->D6   Qb=+0.05(n172) root=+0.02 vSG=+0.15 vHV=+0.03
+5471 a10 CYA r3 al1 PI C4->B4   Qp=+0.15(n 48) best A3->B3   Qb=+0.18(n 68) root=+0.11 vSG=+0.57 vHV=+0.10
+5471 a13 CYA r4 al2 PI B4->B6   Qp=+0.04(n 22) best C1->F1   Qb=+0.12(n 91) root=+0.07 vSG=+0.83 vHV=+0.17
+5471 a14 CYA r4 al1 PI B6->B7   Qp=+0.07(n 12) best B6->D6   Qb=+0.14(n103) root=+0.08 vSG=+0.83 vHV=+0.06
+5471 a17 CYA r5 al2 PI B7->D7   Qp=+0.19(n166) best B7->D7   Qb=+0.19(n166) root=+0.11 vSG=+0.88 vHV=+0.11
+5471 a18 CYA r5 al1 PI D7->F5   Qp=+0.04(n332) best D7->F5   Qb=+0.04(n332) root=+0.03 vSG=+0.94 vHV=+0.20
+5471 a21 CYA r6 al2 TR A3->B3   Qp=+0.02(n 62) best C1->F1   Qb=+0.03(n115) root=-0.04 vSG=+0.98 vHV=+0.09
+5471 a22 CYA r6 al1 KE C2->C3   Qp=-0.04(n 38) best B3->B4   Qb=+0.04(n181) root=-0.04 vSG=+0.98 vHV=+0.19
+5471 a25 CYA r7 al2 TR B3->B4   Qp=-0.16(n  4) best C1->F1   Qb=+0.24(n141) root=+0.20 vSG=+0.99 vHV=+0.24
+5471 a26 CYA r7 al1 TR B4->C4   Qp=-0.18(n  9) best C1->C2   Qb=+0.14(n159) root=+0.05 vSG=+0.99 vHV=+0.15
+5471 a29 CYA r8 al2 KE C3->D4   Qp=+0.01(n  1) best C1->F1   Qb=+0.70(n301) root=+0.59 vSG=+0.99 vHV=+0.15  <<<
+5471 a30 CYA r8 al1 TR C4->C5   Qp=-0.44(n  1) best C1->C3   Qb=+0.58(n311) root=+0.54 vSG=+0.99 vHV=+0.01  <<<
+5471 a33 CYA r9 al2 KE D4->E4   Qp=-0.71(n 30) best D4->C3   Qb=-0.69(n120) root=-0.73 vSG=-0.02 vHV=-0.60
+5471 a34 CYA r9 al1 KE E4->F5   Qp=-0.93(n330) best E4->F5   Qb=-0.93(n330) root=-0.93 vSG=-0.47 vHV=-0.49
+5450 a 3 MAG r1 al2 PI G5->F5   Qp=+0.40(n 38) best H6->G6   Qb=+0.62(n330) root=+0.54 vSG=+0.00 vHV=+0.01
+5450 a 4 MAG r1 al1 PI F5->D3   Qp=+0.59(n393) best F5->D3   Qb=+0.59(n393) root=+0.58 vSG=+0.33 vHV=+0.27
+5450 a 7 MAG r2 al2 PI D3->B3   Qp=+0.66(n133) best D3->B3   Qb=+0.66(n133) root=+0.57 vSG=+0.81 vHV=+0.53
+5450 a 8 MAG r2 al1 PI B3->A2   Qp=+0.66(n391) best B3->A2   Qb=+0.66(n391) root=+0.66 vSG=+0.95 vHV=+0.63
+5450 a11 MAG r3 al2 KE H8->H7   Qp=+0.47(n  4) best E7->F5   Qb=+0.62(n 97) root=+0.58 vSG=+0.69 vHV=+0.59
+5450 a12 MAG r3 al1 KE H7->G6   Qp=+0.59(n 31) best F8->F7   Qb=+0.61(n 52) root=+0.54 vSG=+0.69 vHV=+0.53
+5450 a15 MAG r4 al2 IC G7->E5   Qp=+0.26(n 65) best F8->F5   Qb=+0.51(n286) root=+0.40 vSG=+0.51 vHV=+0.07
+5450 a16 MAG r4 al1 IC E5->D4   Qp=+0.49(n288) best E5->D4   Qb=+0.49(n288) root=+0.42 vSG=+0.74 vHV=-0.09
+5450 a19 MAG r5 al2 DE F8->F5   Qp=+0.83(n  9) best G6->F5   Qb=+0.73(n250) root=+0.64 vSG=-0.12 vHV=+0.66
+5450 a20 MAG r5 al1 DE F5->E4   Qp=+0.84(n396) best F5->E4   Qb=+0.84(n396) root=+0.82 vSG=+0.59 vHV=+0.78
+5450 a23 MAG r6 al2 DE F5->F6   Qp=+0.80(n  7) best F5->D5   Qb=+1.00(n131) root=+0.95 vSG=+0.97 vHV=+1.00
+5450 a24 MAG r6 al1 DE F6->F5   Qp=+0.95(n 51) best F6->F5   Qb=+0.95(n 51) root=+0.90 vSG=+0.97 vHV=+0.81
+5450 a27 MAG r7 al2 DE F5->F6   Qp=+0.80(n  7) best F5->D5   Qb=+1.00(n130) root=+0.95 vSG=+0.97 vHV=+1.00
+5450 a28 MAG r7 al1 DE F6->F5   Qp=+0.95(n 49) best E7->F5   Qb=+0.95(n 50) root=+0.90 vSG=+0.97 vHV=+0.81
+5450 a31 MAG r8 al2 DE F5->F6   Qp=+0.98(n 32) best F5->C5   Qb=+0.98(n 35) root=+0.97 vSG=+0.97 vHV=+0.83
+5450 a32 MAG r8 al1 DE F6->F7   Qp=+0.99(n 25) best E7->D5   Qb=+0.98(n 35) root=+0.99 vSG=+0.97 vHV=+0.80
+5450 a35 MAG r9 al2 KE G6->F6   Qp=+0.98(n 38) best E7->C6   Qb=+0.98(n 45) root=+0.97 vSG=+0.97 vHV=+0.98
+5450 a36 MAG r9 al1 EX E7->D5   Qp=+0.98(n 51) best E7->D5   Qb=+0.98(n 51) root=+0.98 vSG=+0.98 vHV=+0.98
+5450 a39 MAG r10 al2 EX D5->F4   Qp=+0.98(n 34) best D5->C3   Qb=+0.99(n 45) root=+0.96 vSG=+0.99 vHV=+0.98
+5450 a40 MAG r10 al1 EX F4->D5   Qp=+0.98(n 33) best F4->D5   Qb=+0.98(n 33) root=+0.99 vSG=+0.99 vHV=+0.98
+5450 a43 MAG r11 al2 EX D5->F4   Qp=+0.93(n 20) best D5->E3   Qb=+0.97(n 45) root=+0.95 vSG=+0.99 vHV=+0.98
+5450 a44 MAG r11 al1 EX F4->D5   Qp=+0.99(n 38) best F4->D5   Qb=+0.99(n 38) root=+0.98 vSG=+0.99 vHV=+0.98
+5450 a47 MAG r12 al2 EX D5->F4   Qp=+0.93(n 20) best D5->E3   Qb=+0.97(n 46) root=+0.95 vSG=+0.99 vHV=+0.98
+5450 a48 MAG r12 al1 EX F4->D5   Qp=+0.99(n 38) best F4->D5   Qb=+0.99(n 38) root=+0.98 vSG=+0.99 vHV=+0.98
+5450 a51 MAG r13 al2 EX D5->C3   Qp=+1.00(n 45) best D5->E3   Qb=+0.99(n 46) root=+0.97 vSG=+1.00 vHV=+1.00
+5450 a52 MAG r13 al1 EX C3->E2   Qp=+1.00(n400) best C3->E2   Qb=+1.00(n400) root=+1.00 vSG=+1.00 vHV=+1.00
+5258 a 1 CYA r1 al2 TR A3->A2   Qp=-0.07(n  3) best D2->E4   Qb=+0.15(n154) root=+0.08 vSG=+0.00 vHV=+0.03
+5258 a 2 CYA r1 al1 EX D2->F1   Qp=+0.03(n  9) best C1->C2   Qb=+0.13(n 49) root=+0.05 vSG=+0.00 vHV=-0.05
+5258 a 5 CYA r2 al2 IC B2->B3   Qp=-0.09(n  9) best B4->D4   Qb=+0.05(n 76) root=-0.02 vSG=+0.00 vHV=+0.05
+5258 a 6 CYA r2 al1 KE A1->B2   Qp=+0.02(n 57) best F1->D2   Qb=+0.02(n 65) root=-0.03 vSG=+0.00 vHV=-0.05
+5258 a 9 CYA r3 al2 KE B2->B3   Qp=+0.19(n189) best B2->B3   Qb=+0.19(n189) root=+0.09 vSG=-0.54 vHV=+0.14
+5258 a10 CYA r3 al1 PI B4->B6   Qp=+0.11(n  7) best C1->C2   Qb=+0.30(n 65) root=+0.22 vSG=-0.23 vHV=+0.13
+5258 a13 CYA r4 al2 PI B6->B4   Qp=-0.09(n 18) best C1->C4   Qb=-0.00(n 57) root=-0.11 vSG=-0.04 vHV=-0.06
+5258 a14 CYA r4 al1 KE B3->C3   Qp=-0.20(n  3) best C1->C4   Qb=+0.17(n123) root=+0.09 vSG=-0.04 vHV=-0.11
+5258 a17 CYA r5 al2 TR A2->D5   Qp=-0.07(n164) best A2->D5   Qb=-0.07(n164) root=-0.21 vSG=-0.73 vHV=-0.20
+5258 a18 CYA r5 al1 KE C3->C2   Qp=-0.07(n 27) best F1->D2   Qb=-0.03(n143) root=-0.09 vSG=+0.13 vHV=-0.43
+5258 a21 CYA r6 al2 TR A2->B2   Qp=+0.16(n345) best A2->B2   Qb=+0.16(n345) root=+0.09 vSG=-0.55 vHV=-0.28
+5258 a22 CYA r6 al1 TR B2->E5   Qp=+0.16(n394) best B2->E5   Qb=+0.16(n394) root=+0.15 vSG=-0.24 vHV=+0.07
+5258 a25 CYA r7 al2 EX F1->E3   Qp=+0.03(n 22) best C2->B3   Qb=+0.20(n145) root=+0.10 vSG=+0.49 vHV=+0.06
+5258 a26 CYA r7 al1 EX E3->D5   Qp=-0.09(n 14) best C2->D2   Qb=+0.05(n 48) root=+0.01 vSG=+0.49 vHV=+0.10
+5258 a29 CYA r8 al2 TR B2->B3   Qp=+1.00(n386) best B2->B3   Qb=+1.00(n386) root=+0.95 vSG=+0.18 vHV=+0.89
+5258 a30 CYA r8 al1 TR B3->D5   Qp=+1.00(n400) best B3->D5   Qb=+1.00(n400) root=+1.00 vSG=+0.83 vHV=+0.96
+5236 a 3 MAG r1 al2 DE F8->D8   Qp=-0.07(n  1) best E7->D5   Qb=+0.48(n190) root=+0.42 vSG=+0.00 vHV=+0.06  <<<
+5236 a 4 MAG r1 al1 KE H8->G8   Qp=+0.04(n 10) best D8->F8   Qb=+0.10(n 36) root=+0.04 vSG=+0.00 vHV=-0.07
+5236 a 7 MAG r2 al2 EX E7->C6   Qp=+0.13(n  5) best D8->D5   Qb=+0.51(n308) root=+0.43 vSG=+0.34 vHV=+0.17
+5236 a 8 MAG r2 al1 EX C6->D4   Qp=+0.19(n237) best C6->D4   Qb=+0.19(n237) root=+0.20 vSG=+0.68 vHV=+0.01
+5236 a11 MAG r3 al2 DE D8->D5   Qp=+0.41(n 77) best D8->D5   Qb=+0.41(n 77) root=+0.31 vSG=+0.59 vHV=+0.40
+5236 a12 MAG r3 al1 DE D5->F5   Qp=+0.53(n378) best D5->F5   Qb=+0.53(n378) root=+0.48 vSG=+0.70 vHV=+0.55
+5236 a15 MAG r4 al2 PI G5->G6   Qp=+0.48(n 60) best G7->H7   Qb=+0.48(n 88) root=+0.44 vSG=+0.40 vHV=+0.07
+5236 a16 MAG r4 al1 PI G6->F5   Qp=+0.33(n395) best G6->F5   Qb=+0.33(n395) root=+0.32 vSG=+0.64 vHV=+0.36
+5236 a19 MAG r5 al2 KE G8->F7   Qp=+0.30(n 12) best F5->E5   Qb=+0.49(n284) root=+0.41 vSG=+0.14 vHV=+0.30
+5236 a20 MAG r5 al1 IC G7->G6   Qp=+0.46(n 13) best H6->G6   Qb=+0.65(n193) root=+0.53 vSG=+0.82 vHV=+0.32
+5236 a23 MAG r6 al2 IC G6->G7   Qp=+0.60(n  2) best F5->E5   Qb=+1.00(n370) root=+0.95 vSG=+0.81 vHV=+0.99
+5236 a24 MAG r6 al1 KE F7->G6   Qp=+0.41(n305) best F7->G6   Qb=+0.41(n305) root=+0.32 vSG=+0.81 vHV=+0.58
+5236 a27 MAG r7 al2 PI F5->E5   Qp=+1.00(n362) best F5->E5   Qb=+1.00(n362) root=+0.94 vSG=+0.26 vHV=+0.99
+5236 a28 MAG r7 al1 PI E5->C3   Qp=+1.00(n400) best E5->C3   Qb=+1.00(n400) root=+1.00 vSG=+0.84 vHV=+1.00
+5111 a 3 MAG r1 al2 EX E7->D5   Qp=+0.13(n154) best E7->D5   Qb=+0.13(n154) root=+0.07 vSG=+0.00 vHV=+0.02
+5111 a 4 MAG r1 al1 IC G7->H7   Qp=-0.46(n  1) best D5->C3   Qb=+0.09(n367) root=+0.06 vSG=+0.24 vHV=+0.04  <<<
+5111 a 7 MAG r2 al2 PI G5->E5   Qp=-0.57(n 26) best F8->F5   Qb=-0.48(n 68) root=-0.58 vSG=-0.55 vHV=-0.48
+5111 a 8 MAG r2 al1 PI E5->C3   Qp=-0.41(n378) best E5->C3   Qb=-0.41(n378) root=-0.43 vSG=-0.33 vHV=-0.38
+5111 a11 MAG r3 al2 KE H8->G7   Qp=-0.52(n 20) best F8->F7   Qb=-0.44(n 76) root=-0.48 vSG=+0.44 vHV=-0.40
+5111 a12 MAG r3 al1 IC H7->G6   Qp=-0.46(n 22) best F8->G8   Qb=-0.37(n 87) root=-0.44 vSG=+0.81 vHV=-0.39
+5111 a15 MAG r4 al2 KE G7->G6   Qp=-0.41(n270) best G7->G6   Qb=-0.41(n270) root=-0.45 vSG=+0.08 vHV=-0.35
+5111 a16 MAG r4 al1 DE F8->F5   Qp=-0.47(n 29) best G6->G7   Qb=-0.38(n130) root=-0.43 vSG=+0.59 vHV=-0.30
+5111 a19 MAG r5 al2 DE F5->F3   Qp=-0.28(n 17) best F5->F4   Qb=-0.14(n111) root=-0.21 vSG=+0.70 vHV=-0.04
+5111 a20 MAG r5 al1 DE F3->C3   Qp=-0.42(n103) best F3->C3   Qb=-0.42(n103) root=-0.29 vSG=+0.85 vHV=-0.22
+5111 a23 MAG r6 al2 KE G6->G5   Qp=-0.65(n 11) best G6->G7   Qb=-0.43(n 98) root=-0.43 vSG=+0.83 vHV=-0.28
+5111 a24 MAG r6 al1 KE G5->G6   Qp=-0.50(n 64) best G5->G4   Qb=-0.48(n 71) root=-0.52 vSG=+0.83 vHV=-0.35
+5111 a27 MAG r7 al2 KE G6->F5   Qp=-0.65(n 27) best G6->G5   Qb=-0.58(n150) root=-0.62 vSG=-0.36 vHV=-0.56
+5111 a28 MAG r7 al1 TR H6->G6   Qp=-0.52(n228) best H6->G6   Qb=-0.52(n228) root=-0.59 vSG=-0.57 vHV=-0.74
+5111 a31 MAG r8 al2 TR G6->F6   Qp=+0.12(n351) best G6->F6   Qb=+0.12(n351) root=+0.02 vSG=-0.36 vHV=-0.36
+5111 a32 MAG r8 al1 TR F6->D4   Qp=+0.15(n386) best F6->D4   Qb=+0.15(n386) root=+0.11 vSG=+0.36 vHV=-0.28
+5111 a35 MAG r9 al2 TR F6->E6   Qp=+0.79(n368) best F6->E6   Qb=+0.79(n368) root=+0.73 vSG=+0.34 vHV=+0.30
+5111 a36 MAG r9 al1 TR E6->B3   Qp=+0.81(n393) best E6->B3   Qb=+0.81(n393) root=+0.80 vSG=+0.43 vHV=+0.78
+5111 a39 MAG r10 al2 TR E6->E7   Qp=+1.00(n168) best E6->E7   Qb=+1.00(n168) root=+0.94 vSG=+0.80 vHV=+1.00
+5111 a40 MAG r10 al1 TR E7->C5   Qp=+1.00(n400) best E7->C5   Qb=+1.00(n400) root=+1.00 vSG=+0.94 vHV=+1.00
+5079 a 1 CYA r1 al2 DE C1->F1   Qp=-0.14(n  3) best D2->E4   Qb=+0.15(n154) root=+0.08 vSG=+0.00 vHV=+0.03
+5079 a 2 CYA r1 al1 EX D2->F3   Qp=+0.04(n 37) best D2->F3   Qb=+0.04(n 37) root=-0.00 vSG=+0.00 vHV=-0.11
+5079 a 5 CYA r2 al2 DE F1->F3   Qp=+0.05(n392) best F1->F3   Qb=+0.05(n392) root=+0.04 vSG=-0.43 vHV=-0.24
+5079 a 6 CYA r2 al1 IC B2->A2   Qp=-0.19(n  3) best F3->C3   Qb=+0.08(n 41) root=+0.04 vSG=+0.46 vHV=+0.08
+5079 a 9 CYA r3 al2 DE F3->F6   Qp=+0.49(n389) best F3->F6   Qb=+0.49(n389) root=+0.48 vSG=+0.70 vHV=+0.13
+5079 a10 CYA r3 al1 DE F6->H6   Qp=+0.53(n264) best F6->H6   Qb=+0.53(n264) root=+0.49 vSG=+0.96 vHV=+0.67
+5079 a13 CYA r4 al2 KE A1->B2   Qp=+0.64(n 41) best A2->B2   Qb=+0.65(n 68) root=+0.59 vSG=+0.88 vHV=+0.66
+5079 a14 CYA r4 al1 PI B4->B6   Qp=+0.62(n 16) best A2->B3   Qb=+0.76(n 67) root=+0.68 vSG=+0.98 vHV=+0.67
+5079 a17 CYA r5 al2 PI B6->B7   Qp=+0.72(n 29) best B6->D6   Qb=+0.81(n213) root=+0.73 vSG=+0.98 vHV=+0.68
+5079 a18 CYA r5 al1 PI B7->C7   Qp=+0.57(n 18) best A2->C4   Qb=+0.78(n140) root=+0.66 vSG=+0.98 vHV=+0.62
+5079 a21 CYA r6 al2 PI C7->B7   Qp=+0.70(n 95) best C7->B7   Qb=+0.70(n 95) root=+0.62 vSG=+0.99 vHV=+0.69
+5079 a22 CYA r6 al1 PI B7->C7   Qp=+0.59(n 18) best A2->C4   Qb=+0.78(n136) root=+0.67 vSG=+0.99 vHV=+0.64
+5079 a25 CYA r7 al2 PI C7->B7   Qp=+0.69(n 79) best C7->B7   Qb=+0.69(n 79) root=+0.62 vSG=+0.99 vHV=+0.68
+5079 a26 CYA r7 al1 PI B7->C7   Qp=+0.58(n 17) best A2->C4   Qb=+0.74(n130) root=+0.64 vSG=+0.99 vHV=+0.63
+5079 a29 CYA r8 al2 PI C7->B7   Qp=+0.52(n  5) best A2->C4   Qb=+0.93(n349) root=+0.87 vSG=+0.99 vHV=+0.50  <<<
+5079 a30 CYA r8 al1 PI B7->C7   Qp=-0.21(n  1) best A2->B3   Qb=+0.41(n189) root=+0.46 vSG=+0.99 vHV=+0.43  <<<
+5079 a33 CYA r9 al2 KE B2->C3   Qp=-0.48(n 10) best C7->C6   Qb=-0.10(n120) root=-0.14 vSG=-0.34 vHV=+0.03
+5079 a34 CYA r9 al1 PI C7->D7   Qp=-0.19(n 15) best C7->C6   Qb=-0.01(n210) root=-0.08 vSG=-0.08 vHV=-0.07
+5079 a37 CYA r10 al2 KE C3->C4   Qp=-0.60(n  4) best D7->D5   Qb=+0.14(n202) root=-0.10 vSG=+0.11 vHV=+0.01  <<<
+5079 a38 CYA r10 al1 PI D7->D5   Qp=-0.07(n327) best D7->D5   Qb=-0.07(n327) root=-0.13 vSG=+0.11 vHV=-0.24
+5079 a41 CYA r11 al2 KE C4->C5   Qp=-0.54(n  6) best C4->B5   Qb=+0.20(n255) root=-0.02 vSG=+0.57 vHV=+0.14  <<<
+5079 a42 CYA r11 al1 KE C5->C6   Qp=+0.17(n213) best C5->C6   Qb=+0.17(n213) root=+0.17 vSG=+0.57 vHV=+0.06
+5079 a45 CYA r12 al2 KE C6->D6   Qp=-0.43(n  6) best D5->D6   Qb=+0.20(n262) root=+0.03 vSG=+0.68 vHV=+0.15  <<<
+5079 a46 CYA r12 al1 KE D6->C6   Qp=+0.08(n258) best D6->C6   Qb=+0.08(n258) root=+0.04 vSG=+0.68 vHV=+0.07
+5079 a49 CYA r13 al2 KE C6->C5   Qp=-0.43(n  5) best D5->D6   Qb=+0.23(n257) root=+0.04 vSG=+0.77 vHV=+0.17  <<<
+5079 a50 CYA r13 al1 KE C5->C6   Qp=+0.21(n218) best C5->C6   Qb=+0.21(n218) root=+0.22 vSG=+0.77 vHV=+0.09
+5079 a53 CYA r14 al2 KE C6->D6   Qp=-0.23(n  5) best D5->D6   Qb=+0.24(n208) root=+0.12 vSG=+0.84 vHV=+0.25  <<<
+5079 a54 CYA r14 al1 KE D6->C6   Qp=+0.16(n253) best D6->C6   Qb=+0.16(n253) root=+0.11 vSG=+0.84 vHV=+0.16
+5079 a57 CYA r15 al2 KE C6->D6   Qp=-0.34(n  6) best D5->D4   Qb=+0.22(n157) root=+0.10 vSG=+0.88 vHV=+0.26  <<<
+5079 a58 CYA r15 al1 KE D6->C6   Qp=+0.14(n174) best D6->C6   Qb=+0.14(n174) root=+0.09 vSG=+0.88 vHV=+0.18
+5079 a61 CYA r16 al2 KE C6->D6   Qp=-0.35(n  6) best D5->D6   Qb=+0.34(n236) root=+0.19 vSG=+0.92 vHV=-0.02  <<<
+5079 a62 CYA r16 al1 KE D6->E6   Qp=+0.98(n369) best D6->E6   Qb=+0.98(n369) root=+0.89 vSG=+0.92 vHV=-0.11
+5079 a65 CYA r17 al2 KE E6->F6   Qp=+1.00(n400) best E6->F6   Qb=+1.00(n400) root=+1.00 vSG=+0.87 vHV=+1.00
+5066 a 3 MAG r1 al2 IC G7->F7   Qp=-0.09(n  3) best E7->D5   Qb=+0.21(n147) root=+0.16 vSG=+0.00 vHV=+0.09
+5066 a 4 MAG r1 al1 KE H8->G7   Qp=+0.22(n123) best H8->G7   Qb=+0.22(n123) root=+0.12 vSG=-0.34 vHV=-0.07
+5066 a 7 MAG r2 al2 EX E7->F5   Qp=+0.10(n  2) best E7->D5   Qb=+0.60(n267) root=+0.54 vSG=+0.43 vHV=+0.21  <<<
+5066 a 8 MAG r2 al1 EX F5->D4   Qp=-0.19(n  2) best H6->G6   Qb=+0.27(n 60) root=+0.21 vSG=+0.43 vHV=+0.10  <<<
+5066 a11 MAG r3 al2 IC F7->F8   Qp=-0.00(n 59) best G7->F8   Qb=+0.03(n156) root=-0.04 vSG=-0.74 vHV=+0.14
+5066 a12 MAG r3 al1 EX D4->E2   Qp=-0.19(n  6) best D4->E6   Qb=+0.10(n185) root=+0.02 vSG=-0.20 vHV=-0.01
+5066 a15 MAG r4 al2 PI G5->G4   Qp=-0.19(n 23) best F8->F6   Qb=-0.09(n 72) root=-0.19 vSG=-0.49 vHV=-0.22
+5066 a16 MAG r4 al1 PI G4->E2   Qp=-0.13(n376) best G4->E2   Qb=-0.13(n376) root=-0.15 vSG=-0.22 vHV=-0.03
+5066 a19 MAG r5 al2 PI E2->E3   Qp=+0.18(n 29) best E2->C2   Qb=+0.24(n105) root=+0.21 vSG=-0.18 vHV=+0.07
+5066 a20 MAG r5 al1 PI E3->C1   Qp=+0.24(n371) best E3->C1   Qb=+0.24(n371) root=+0.21 vSG=+0.21 vHV=+0.09
+5066 a23 MAG r6 al2 KE G7->G6   Qp=+0.16(n  8) best F8->E7   Qb=+0.40(n134) root=+0.34 vSG=+0.97 vHV=+0.17
+5066 a24 MAG r6 al1 IC F8->F6   Qp=+0.24(n108) best F8->G7   Qb=+0.21(n155) root=+0.17 vSG=+0.97 vHV=+0.04
+5066 a27 MAG r7 al2 IC F6->F4   Qp=+0.16(n 24) best F6->D4   Qb=+0.31(n273) root=+0.23 vSG=+0.55 vHV=-0.16
+5066 a28 MAG r7 al1 IC F4->G3   Qp=+0.10(n361) best F4->G3   Qb=+0.10(n361) root=+0.06 vSG=+0.67 vHV=-0.10
+5066 a31 MAG r8 al2 KE G6->F5   Qp=+0.78(n200) best G6->F5   Qb=+0.78(n200) root=+0.72 vSG=+0.82 vHV=-0.06
+5066 a32 MAG r8 al1 TR H6->G6   Qp=+0.82(n381) best H6->G6   Qb=+0.82(n381) root=+0.76 vSG=+0.72 vHV=-0.06
+5066 a35 MAG r9 al2 IC G3->F3   Qp=+0.71(n 13) best G6->F6   Qb=+0.94(n 88) root=+0.87 vSG=+0.85 vHV=+0.85
+5066 a36 MAG r9 al1 TR G6->F6   Qp=+0.91(n 44) best F3->E4   Qb=+0.94(n 58) root=+0.86 vSG=+0.85 vHV=+0.82
+5066 a39 MAG r10 al2 IC F3->E3   Qp=+0.98(n102) best F3->E3   Qb=+0.98(n102) root=+0.88 vSG=+0.85 vHV=+0.86
+5066 a40 MAG r10 al1 IC E3->C5   Qp=+0.98(n384) best E3->C5   Qb=+0.98(n384) root=+0.97 vSG=+0.96 vHV=+0.88
+5066 a43 MAG r11 al2 KE F5->E4   Qp=+1.00(n100) best F5->E4   Qb=+1.00(n100) root=+0.95 vSG=+0.80 vHV=+1.00
+5066 a44 MAG r11 al1 KE E4->E3   Qp=+1.00(n400) best E4->E3   Qb=+1.00(n400) root=+1.00 vSG=+0.84 vHV=+1.00
+5051 a 1 CYA r1 al2 EX D2->F3   Qp=+0.15(n141) best D2->E4   Qb=+0.15(n154) root=+0.08 vSG=+0.00 vHV=+0.03
+5051 a 2 CYA r1 al1 EX F3->H2   Qp=+0.03(n  5) best F3->G5   Qb=+0.17(n235) root=+0.09 vSG=+0.11 vHV=-0.07
+5051 a 5 CYA r2 al2 EX H2->G4   Qp=+0.26(n320) best H2->G4   Qb=+0.26(n320) root=+0.19 vSG=+0.00 vHV=+0.03
+5051 a 6 CYA r2 al1 EX G4->H6   Qp=+0.30(n364) best G4->H6   Qb=+0.30(n364) root=+0.25 vSG=+0.22 vHV=+0.18
+5051 a 9 CYA r3 al2 KE A1->A2   Qp=+0.31(n  6) best C1->C3   Qb=+0.44(n 97) root=+0.37 vSG=+0.12 vHV=+0.45
+5051 a10 CYA r3 al1 KE A2->B3   Qp=+0.48(n 39) best C1->C3   Qb=+0.47(n 68) root=+0.39 vSG=+0.12 vHV=+0.39
+5051 a13 CYA r4 al2 PI B4->B5   Qp=+0.26(n  5) best C1->C3   Qb=+0.49(n 94) root=+0.43 vSG=+0.74 vHV=+0.47
+5051 a14 CYA r4 al1 PI B5->B7   Qp=+0.35(n  7) best C1->C3   Qb=+0.55(n109) root=+0.47 vSG=+0.74 vHV=+0.37
+5051 a17 CYA r5 al2 KE B3->C3   Qp=-0.34(n  2) best B2->D4   Qb=+0.48(n125) root=+0.41 vSG=+0.82 vHV=+0.33  <<<
+5051 a18 CYA r5 al1 PI B7->B6   Qp=+0.36(n 12) best C1->C2   Qb=+0.41(n 45) root=+0.36 vSG=+0.84 vHV=+0.25
+5051 a21 CYA r6 al2 KE C3->C2   Qp=+0.08(n  9) best C1->F1   Qb=+0.77(n296) root=+0.56 vSG=+0.78 vHV=+0.45  <<<
+5051 a22 CYA r6 al1 PI B6->B7   Qp=+0.34(n 26) best A3->B3   Qb=+0.31(n 46) root=+0.28 vSG=+0.87 vHV=+0.28
+5051 a25 CYA r7 al2 IC B2->D4   Qp=+0.36(n 85) best B2->D4   Qb=+0.36(n 85) root=+0.31 vSG=+0.82 vHV=+0.47
+5051 a26 CYA r7 al1 IC D4->F2   Qp=+0.18(n340) best D4->F2   Qb=+0.18(n340) root=+0.15 vSG=+0.90 vHV=+0.64
+5051 a29 CYA r8 al2 IC F2->F4   Qp=-0.16(n  2) best C2->B2   Qb=+0.55(n200) root=+0.50 vSG=+0.63 vHV=+0.56  <<<
+5051 a30 CYA r8 al1 IC F4->E4   Qp=+0.75(n364) best F4->E4   Qb=+0.75(n364) root=+0.62 vSG=+0.69 vHV=+0.62
+5051 a33 CYA r9 al2 IC E4->E5   Qp=+0.88(n274) best E4->E5   Qb=+0.88(n274) root=+0.77 vSG=+0.02 vHV=+0.60
+5051 a34 CYA r9 al1 IC E5->G7   Qp=+0.88(n391) best E5->G7   Qb=+0.88(n391) root=+0.87 vSG=+0.65 vHV=+0.67
+5051 a37 CYA r10 al2 PI B7->C7   Qp=+1.00(n365) best B7->C7   Qb=+1.00(n365) root=+0.94 vSG=-0.17 vHV=+0.99
+5051 a38 CYA r10 al1 PI C7->E5   Qp=+1.00(n400) best C7->E5   Qb=+1.00(n400) root=+1.00 vSG=+0.68 vHV=+1.00
+secs 22.479814052581787

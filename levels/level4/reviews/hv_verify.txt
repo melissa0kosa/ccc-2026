@@ -1,0 +1,11 @@
+session create: 94 ms cpu, 96 ms wall
+live positions: 426
+batch 1: 0.51 ms cpu/call
+batch 8: 1.02 ms cpu/call
+value: finite=True min=-0.93732 max=+0.99955 |v|>0.9: 7.5% |v|>0.97: 6.1% mean|v|=0.40
+logits finite=True range [-4.79,10.30]
+prior top-1 percentiles 10/25/50/75/90: [0.052 0.066 0.115 0.295 0.842] top1<0.10: 46%  top1<0.2: 69%  top1>0.5: 17% median top-3 mass 0.29  median legal 21
+match 6815: 48 actions, own searches 24: cpu total 0.80s, mean 33 ms, max 47 ms, calls/search 13.5 -> 52 own actions ~ 1.7s (worst-search x52 = 2.4s)
+match 6585: 42 actions, own searches 22: cpu total 0.75s, mean 34 ms, max 47 ms, calls/search 13.0 -> 52 own actions ~ 1.8s (worst-search x52 = 2.4s)
+match 6032: 42 actions, own searches 20: cpu total 0.70s, mean 35 ms, max 47 ms, calls/search 14.2 -> 52 own actions ~ 1.8s (worst-search x52 = 2.4s)
+self-play both sides cpu/game: [1.31, 2.05, 1.12, 1.27] actions [39, 63, 31, 39]

@@ -1,0 +1,14 @@
+19:20:46 extra levels/level4/agents/gpu/data/gsp_rsv125_g1.pkl
+19:20:46 extra levels/level4/agents/gpu/data/gsp_rsv125_g2.pkl
+19:20:47 extra levels/level4/agents/gpu/data/gsp_rsv125_g3.pkl
+19:20:47 extra levels/level4/agents/gpu/data/gsp_rsv125_p256.pkl
+19:20:47 fresh games 1259 pos 48696
+19:20:49 N 427817 L 49 {'sp': 296256, 'end': 70983, 'teacher': 6114, 'oracle': 300, 'live': 5468, 'fresh': 48696} magenta 0.49
+19:20:53 step 0 lpol 1.703 lval 0.300 lr 1.00e-04 2s
+19:21:03 step 500 lpol 1.666 lval 0.322 lr 9.05e-05 12s
+19:21:13 step 1000 lpol 1.725 lval 0.360 lr 6.55e-05 22s
+19:21:23 step 1500 lpol 1.705 lval 0.330 lr 3.45e-05 32s
+19:21:33 step 2000 lpol 1.713 lval 0.377 lr 1.00e-05 42s
+19:21:43 trained 2500 steps in 51s SWA 10, peak mem 0.69 GB
+19:21:44 s2d.onnx graph (278, 321)
+19:21:49 validator ACCEPTED 

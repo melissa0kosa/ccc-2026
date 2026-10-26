@@ -1,0 +1,5 @@
+14:02:56 resumed levels/level4/agents/az/ckpt/az_v2.pt best ('levels/level4/models/az_v2.onnx', 0.28)
+14:02:57 loaded data, buffer 85655
+14:07:15 gen v3: selfplay+mix 550 games 20203 samples cyan_won 0.46 len 36.7 cpu/game 1.79 258s buf 105858
+14:07:24 gen v3: train 236 steps lpol 2.798 lval 0.669
+14:07:48 v3 eval: STOPGAP 17/60=28% [19%,41%] C27%/M30% 1.4s | seat - | greedy - | prev-best - NEW BEST vs stopgap (validated)

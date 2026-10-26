@@ -1,0 +1,31 @@
+nodes 278 initializers 321 opset [17] inputs [('observation', ['batch', 16, 8, 8])] outputs [('policy', ['batch', 4096]), ('value', ['batch'])]
+sha256 bca01a26679d92b6 warm same: False
+session create: 47 ms cpu, 71 ms wall
+live positions 596
+batch 1: 0.31 ms cpu/call
+batch 8: 1.46 ms cpu/call
+value finite=True min=-0.9999 max=+1.0000 |v|>0.9 23.7% mean|v| 0.48; logits finite=True [-9.48,12.29]
+validate try 1 ACCEPTED
+====================================================================
+Colony: One -- submission validator
+model: C:\Users\melis\Downloads\cloudflight-coding-contest\levels\level4\models\az_res4f_v2.onnx
+====================================================================
+
+1/3  Tournament acceptance contract
+  [ok] accepted by the same acceptance policy used by the tournament server (104.0 ms dry run)
+        the Linux server additionally enforces hard memory/CPU limits this check cannot reproduce on every platform
+
+2/3  Check resource limits
+  [ok] within approximate resource limits
+        resource usage: peak RSS 5 MiB, CPU 0.00 s
+        the Linux server measures virtual address space and CPU time via hard POSIX rlimits; psutil RSS and polled CPU are approximations
+
+3/3  Level 3 match limits
+  [ok] one Level 3 match fits the server's limits (29 actions vs GreedyAgent)
+        resource usage: peak RSS 5 MiB, CPU 0.00 s
+        the server allows 15 s of CPU time per match; matches vary in length, so leave headroom
+
+====================================================================
+ACCEPTED -- this model satisfies the submission contract.
+====================================================================
+

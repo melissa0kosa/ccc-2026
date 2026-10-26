@@ -1,0 +1,220 @@
+11362 a 1 CYA r1 al2 n30 IC played B2->C3  p=0.02 | top D2->E4  0.18 v=-0.05 | c100 D2->E4  c800 D2->E4  Q800(c100)=+0.06 Q800(c800)=+0.06 Q800(pl)=-0.12 root100=+0.03 root800=+0.03
+11362 a 2 CYA r1 al1 n33 PI played B4->C4  p=0.03 | top C3->B2  0.09 v=-0.02 | c100 C3->B2  c800 A3->B3  Q800(c100)=-0.10 Q800(c800)=-0.01 Q800(pl)=-0.09 root100=-0.16 root800=-0.08  DIFF dQ=+0.09
+11362 a 5 CYA r2 al2 n23 DE played C1->C3  p=0.61 | top C1->C3  0.61 v=+0.24 | c100 C1->C3  c800 C1->C3  Q800(c100)=+0.00 Q800(c800)=+0.00 Q800(pl)=+0.00 root100=-0.07 root800=-0.01
+11362 a 6 CYA r2 al1 n23 DE played C3->C1  p=0.02 | top A1->B2  0.09 v=+0.00 | c100 C3->C1  c800 C3->C2  Q800(c100)=+0.05 Q800(c800)=+0.04 Q800(pl)=+0.05 root100=-0.10 root800=+0.00  DIFF dQ=-0.01
+11362 a 9 CYA r3 al2 n25 EX played D2->E4  p=0.11 | top C4->E4  0.12 v=+0.01 | c100 D2->E4  c800 D2->F3  Q800(c100)=+0.16 Q800(c800)=+0.17 Q800(pl)=+0.16 root100=+0.34 root800=+0.13  DIFF dQ=+0.00
+11362 a10 CYA r3 al1 n27 EX played E4->G5  p=0.67 | top E4->G5  0.67 v=+0.34 | c100 E4->G5  c800 E4->G5  Q800(c100)=+0.03 Q800(c800)=+0.03 Q800(pl)=+0.03 root100=+0.45 root800=+0.04
+11362 a13 CYA r4 al2 n20 PI played C4->E4  p=0.14 | top C4->E4  0.14 v=+0.33 | c100 C4->E4  c800 C4->D4  Q800(c100)=-0.10 Q800(c800)=-0.08 Q800(pl)=-0.10 root100=+0.17 root800=-0.10  DIFF dQ=+0.02
+11362 a14 CYA r4 al1 n22 PI played E4->F5  p=0.83 | top E4->F5  0.83 v=+0.30 | c100 E4->F5  c800 E4->F5  Q800(c100)=-0.12 Q800(c800)=-0.12 Q800(pl)=-0.12 root100=+0.07 root800=-0.13
+11362 a17 CYA r5 al2 n13 DE played C1->C3  p=0.15 | top C1->C4  0.15 v=+0.22 | c100 C1->C3  c800 C1->C2  Q800(c100)=-0.23 Q800(c800)=+0.00 Q800(pl)=-0.23 root100=-0.21 root800=-0.06  DIFF dQ=+0.23
+11362 a18 CYA r5 al1 n15 TR played A3->B3  p=0.14 | top A1->B2  0.17 v=+0.15 | c100 A3->B3  c800 C3->C5  Q800(c100)=-0.20 Q800(c800)=+0.04 Q800(pl)=-0.20 root100=-0.25 root800=-0.02  DIFF dQ=+0.23
+11362 a21 CYA r6 al2 n12 DE played C3->B3  p=0.24 | top A1->B2  0.29 v=-0.21 | c100 C3->B3  c800 C3->B3  Q800(c100)=-0.18 Q800(c800)=-0.18 Q800(pl)=-0.18 root100=-0.53 root800=-0.22
+11362 a22 CYA r6 al1 n13 DE played C3->F3  p=0.07 | top A1->B2  0.19 v=-0.07 | c100 C3->F3  c800 C3->F3  Q800(c100)=-0.12 Q800(c800)=-0.12 Q800(pl)=-0.12 root100=-0.17 root800=-0.16
+11362 a25 CYA r7 al2 n13 DE played F3->F6  p=0.21 | top F3->F6  0.21 v=-0.07 | c100 F3->F6  c800 F3->F6  Q800(c100)=-0.34 Q800(c800)=-0.34 Q800(pl)=-0.34 root100=-0.45 root800=-0.38
+11362 a26 CYA r7 al1 n13 DE played F6->G7  p=0.95 | top F6->G7  0.95 v=+0.01 | c100 F6->G7  c800 F6->G7  Q800(c100)=-0.34 Q800(c800)=-0.34 Q800(pl)=-0.34 root100=-0.38 root800=-0.34
+11267 a 3 MAG r1 al2 n30 DE played F8->F6  p=0.05 | top G5->G3  0.13 v=+0.04 | c100 G5->G3  c800 G5->G3  Q800(c100)=+0.34 Q800(c800)=+0.34 Q800(pl)=+0.13 root100=+0.33 root800=+0.30
+11267 a 4 MAG r1 al1 n31 TR played H6->G6  p=0.07 | top F6->F7  0.10 v=+0.06 | c100 F6->F7  c800 F6->F7  Q800(c100)=+0.09 Q800(c800)=+0.09 Q800(pl)=-0.00 root100=+0.06 root800=+0.04
+11267 a 7 MAG r2 al2 n26 EX played E7->F5  p=0.05 | top F6->E6  0.09 v=+0.28 | c100 F6->F4  c800 E7->C6  Q800(c100)=+0.06 Q800(c800)=+0.17 Q800(pl)=+0.16 root100=+0.06 root800=+0.11  DIFF dQ=+0.10
+11267 a 8 MAG r2 al1 n24 EX played F5->D4  p=0.48 | top F5->D4  0.48 v=+0.32 | c100 F5->D4  c800 F5->D4  Q800(c100)=+0.24 Q800(c800)=+0.24 Q800(pl)=+0.24 root100=+0.13 root800=+0.21
+11267 a11 MAG r3 al2 n16 PI played G5->F6  p=0.50 | top G5->F6  0.50 v=+0.20 | c100 G5->F6  c800 G5->F6  Q800(c100)=+0.23 Q800(c800)=+0.23 Q800(pl)=+0.23 root100=+0.07 root800=+0.21
+11267 a12 MAG r3 al1 n16 PI played F6->F5  p=0.14 | top F6->F7  0.16 v=+0.21 | c100 F6->F5  c800 F6->F5  Q800(c100)=+0.26 Q800(c800)=+0.26 Q800(pl)=+0.26 root100=+0.13 root800=+0.24
+11267 a15 MAG r4 al2 n18 PI played F5->F4  p=0.12 | top F5->F6  0.13 v=+0.04 | c100 F5->F4  c800 G7->F6  Q800(c100)=+0.68 Q800(c800)=+0.74 Q800(pl)=+0.68 root100=+0.59 root800=+0.69  DIFF dQ=+0.06
+11267 a16 MAG r4 al1 n21 PI played F4->G5  p=0.88 | top F4->G5  0.88 v=+0.59 | c100 F4->G5  c800 F4->G5  Q800(c100)=+0.57 Q800(c800)=+0.57 Q800(pl)=+0.57 root100=+0.65 root800=+0.56
+11267 a19 MAG r5 al2 n17 TR played G6->F6  p=0.16 | top G6->F6  0.16 v=+0.67 | c100 G6->F6  c800 G5->E5  Q800(c100)=+0.43 Q800(c800)=+0.75 Q800(pl)=+0.43 root100=+0.48 root800=+0.61  DIFF dQ=+0.32
+11267 a20 MAG r5 al1 n19 TR played F6->G6  p=0.14 | top F6->G6  0.14 v=+0.62 | c100 F6->G6  c800 F6->G6  Q800(c100)=+0.39 Q800(c800)=+0.39 Q800(pl)=+0.39 root100=+0.37 root800=+0.36
+11267 a23 MAG r6 al2 n11 IC played G7->F6  p=0.86 | top G7->F6  0.86 v=+0.77 | c100 G7->F6  c800 G7->F6  Q800(c100)=+0.87 Q800(c800)=+0.87 Q800(pl)=+0.87 root100=+0.78 root800=+0.86
+11267 a24 MAG r6 al1 n19 KE played H8->G7  p=0.25 | top H8->G7  0.25 v=+0.86 | c100 H8->G7  c800 H8->G7  Q800(c100)=+0.90 Q800(c800)=+0.90 Q800(pl)=+0.90 root100=+0.78 root800=+0.87
+11267 a27 MAG r7 al2 n20 IC played F6->D4  p=0.12 | top F6->D4  0.12 v=+0.90 | c100 F6->D4  c800 F6->D4  Q800(c100)=+0.95 Q800(c800)=+0.95 Q800(pl)=+0.95 root100=+0.91 root800=+0.93
+11267 a28 MAG r7 al1 n26 IC played D4->C3  p=0.07 | top D4->F6  0.09 v=+0.90 | c100 D4->C3  c800 D4->B4  Q800(c100)=+0.94 Q800(c800)=+0.99 Q800(pl)=+0.94 root100=+0.94 root800=+0.97  DIFF dQ=+0.05
+11267 a31 MAG r8 al2 n10 TR played G6->F6  p=0.39 | top G6->F6  0.39 v=+1.00 | c100 G6->F6  c800 G6->F6  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+0.93 root800=+0.97
+11267 a32 MAG r8 al1 n12 TR played F6->C3  p=0.98 | top F6->C3  0.98 v=+1.00 | c100 F6->C3  c800 F6->C3  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+1.00 root800=+1.00
+11154 a 1 CYA r1 al2 n30 IC played B2->B3  p=0.02 | top D2->E4  0.18 v=-0.05 | c100 D2->E4  c800 D2->E4  Q800(c100)=+0.06 Q800(c800)=+0.06 Q800(pl)=-0.01 root100=+0.03 root800=+0.03
+11154 a 2 CYA r1 al1 n32 DE played C1->B1  p=0.03 | top A1->B2  0.10 v=+0.03 | c100 B4->C4  c800 B4->C4  Q800(c100)=+0.06 Q800(c800)=+0.06 Q800(pl)=-0.10 root100=-0.06 root800=+0.01
+11154 a 5 CYA r2 al2 n26 PI played B4->D4  p=0.17 | top B4->D4  0.17 v=+0.08 | c100 B4->D4  c800 D2->F3  Q800(c100)=+0.11 Q800(c800)=+0.12 Q800(pl)=+0.11 root100=+0.07 root800=+0.09  DIFF dQ=+0.02
+11154 a 6 CYA r2 al1 n31 PI played D4->E5  p=0.87 | top D4->E5  0.87 v=+0.25 | c100 D4->E5  c800 D4->E5  Q800(c100)=+0.08 Q800(c800)=+0.08 Q800(pl)=+0.08 root100=+0.15 root800=+0.07
+11154 a 9 CYA r3 al2 n23 IC played B3->D5  p=0.10 | top D2->F3  0.13 v=+0.03 | c100 B3->D5  c800 B3->D5  Q800(c100)=+0.34 Q800(c800)=+0.34 Q800(pl)=+0.34 root100=+0.28 root800=+0.34
+11154 a10 CYA r3 al1 n31 IC played D5->E5  p=0.87 | top D5->E5  0.87 v=+0.23 | c100 D5->E5  c800 D5->E5  Q800(c100)=+0.16 Q800(c800)=+0.16 Q800(pl)=+0.16 root100=+0.43 root800=+0.15
+11154 a13 CYA r4 al2 n16 EX played D2->E4  p=0.16 | top D2->E4  0.16 v=-0.22 | c100 D2->E4  c800 D2->F3  Q800(c100)=-0.08 Q800(c800)=-0.05 Q800(pl)=-0.08 root100=+0.19 root800=-0.09  DIFF dQ=+0.03
+11154 a14 CYA r4 al1 n19 EX played E4->G5  p=0.71 | top E4->G5  0.71 v=+0.03 | c100 E4->G5  c800 E4->G5  Q800(c100)=-0.13 Q800(c800)=-0.13 Q800(pl)=-0.13 root100=-0.04 root800=-0.14
+11154 a17 CYA r5 al2 n11 DE played B1->B2  p=0.18 | top B1->B2  0.18 v=-0.25 | c100 B1->B2  c800 B1->B3  Q800(c100)=-0.23 Q800(c800)=-0.16 Q800(pl)=-0.23 root100=-0.19 root800=-0.23  DIFF dQ=+0.07
+11154 a18 CYA r5 al1 n13 TR played A3->B3  p=0.21 | top A3->B3  0.21 v=-0.19 | c100 A3->B3  c800 A3->B3  Q800(c100)=-0.26 Q800(c800)=-0.26 Q800(pl)=-0.26 root100=-0.21 root800=-0.30
+11154 a21 CYA r6 al2 n10 DE played B2->E2  p=0.12 | top B3->C3  0.32 v=+0.20 | c100 B2->E2  c800 B2->E2  Q800(c100)=+0.14 Q800(c800)=+0.14 Q800(pl)=+0.14 root100=-0.20 root800=+0.10
+11154 a22 CYA r6 al1 n17 DE played E2->E5  p=0.79 | top E2->E5  0.79 v=+0.31 | c100 E2->E5  c800 E2->E5  Q800(c100)=+0.15 Q800(c800)=+0.15 Q800(pl)=+0.15 root100=+0.03 root800=+0.14
+11154 a25 CYA r7 al2 n 7 TR played B3->C3  p=0.32 | top B3->C3  0.32 v=-0.15 | c100 B3->C3  c800 B3->C3  Q800(c100)=+0.14 Q800(c800)=+0.14 Q800(pl)=+0.14 root100=+0.02 root800=+0.11
+11154 a26 CYA r7 al1 n 8 TR played C3->E5  p=0.99 | top C3->E5  0.99 v=-0.04 | c100 C3->E5  c800 C3->E5  Q800(c100)=+0.14 Q800(c800)=+0.14 Q800(pl)=+0.14 root100=+0.10 root800=+0.14
+11154 a29 CYA r8 al2 n 6 KE played A1->B2  p=0.59 | top A1->B2  0.59 v=+0.73 | c100 A1->B2  c800 A1->B2  Q800(c100)=+0.82 Q800(c800)=+0.82 Q800(pl)=+0.82 root100=+0.71 root800=+0.82
+11154 a30 CYA r8 al1 n10 TR played C3->B3  p=0.46 | top C3->B3  0.46 v=+0.87 | c100 C3->B3  c800 C3->B3  Q800(c100)=+0.85 Q800(c800)=+0.85 Q800(pl)=+0.85 root100=+0.73 root800=+0.81
+11154 a33 CYA r9 al2 n 4 KE played B2->C3  p=0.26 | top B3->C3  0.43 v=+1.00 | c100 B2->C3  c800 B2->C3  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+0.94 root800=+0.98
+11154 a34 CYA r9 al1 n 9 KE played C3->D3  p=0.99 | top C3->D3  0.99 v=+1.00 | c100 C3->D3  c800 C3->D3  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+1.00 root800=+1.00
+11057 a 3 MAG r1 al2 n30 PI played G5->F5  p=0.05 | top E7->C6  0.11 v=-0.05 | c100 G5->E5  c800 E7->C6  Q800(c100)=-0.01 Q800(c800)=+0.10 Q800(pl)=-0.07 root100=-0.01 root800=+0.01  DIFF dQ=+0.11
+11057 a 4 MAG r1 al1 n31 IC played G7->F7  p=0.02 | top F5->F7  0.12 v=+0.10 | c100 F5->F7  c800 F5->F4  Q800(c100)=-0.15 Q800(c800)=+0.03 Q800(pl)=-0.10 root100=-0.09 root800=-0.02  DIFF dQ=+0.19
+11057 a 7 MAG r2 al2 n23 DE played F8->F7  p=0.51 | top F8->F7  0.51 v=-0.26 | c100 F8->F7  c800 F8->F7  Q800(c100)=+0.01 Q800(c800)=+0.01 Q800(pl)=+0.01 root100=-0.06 root800=-0.00
+11057 a 8 MAG r2 al1 n25 PI played F5->E5  p=0.04 | top H8->G7  0.09 v=+0.21 | c100 H6->G6  c800 E7->G6  Q800(c100)=+0.04 Q800(c800)=+0.16 Q800(pl)=-0.13 root100=-0.00 root800=+0.03  DIFF dQ=+0.12
+11057 a11 MAG r3 al2 n19 EX played E7->D5  p=0.14 | top E7->D5  0.14 v=-0.37 | c100 E7->D5  c800 E7->D5  Q800(c100)=-0.27 Q800(c800)=-0.27 Q800(pl)=-0.27 root100=-0.24 root800=-0.32
+11057 a12 MAG r3 al1 n21 EX played D5->C3  p=0.86 | top D5->C3  0.86 v=-0.22 | c100 D5->C3  c800 D5->C3  Q800(c100)=-0.31 Q800(c800)=-0.31 Q800(pl)=-0.31 root100=-0.07 root800=-0.31
+11057 a15 MAG r4 al2 n13 KE played H8->G7  p=0.15 | top F8->F5  0.19 v=-0.12 | c100 H8->G7  c800 H8->G7  Q800(c100)=-0.39 Q800(c800)=-0.39 Q800(pl)=-0.39 root100=-0.47 root800=-0.43
+11057 a16 MAG r4 al1 n17 DE played F8->F7  p=0.17 | top H6->G6  0.21 v=-0.14 | c100 F8->F7  c800 F8->E8  Q800(c100)=-0.56 Q800(c800)=-0.37 Q800(pl)=-0.56 root100=-0.41 root800=-0.43  DIFF dQ=+0.18
+11057 a19 MAG r5 al2 n10 KE played G7->F7  p=0.92 | top G7->F7  0.92 v=-0.16 | c100 G7->F7  c800 G7->F7  Q800(c100)=-0.31 Q800(c800)=-0.31 Q800(pl)=-0.31 root100=-0.11 root800=-0.27
+11057 a20 MAG r5 al1 n11 TR played H6->G6  p=0.39 | top H6->G6  0.39 v=-0.10 | c100 H6->G6  c800 H6->G6  Q800(c100)=-0.34 Q800(c800)=-0.34 Q800(pl)=-0.34 root100=-0.04 root800=-0.37
+11057 a23 MAG r6 al2 n11 TR played G6->F6  p=0.21 | top G6->F6  0.21 v=+0.07 | c100 G6->F6  c800 G6->F6  Q800(c100)=-0.28 Q800(c800)=-0.28 Q800(pl)=-0.28 root100=-0.53 root800=-0.32
+11057 a24 MAG r6 al1 n10 KE played F7->E6  p=0.13 | top F6->E6  0.20 v=+0.12 | c100 F7->E6  c800 F7->E7  Q800(c100)=-0.28 Q800(c800)=-0.25 Q800(pl)=-0.28 root100=-0.34 root800=-0.29  DIFF dQ=+0.03
+11057 a27 MAG r7 al2 n10 KE played E6->D5  p=0.24 | top E6->D5  0.24 v=-0.20 | c100 E6->D5  c800 E6->E7  Q800(c100)=-0.78 Q800(c800)=-0.74 Q800(pl)=-0.78 root100=-0.76 root800=-0.79  DIFF dQ=+0.03
+11057 a28 MAG r7 al1 n12 TR played F6->E6  p=0.19 | top D5->C4  0.40 v=-0.05 | c100 F6->E6  c800 F6->E6  Q800(c100)=-0.79 Q800(c800)=-0.79 Q800(pl)=-0.79 root100=-0.75 root800=-0.83
+11057 a31 MAG r8 al2 n 8 KE played D5->E4  p=0.09 | top D5->D4  0.17 v=-0.85 | c100 D5->E4  c800 D5->E4  Q800(c100)=-0.73 Q800(c800)=-0.73 Q800(pl)=-0.73 root100=-0.78 root800=-0.77
+11057 a32 MAG r8 al1 n 8 KE played E4->F3  p=0.91 | top E4->F3  0.91 v=-0.65 | c100 E4->F3  c800 E4->F3  Q800(c100)=-0.73 Q800(c800)=-0.73 Q800(pl)=-0.73 root100=-0.61 root800=-0.73
+11057 a35 MAG r9 al2 n 8 KE played F3->G2  p=0.12 | top F3->E4  0.17 v=-0.60 | c100 F3->G2  c800 F3->G4  Q800(c100)=-0.82 Q800(c800)=-0.77 Q800(pl)=-0.82 root100=-0.82 root800=-0.79  DIFF dQ=+0.04
+11057 a36 MAG r9 al1 n 3 KE played G2->F2  p=0.33 | top G2->G3  0.37 v=-0.85 | c100 G2->F2  c800 G2->F2  Q800(c100)=-0.84 Q800(c800)=-0.84 Q800(pl)=-0.84 root100=-0.80 root800=-0.86
+11057 a39 MAG r10 al2 n 5 KE played F2->F3  p=0.29 | top F2->F3  0.29 v=-0.68 | c100 F2->F3  c800 F2->F3  Q800(c100)=-0.80 Q800(c800)=-0.80 Q800(pl)=-0.80 root100=-0.81 root800=-0.81
+11057 a40 MAG r10 al1 n 8 KE played F3->F4  p=0.24 | top F3->F4  0.24 v=-0.78 | c100 F3->F4  c800 F3->F4  Q800(c100)=-0.79 Q800(c800)=-0.79 Q800(pl)=-0.79 root100=-0.80 root800=-0.83
+11057 a43 MAG r11 al2 n 8 KE played F4->G4  p=0.11 | top F4->E4  0.22 v=-0.84 | c100 F4->G4  c800 F4->F5  Q800(c100)=-0.88 Q800(c800)=-0.86 Q800(pl)=-0.88 root100=-0.87 root800=-0.89  DIFF dQ=+0.03
+11057 a44 MAG r11 al1 n 5 KE played G4->G5  p=0.22 | top G4->G5  0.22 v=-0.88 | c100 G4->G5  c800 G4->G5  Q800(c100)=-0.91 Q800(c800)=-0.91 Q800(pl)=-0.91 root100=-0.88 root800=-0.93
+11057 a47 MAG r12 al2 n 5 KE played G5->F5  p=0.25 | top G5->F5  0.25 v=-0.81 | c100 G5->F5  c800 G5->F5  Q800(c100)=-0.87 Q800(c800)=-0.87 Q800(pl)=-0.87 root100=-0.83 root800=-0.88
+11057 a48 MAG r12 al1 n 8 KE played F5->F6  p=0.19 | top F5->G5  0.21 v=-0.89 | c100 F5->F6  c800 F5->E6  Q800(c100)=-0.89 Q800(c800)=-0.88 Q800(pl)=-0.89 root100=-0.85 root800=-0.91  DIFF dQ=+0.02
+11057 a51 MAG r13 al2 n 8 KE played F6->G5  p=0.14 | top F6->G7  0.16 v=-0.86 | c100 F6->G5  c800 F6->E7  Q800(c100)=-0.90 Q800(c800)=-0.87 Q800(pl)=-0.90 root100=-0.89 root800=-0.88  DIFF dQ=+0.03
+11057 a52 MAG r13 al1 n 5 KE played G5->F6  p=0.18 | top G5->F5  0.27 v=-0.88 | c100 G5->F6  c800 G5->F6  Q800(c100)=-0.89 Q800(c800)=-0.89 Q800(pl)=-0.89 root100=-0.90 root800=-0.92
+11057 a55 MAG r14 al2 n 8 KE played F6->G7  p=0.17 | top F6->G7  0.17 v=-0.86 | c100 F6->G7  c800 F6->G7  Q800(c100)=-0.88 Q800(c800)=-0.88 Q800(pl)=-0.88 root100=-0.88 root800=-0.89
+11057 a56 MAG r14 al1 n 3 KE played G7->F6  p=0.40 | top G7->F6  0.40 v=-0.94 | c100 G7->F6  c800 G7->F6  Q800(c100)=-0.90 Q800(c800)=-0.90 Q800(pl)=-0.90 root100=-0.89 root800=-0.92
+11057 a59 MAG r15 al2 n 8 KE played F6->G7  p=0.17 | top F6->G7  0.17 v=-0.85 | c100 F6->G7  c800 F6->E7  Q800(c100)=-0.90 Q800(c800)=-0.89 Q800(pl)=-0.90 root100=-0.85 root800=-0.89  DIFF dQ=+0.01
+11057 a60 MAG r15 al1 n 3 KE played G7->F6  p=0.39 | top G7->F6  0.39 v=-0.93 | c100 G7->F6  c800 G7->F6  Q800(c100)=-0.92 Q800(c800)=-0.92 Q800(pl)=-0.92 root100=-0.88 root800=-0.94
+11057 a63 MAG r16 al2 n 8 KE played F6->E6  p=0.43 | top F6->E6  0.43 v=-0.98 | c100 F6->E6  c800 F6->F5  Q800(c100)=-1.00 Q800(c800)=-0.96 Q800(pl)=-1.00 root100=-0.99 root800=-0.98  DIFF dQ=+0.04
+11057 a64 MAG r16 al1 n 8 KE played E6->D5  p=0.98 | top E6->D5  0.98 v=-0.91 | c100 E6->D5  c800 E6->D5  Q800(c100)=-1.00 Q800(c800)=-1.00 Q800(pl)=-1.00 root100=-1.00 root800=-1.00
+10970 a 1 CYA r1 al2 n30 EX played D2->B3  p=0.02 | top D2->E4  0.18 v=-0.05 | c100 D2->E4  c800 D2->E4  Q800(c100)=+0.06 Q800(c800)=+0.06 Q800(pl)=-0.08 root100=+0.03 root800=+0.03
+10970 a 2 CYA r1 al1 n26 DE played C1->C2  p=0.07 | top C1->C3  0.07 v=-0.01 | c100 B4->C4  c800 B4->D4  Q800(c100)=-0.07 Q800(c800)=-0.06 Q800(pl)=-0.35 root100=-0.15 root800=-0.11  DIFF dQ=+0.01
+10970 a 5 CYA r2 al2 n26 DE played C2->F2  p=0.06 | top C2->C3  0.09 v=-0.21 | c100 C2->F2  c800 C2->F2  Q800(c100)=+0.47 Q800(c800)=+0.47 Q800(pl)=+0.47 root100=+0.08 root800=+0.42
+10970 a 6 CYA r2 al1 n31 DE played F2->G3  p=0.80 | top F2->G3  0.80 v=-0.11 | c100 F2->G3  c800 F2->G3  Q800(c100)=+0.47 Q800(c800)=+0.47 Q800(pl)=+0.47 root100=+0.39 root800=+0.46
+10970 a 9 CYA r3 al2 n30 EX played B3->D2  p=0.04 | top F2->F5  0.07 v=+0.41 | c100 B3->D2  c800 B3->C5  Q800(c100)=+0.51 Q800(c800)=+0.51 Q800(pl)=+0.51 root100=+0.42 root800=+0.47  DIFF dQ=+0.00
+10970 a10 CYA r3 al1 n31 PI played B4->B6  p=0.04 | top B4->D4  0.09 v=+0.41 | c100 B4->B6  c800 A3->B3  Q800(c100)=+0.52 Q800(c800)=+0.58 Q800(pl)=+0.52 root100=+0.49 root800=+0.51  DIFF dQ=+0.05
+10970 a13 CYA r4 al2 n33 PI played B6->D6  p=0.16 | top B6->D6  0.16 v=+0.60 | c100 B6->D6  c800 B6->D6  Q800(c100)=+0.64 Q800(c800)=+0.64 Q800(pl)=+0.64 root100=+0.57 root800=+0.61
+10970 a14 CYA r4 al1 n36 PI played D6->F8  p=0.51 | top D6->F8  0.51 v=+0.66 | c100 D6->F8  c800 D6->F8  Q800(c100)=+0.65 Q800(c800)=+0.65 Q800(pl)=+0.65 root100=+0.65 root800=+0.63
+10970 a17 CYA r5 al2 n26 DE played F2->F5  p=0.16 | top F2->F5  0.16 v=+0.73 | c100 F2->F5  c800 F2->F5  Q800(c100)=+0.83 Q800(c800)=+0.83 Q800(pl)=+0.83 root100=+0.67 root800=+0.79
+10970 a18 CYA r5 al1 n27 DE played F5->F7  p=0.82 | top F5->F7  0.82 v=+0.75 | c100 F5->F7  c800 F5->F7  Q800(c100)=+0.83 Q800(c800)=+0.83 Q800(pl)=+0.83 root100=+0.79 root800=+0.82
+10970 a21 CYA r6 al2 n24 DE played F5->F7  p=0.95 | top F5->F7  0.95 v=+1.00 | c100 F5->F7  c800 F5->F7  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+1.00 root800=+1.00
+10792 a 1 CYA r1 al2 n30 PI played B4->D4  p=0.03 | top D2->E4  0.18 v=-0.05 | c100 D2->E4  c800 D2->E4  Q800(c100)=+0.06 Q800(c800)=+0.06 Q800(pl)=-0.02 root100=+0.03 root800=+0.03
+10792 a 2 CYA r1 al1 n31 DE played C1->C2  p=0.08 | top D4->D3  0.09 v=+0.04 | c100 D4->C4  c800 D4->C4  Q800(c100)=+0.03 Q800(c800)=+0.03 Q800(pl)=-0.01 root100=-0.07 root800=-0.02
+10792 a 5 CYA r2 al2 n28 EX played D2->F3  p=0.08 | top D4->F4  0.09 v=+0.13 | c100 D2->F3  c800 D2->F3  Q800(c100)=+0.29 Q800(c800)=+0.29 Q800(pl)=+0.29 root100=+0.22 root800=+0.23
+10792 a 6 CYA r2 al1 n33 EX played F3->G5  p=0.52 | top F3->G5  0.52 v=+0.20 | c100 F3->G5  c800 F3->G5  Q800(c100)=+0.23 Q800(c800)=+0.23 Q800(pl)=+0.23 root100=+0.23 root800=+0.21
+10792 a 9 CYA r3 al2 n26 PI played D4->F4  p=0.18 | top D4->F4  0.18 v=+0.02 | c100 D4->F4  c800 A3->A4  Q800(c100)=+0.14 Q800(c800)=+0.50 Q800(pl)=+0.14 root100=+0.20 root800=+0.31  DIFF dQ=+0.35
+10792 a10 CYA r3 al1 n28 PI played F4->G5  p=0.90 | top F4->G5  0.90 v=+0.43 | c100 F4->G5  c800 F4->G5  Q800(c100)=+0.29 Q800(c800)=+0.29 Q800(pl)=+0.29 root100=+0.18 root800=+0.29
+10792 a13 CYA r4 al2 n21 PI played G5->H6  p=0.46 | top G5->H6  0.46 v=+0.85 | c100 G5->H6  c800 G5->H6  Q800(c100)=+0.72 Q800(c800)=+0.72 Q800(pl)=+0.72 root100=+0.66 root800=+0.71
+10792 a14 CYA r4 al1 n17 IC played B2->C2  p=0.66 | top B2->C2  0.66 v=+0.91 | c100 B2->C2  c800 B2->C2  Q800(c100)=+0.73 Q800(c800)=+0.73 Q800(pl)=+0.73 root100=+0.61 root800=+0.71
+10792 a17 CYA r5 al2 n19 TR played A3->B3  p=0.12 | top A3->B3  0.12 v=+0.71 | c100 A3->B3  c800 A3->B3  Q800(c100)=+0.76 Q800(c800)=+0.76 Q800(pl)=+0.76 root100=+0.63 root800=+0.71
+10792 a18 CYA r5 al1 n18 KE played A1->B2  p=0.17 | top A1->B2  0.17 v=+0.70 | c100 A1->B2  c800 A1->B2  Q800(c100)=+0.75 Q800(c800)=+0.75 Q800(pl)=+0.75 root100=+0.60 root800=+0.73
+10792 a21 CYA r6 al2 n10 KE played B2->C2  p=0.92 | top B2->C2  0.92 v=+0.83 | c100 B2->C2  c800 B2->C2  Q800(c100)=+0.89 Q800(c800)=+0.89 Q800(pl)=+0.89 root100=+0.82 root800=+0.88
+10792 a22 CYA r6 al1 n11 TR played B3->C3  p=0.26 | top B3->C3  0.26 v=+0.85 | c100 B3->C3  c800 B3->C3  Q800(c100)=+0.92 Q800(c800)=+0.92 Q800(pl)=+0.92 root100=+0.85 root800=+0.89
+10792 a25 CYA r7 al2 n10 TR played C3->C4  p=0.18 | top C3->C4  0.18 v=+0.87 | c100 C3->C4  c800 C3->D3  Q800(c100)=+0.86 Q800(c800)=+0.91 Q800(pl)=+0.86 root100=+0.84 root800=+0.86  DIFF dQ=+0.05
+10792 a26 CYA r7 al1 n12 TR played C4->C3  p=0.21 | top C4->C3  0.21 v=+0.82 | c100 C4->C3  c800 C4->C3  Q800(c100)=+0.88 Q800(c800)=+0.88 Q800(pl)=+0.88 root100=+0.81 root800=+0.87
+10792 a29 CYA r8 al2 n10 TR played C3->B3  p=0.16 | top C3->C4  0.20 v=+0.87 | c100 C3->B3  c800 C3->D3  Q800(c100)=+0.86 Q800(c800)=+0.91 Q800(pl)=+0.86 root100=+0.82 root800=+0.87  DIFF dQ=+0.05
+10792 a30 CYA r8 al1 n11 TR played B3->C3  p=0.28 | top B3->C3  0.28 v=+0.80 | c100 B3->C3  c800 B3->C3  Q800(c100)=+0.88 Q800(c800)=+0.88 Q800(pl)=+0.88 root100=+0.80 root800=+0.88
+10792 a33 CYA r9 al2 n 7 KE played C2->D3  p=0.16 | top C3->D3  0.20 v=+0.90 | c100 C2->D3  c800 C2->D3  Q800(c100)=+0.92 Q800(c800)=+0.92 Q800(pl)=+0.92 root100=+0.84 root800=+0.89
+10792 a34 CYA r9 al1 n10 TR played C3->C4  p=0.26 | top C3->C4  0.26 v=+0.91 | c100 C3->C4  c800 C3->C4  Q800(c100)=+0.94 Q800(c800)=+0.94 Q800(pl)=+0.94 root100=+0.86 root800=+0.93
+10792 a37 CYA r10 al2 n11 KE played D3->E4  p=0.11 | top C4->D4  0.16 v=+1.00 | c100 D3->E4  c800 D3->E3  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+0.95 root800=+0.96  DIFF dQ=-0.00
+10792 a38 CYA r10 al1 n12 KE played E4->F4  p=0.97 | top E4->F4  0.97 v=+1.00 | c100 E4->F4  c800 E4->F4  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+1.00 root800=+1.00
+10773 a 3 MAG r1 al2 n30 PI played G5->F5  p=0.03 | top F8->F7  0.08 v=+0.09 | c100 F8->C8  c800 F8->C8  Q800(c100)=+0.52 Q800(c800)=+0.52 Q800(pl)=+0.12 root100=+0.18 root800=+0.47
+10773 a 4 MAG r1 al1 n31 IC played G7->G6  p=0.02 | top F5->F7  0.11 v=+0.02 | c100 F5->F6  c800 H6->G6  Q800(c100)=+0.15 Q800(c800)=+0.28 Q800(pl)=+0.17 root100=+0.10 root800=+0.20  DIFF dQ=+0.13
+10773 a 7 MAG r2 al2 n33 IC played G6->F6  p=0.04 | top F8->F6  0.07 v=-0.12 | c100 F8->F6  c800 E7->C8  Q800(c100)=+0.11 Q800(c800)=+0.16 Q800(pl)=+0.15 root100=+0.02 root800=+0.11  DIFF dQ=+0.05
+10773 a 8 MAG r2 al1 n31 IC played F6->D6  p=0.36 | top F6->D6  0.36 v=+0.09 | c100 F6->D6  c800 F6->D6  Q800(c100)=+0.10 Q800(c800)=+0.10 Q800(pl)=+0.10 root100=+0.11 root800=+0.07
+10773 a11 MAG r3 al2 n25 PI played F5->D5  p=0.08 | top F5->D5  0.08 v=+0.08 | c100 F5->D5  c800 F5->D5  Q800(c100)=+0.34 Q800(c800)=+0.34 Q800(pl)=+0.34 root100=+0.30 root800=+0.29
+10773 a12 MAG r3 al1 n27 PI played D5->B3  p=0.60 | top D5->B3  0.60 v=+0.35 | c100 D5->B3  c800 D5->B3  Q800(c100)=+0.35 Q800(c800)=+0.35 Q800(pl)=+0.35 root100=+0.49 root800=+0.33
+10773 a15 MAG r4 al2 n19 EX played E7->D5  p=0.09 | top F8->F5  0.12 v=+0.46 | c100 E7->D5  c800 E7->D5  Q800(c100)=+0.40 Q800(c800)=+0.40 Q800(pl)=+0.40 root100=+0.26 root800=+0.33
+10773 a16 MAG r4 al1 n21 EX played D5->F6  p=0.15 | top D5->F6  0.15 v=+0.32 | c100 D5->F6  c800 D5->F4  Q800(c100)=+0.42 Q800(c800)=+0.44 Q800(pl)=+0.42 root100=+0.33 root800=+0.40  DIFF dQ=+0.01
+10773 a19 MAG r5 al2 n12 DE played F8->F6  p=0.67 | top F8->F6  0.67 v=+0.33 | c100 F8->F6  c800 F8->F6  Q800(c100)=+0.52 Q800(c800)=+0.52 Q800(pl)=+0.52 root100=+0.40 root800=+0.52
+10773 a20 MAG r5 al1 n15 KE played H8->G7  p=0.23 | top H8->G7  0.23 v=+0.61 | c100 H8->G7  c800 H6->G6  Q800(c100)=+0.45 Q800(c800)=+0.47 Q800(pl)=+0.45 root100=+0.41 root800=+0.43  DIFF dQ=+0.02
+10773 a23 MAG r6 al2 n18 DE played F6->F3  p=0.09 | top H6->G6  0.17 v=+0.42 | c100 F6->F3  c800 H6->G6  Q800(c100)=+0.24 Q800(c800)=+0.23 Q800(pl)=+0.24 root100=+0.23 root800=+0.23  DIFF dQ=-0.02
+10773 a24 MAG r6 al1 n20 DE played F3->C3  p=0.79 | top F3->C3  0.79 v=+0.38 | c100 F3->C3  c800 F3->F6  Q800(c100)=+0.14 Q800(c800)=+0.49 Q800(pl)=+0.14 root100=+0.38 root800=+0.39  DIFF dQ=+0.34
+10773 a27 MAG r7 al2 n10 TR played H6->G6  p=0.33 | top H6->G6  0.33 v=+0.27 | c100 H6->G6  c800 H6->G6  Q800(c100)=+0.28 Q800(c800)=+0.28 Q800(pl)=+0.28 root100=-0.17 root800=+0.24
+10773 a28 MAG r7 al1 n10 TR played G6->F6  p=0.18 | top G7->F6  0.20 v=+0.34 | c100 G6->F6  c800 G6->F6  Q800(c100)=+0.34 Q800(c800)=+0.34 Q800(pl)=+0.34 root100=+0.08 root800=+0.30
+10773 a31 MAG r8 al2 n11 TR played F6->F7  p=0.16 | top F6->F5  0.22 v=+0.50 | c100 F6->F7  c800 F6->F7  Q800(c100)=+0.36 Q800(c800)=+0.36 Q800(pl)=+0.36 root100=+0.16 root800=+0.36
+10773 a32 MAG r8 al1 n10 KE played G7->G6  p=0.31 | top F7->F6  0.34 v=+0.24 | c100 G7->G6  c800 G7->G6  Q800(c100)=+0.16 Q800(c800)=+0.16 Q800(pl)=+0.16 root100=+0.35 root800=+0.12
+10773 a35 MAG r9 al2 n 7 TR played F7->G7  p=0.19 | top F7->F6  0.24 v=+0.47 | c100 F7->G7  c800 F7->F6  Q800(c100)=-0.38 Q800(c800)=-0.36 Q800(pl)=-0.38 root100=-0.33 root800=-0.38  DIFF dQ=+0.02
+10773 a36 MAG r9 al1 n 5 TR played G7->F7  p=0.24 | top G7->F7  0.24 v=+0.08 | c100 G7->F7  c800 G7->F7  Q800(c100)=-0.37 Q800(c800)=-0.37 Q800(pl)=-0.37 root100=-0.24 root800=-0.41
+10773 a39 MAG r10 al2 n 5 KE played G6->F5  p=0.30 | top G6->F5  0.30 v=-0.42 | c100 G6->F5  c800 G6->F5  Q800(c100)=-1.00 Q800(c800)=-1.00 Q800(pl)=-1.00 root100=-0.97 root800=-1.00
+10773 a40 MAG r10 al1 n 8 KE played F5->E6  p=0.90 | top F5->E6  0.90 v=+0.01 | c100 F5->E6  c800 F5->E6  Q800(c100)=-1.00 Q800(c800)=-1.00 Q800(pl)=-1.00 root100=-1.00 root800=-1.00
+10667 a 3 MAG r1 al2 n30 PI played G5->G3  p=0.08 | top E7->D5  0.15 v=+0.14 | c100 G5->G4  c800 G5->G4  Q800(c100)=+0.39 Q800(c800)=+0.39 Q800(pl)=+0.17 root100=+0.33 root800=+0.37
+10667 a 4 MAG r1 al1 n30 EX played E7->F5  p=0.05 | top F8->F7  0.09 v=+0.07 | c100 E7->F5  c800 F8->F6  Q800(c100)=+0.06 Q800(c800)=+0.06 Q800(pl)=+0.06 root100=+0.14 root800=+0.02  DIFF dQ=+0.01
+10667 a 7 MAG r2 al2 n29 IC played G7->E5  p=0.02 | top F8->F6  0.13 v=+0.03 | c100 G7->E5  c800 F5->D6  Q800(c100)=+0.36 Q800(c800)=+0.55 Q800(pl)=+0.36 root100=+0.30 root800=+0.49  DIFF dQ=+0.19
+10667 a 8 MAG r2 al1 n35 IC played E5->E4  p=0.51 | top E5->E4  0.51 v=+0.26 | c100 E5->E4  c800 E5->E4  Q800(c100)=+0.47 Q800(c800)=+0.47 Q800(pl)=+0.47 root100=+0.26 root800=+0.45
+10667 a11 MAG r3 al2 n23 EX played F5->D6  p=0.04 | top H6->G6  0.19 v=+0.39 | c100 F5->D6  c800 F5->D6  Q800(c100)=+0.52 Q800(c800)=+0.52 Q800(pl)=+0.52 root100=+0.28 root800=+0.46
+10667 a12 MAG r3 al1 n26 EX played D6->E4  p=0.91 | top D6->E4  0.91 v=+0.46 | c100 D6->E4  c800 D6->E4  Q800(c100)=+0.53 Q800(c800)=+0.53 Q800(pl)=+0.53 root100=+0.54 root800=+0.53
+10667 a15 MAG r4 al2 n18 DE played F8->F5  p=0.24 | top F8->F5  0.24 v=+0.43 | c100 F8->F5  c800 H6->G6  Q800(c100)=+0.44 Q800(c800)=+0.65 Q800(pl)=+0.44 root100=+0.48 root800=+0.61  DIFF dQ=+0.21
+10667 a16 MAG r4 al1 n22 DE played F5->E4  p=0.82 | top F5->E4  0.82 v=+0.55 | c100 F5->E4  c800 F5->E4  Q800(c100)=+0.70 Q800(c800)=+0.70 Q800(pl)=+0.70 root100=+0.55 root800=+0.69
+10667 a19 MAG r5 al2 n13 PI played G3->G4  p=0.07 | top H6->G6  0.27 v=+0.45 | c100 G3->G4  c800 G3->H3  Q800(c100)=+0.73 Q800(c800)=+0.74 Q800(pl)=+0.73 root100=+0.51 root800=+0.69  DIFF dQ=+0.01
+10667 a20 MAG r5 al1 n14 PI played G4->F5  p=0.72 | top G4->F5  0.72 v=+0.56 | c100 G4->F5  c800 G4->F5  Q800(c100)=+0.76 Q800(c800)=+0.76 Q800(pl)=+0.76 root100=+0.66 root800=+0.75
+10667 a23 MAG r6 al2 n14 PI played F5->D5  p=0.16 | top F5->D5  0.16 v=+0.52 | c100 F5->D5  c800 F5->D5  Q800(c100)=+0.84 Q800(c800)=+0.84 Q800(pl)=+0.84 root100=+0.71 root800=+0.79
+10667 a24 MAG r6 al1 n15 PI played D5->B3  p=0.83 | top D5->B3  0.83 v=+0.65 | c100 D5->B3  c800 D5->B3  Q800(c100)=+0.82 Q800(c800)=+0.82 Q800(pl)=+0.82 root100=+0.79 root800=+0.82
+10667 a27 MAG r7 al2 n 6 TR played H6->G6  p=0.30 | top H6->G6  0.30 v=+0.77 | c100 H6->G6  c800 H8->G7  Q800(c100)=+0.83 Q800(c800)=+0.85 Q800(pl)=+0.83 root100=+0.71 root800=+0.82  DIFF dQ=+0.01
+10667 a28 MAG r7 al1 n 7 KE played H8->G7  p=0.48 | top H8->G7  0.48 v=+0.76 | c100 H8->G7  c800 H8->G7  Q800(c100)=+0.88 Q800(c800)=+0.88 Q800(pl)=+0.88 root100=+0.77 root800=+0.85
+10667 a31 MAG r8 al2 n10 TR played G6->F6  p=0.31 | top G6->F6  0.31 v=+0.78 | c100 G6->F6  c800 G6->F6  Q800(c100)=+0.92 Q800(c800)=+0.92 Q800(pl)=+0.92 root100=+0.80 root800=+0.90
+10667 a32 MAG r8 al1 n11 KE played G7->F7  p=0.16 | top F6->G6  0.27 v=+0.72 | c100 G7->F7  c800 F6->F7  Q800(c100)=+0.90 Q800(c800)=+0.89 Q800(pl)=+0.90 root100=+0.84 root800=+0.89  DIFF dQ=-0.01
+10667 a35 MAG r9 al2 n 7 TR played F6->E6  p=0.17 | top F7->E6  0.17 v=+0.91 | c100 F6->E6  c800 F7->E6  Q800(c100)=+0.93 Q800(c800)=+0.94 Q800(pl)=+0.93 root100=+0.87 root800=+0.91  DIFF dQ=+0.01
+10667 a36 MAG r9 al1 n 8 TR played E6->F6  p=0.28 | top E6->F6  0.28 v=+0.92 | c100 E6->F6  c800 F7->F6  Q800(c100)=+0.89 Q800(c800)=+0.95 Q800(pl)=+0.89 root100=+0.88 root800=+0.92  DIFF dQ=+0.06
+10667 a39 MAG r10 al2 n 7 KE played F7->G6  p=0.16 | top F7->E6  0.17 v=+0.91 | c100 F7->G6  c800 F7->E6  Q800(c100)=+0.90 Q800(c800)=+0.95 Q800(pl)=+0.90 root100=+0.88 root800=+0.91  DIFF dQ=+0.04
+10667 a40 MAG r10 al1 n 7 KE played G6->G5  p=0.17 | top G6->G5  0.17 v=+0.90 | c100 G6->G5  c800 G6->G5  Q800(c100)=+0.92 Q800(c800)=+0.92 Q800(pl)=+0.92 root100=+0.89 root800=+0.92
+10667 a43 MAG r11 al2 n 8 TR played F6->E6  p=0.15 | top F6->G6  0.17 v=+0.94 | c100 F6->E6  c800 F6->E6  Q800(c100)=+0.91 Q800(c800)=+0.91 Q800(pl)=+0.91 root100=+0.88 root800=+0.90
+10667 a44 MAG r11 al1 n 8 TR played E6->F6  p=0.74 | top E6->F6  0.74 v=+0.95 | c100 E6->F6  c800 E6->F6  Q800(c100)=+0.92 Q800(c800)=+0.92 Q800(pl)=+0.92 root100=+0.85 root800=+0.91
+10667 a47 MAG r12 al2 n 8 KE played G5->G4  p=0.09 | top F6->G6  0.16 v=+0.94 | c100 G5->G4  c800 F6->E6  Q800(c100)=+0.85 Q800(c800)=+0.92 Q800(pl)=+0.85 root100=+0.87 root800=+0.91  DIFF dQ=+0.07
+10667 a48 MAG r12 al1 n 9 TR played F6->F5  p=0.20 | top F6->F5  0.20 v=+0.92 | c100 F6->F5  c800 G4->F5  Q800(c100)=+0.90 Q800(c800)=+0.95 Q800(pl)=+0.90 root100=+0.89 root800=+0.91  DIFF dQ=+0.05
+10667 a51 MAG r13 al2 n 8 TR played F5->E5  p=0.14 | top F5->G5  0.16 v=+0.76 | c100 F5->E5  c800 F5->F4  Q800(c100)=+0.88 Q800(c800)=+0.93 Q800(pl)=+0.88 root100=+0.87 root800=+0.90  DIFF dQ=+0.05
+10667 a52 MAG r13 al1 n 8 TR played E5->F5  p=0.68 | top E5->F5  0.68 v=+0.75 | c100 E5->F5  c800 E5->F5  Q800(c100)=+0.88 Q800(c800)=+0.88 Q800(pl)=+0.88 root100=+0.81 root800=+0.87
+10667 a55 MAG r14 al2 n 8 TR played F5->F4  p=0.15 | top F5->G5  0.18 v=+0.70 | c100 F5->F4  c800 F5->F4  Q800(c100)=+0.93 Q800(c800)=+0.93 Q800(pl)=+0.93 root100=+0.85 root800=+0.90
+10667 a56 MAG r14 al1 n 7 KE played G4->F3  p=0.23 | top G4->F3  0.23 v=+0.45 | c100 G4->F3  c800 G4->F3  Q800(c100)=+0.92 Q800(c800)=+0.92 Q800(pl)=+0.92 root100=+0.88 root800=+0.91
+10667 a59 MAG r15 al2 n10 KE played F3->E4  p=0.11 | top F4->E4  0.15 v=+0.95 | c100 F3->E4  c800 F4->E4  Q800(c100)=+0.95 Q800(c800)=+0.96 Q800(pl)=+0.95 root100=+0.91 root800=+0.94  DIFF dQ=+0.01
+10667 a60 MAG r15 al1 n10 KE played E4->E5  p=0.23 | top E4->E5  0.23 v=+0.94 | c100 E4->E5  c800 E4->E5  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+0.92 root800=+0.98
+10667 a63 MAG r16 al2 n11 TR played F4->F5  p=0.18 | top E5->F5  0.21 v=+1.00 | c100 F4->F5  c800 E5->F5  Q800(c100)=+0.99 Q800(c800)=+0.99 Q800(pl)=+0.99 root100=+0.99 root800=+0.99  DIFF dQ=+0.01
+10667 a64 MAG r16 al1 n10 TR played F5->F6  p=0.25 | top F5->F6  0.25 v=+0.95 | c100 F5->F6  c800 F5->F6  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+0.95 root800=+0.98
+10667 a67 MAG r17 al2 n 9 TR played F6->E6  p=0.20 | top F6->F5  0.22 v=+1.00 | c100 F6->E6  c800 E5->F5  Q800(c100)=+0.95 Q800(c800)=+0.98 Q800(pl)=+0.95 root100=+0.97 root800=+0.98  DIFF dQ=+0.03
+10667 a68 MAG r17 al1 n 9 TR played E6->F6  p=0.35 | top E6->F6  0.35 v=+0.99 | c100 E6->F6  c800 E6->F6  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+0.91 root800=+0.97
+10667 a71 MAG r18 al2 n 9 TR played F6->E6  p=0.21 | top F6->F5  0.22 v=+1.00 | c100 F6->E6  c800 E5->F5  Q800(c100)=+0.97 Q800(c800)=+0.98 Q800(pl)=+0.97 root100=+0.97 root800=+0.98  DIFF dQ=+0.01
+10667 a72 MAG r18 al1 n 9 TR played E6->F6  p=0.38 | top E6->F6  0.38 v=+0.99 | c100 E6->F6  c800 E6->F6  Q800(c100)=+0.99 Q800(c800)=+0.99 Q800(pl)=+0.99 root100=+0.90 root800=+0.97
+10667 a75 MAG r19 al2 n 9 KE played E5->F5  p=0.19 | top F6->F5  0.25 v=+1.00 | c100 E5->F5  c800 E5->F5  Q800(c100)=+0.98 Q800(c800)=+0.98 Q800(pl)=+0.98 root100=+0.96 root800=+0.98
+10667 a76 MAG r19 al1 n 5 KE played F5->E5  p=0.49 | top F5->E5  0.49 v=+0.98 | c100 F5->E5  c800 F5->E5  Q800(c100)=+0.99 Q800(c800)=+0.99 Q800(pl)=+0.99 root100=+0.94 root800=+0.98
+10667 a79 MAG r20 al2 n 9 KE played E5->F5  p=0.20 | top F6->F5  0.26 v=+1.00 | c100 E5->F5  c800 E5->F5  Q800(c100)=+0.98 Q800(c800)=+0.98 Q800(pl)=+0.98 root100=+0.96 root800=+0.97
+10667 a80 MAG r20 al1 n 5 KE played F5->E5  p=0.53 | top F5->E5  0.53 v=+0.98 | c100 F5->E5  c800 F5->E5  Q800(c100)=+0.99 Q800(c800)=+0.99 Q800(pl)=+0.99 root100=+0.94 root800=+0.97
+10667 a83 MAG r21 al2 n 9 KE played E5->F5  p=0.22 | top F6->F5  0.26 v=+1.00 | c100 E5->F5  c800 E5->F5  Q800(c100)=+0.97 Q800(c800)=+0.97 Q800(pl)=+0.97 root100=+0.98 root800=+0.97
+10667 a84 MAG r21 al1 n 5 KE played F5->E5  p=0.58 | top F5->E5  0.58 v=+0.98 | c100 F5->E5  c800 F5->E5  Q800(c100)=+0.98 Q800(c800)=+0.98 Q800(pl)=+0.98 root100=+0.94 root800=+0.97
+10667 a87 MAG r22 al2 n 9 KE played E5->F5  p=0.22 | top F6->F5  0.27 v=+1.00 | c100 E5->F5  c800 E5->F5  Q800(c100)=+0.97 Q800(c800)=+0.97 Q800(pl)=+0.97 root100=+0.97 root800=+0.97
+10667 a88 MAG r22 al1 n 5 KE played F5->E5  p=0.64 | top F5->E5  0.64 v=+0.98 | c100 F5->E5  c800 F5->E5  Q800(c100)=+0.97 Q800(c800)=+0.97 Q800(pl)=+0.97 root100=+0.95 root800=+0.96
+10667 a91 MAG r23 al2 n 9 TR played F6->F5  p=0.28 | top F6->F5  0.28 v=+1.00 | c100 F6->F5  c800 F6->F5  Q800(c100)=+0.98 Q800(c800)=+0.98 Q800(pl)=+0.98 root100=+0.96 root800=+0.97
+10667 a92 MAG r23 al1 n 9 KE played E5->E4  p=0.25 | top E5->E4  0.25 v=+1.00 | c100 E5->E4  c800 E5->E4  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+0.92 root800=+0.98
+10616 a 1 CYA r1 al2 n30 TR played A3->B3  p=0.04 | top D2->E4  0.18 v=-0.05 | c100 D2->E4  c800 D2->E4  Q800(c100)=+0.06 Q800(c800)=+0.06 Q800(pl)=-0.01 root100=+0.03 root800=+0.03
+10616 a 2 CYA r1 al1 n27 DE played C1->C4  p=0.06 | top C1->C2  0.11 v=+0.05 | c100 B4->C4  c800 B4->C4  Q800(c100)=+0.14 Q800(c800)=+0.14 Q800(pl)=-0.05 root100=-0.08 root800=+0.09
+10616 a 5 CYA r2 al2 n27 DE played C4->D4  p=0.05 | top D2->F3  0.11 v=+0.40 | c100 C4->D4  c800 C4->D4  Q800(c100)=+0.33 Q800(c800)=+0.33 Q800(pl)=+0.33 root100=+0.22 root800=+0.28
+10616 a 6 CYA r2 al1 n28 DE played D4->E5  p=0.50 | top D4->E5  0.50 v=+0.33 | c100 D4->E5  c800 D4->E5  Q800(c100)=+0.31 Q800(c800)=+0.31 Q800(pl)=+0.31 root100=+0.37 root800=+0.28
+10616 a 9 CYA r3 al2 n20 IC played B2->D4  p=0.56 | top B2->D4  0.56 v=+0.74 | c100 B2->D4  c800 B4->B6  Q800(c100)=+0.39 Q800(c800)=+0.52 Q800(pl)=+0.39 root100=+0.30 root800=+0.46  DIFF dQ=+0.13
+10616 a10 CYA r3 al1 n29 IC played D4->B2  p=0.06 | top A1->B2  0.06 v=+0.53 | c100 D4->B2  c800 D4->C3  Q800(c100)=+0.49 Q800(c800)=+0.52 Q800(pl)=+0.49 root100=+0.31 root800=+0.46  DIFF dQ=+0.03
+10616 a13 CYA r4 al2 n21 EX played D2->E4  p=0.29 | top D2->E4  0.29 v=+0.53 | c100 D2->E4  c800 D2->E4  Q800(c100)=+0.62 Q800(c800)=+0.62 Q800(pl)=+0.62 root100=+0.61 root800=+0.60
+10616 a14 CYA r4 al1 n25 EX played E4->G5  p=0.78 | top E4->G5  0.78 v=+0.53 | c100 E4->G5  c800 E4->G5  Q800(c100)=+0.61 Q800(c800)=+0.61 Q800(pl)=+0.61 root100=+0.71 root800=+0.60
+10616 a17 CYA r5 al2 n17 IC played B2->C3  p=0.07 | top B4->D4  0.18 v=+0.71 | c100 B2->C3  c800 B2->C3  Q800(c100)=+0.78 Q800(c800)=+0.78 Q800(pl)=+0.78 root100=+0.53 root800=+0.70
+10616 a18 CYA r5 al1 n21 KE played A1->B2  p=0.14 | top A1->B2  0.14 v=+0.70 | c100 A1->B2  c800 A1->B2  Q800(c100)=+0.81 Q800(c800)=+0.81 Q800(pl)=+0.81 root100=+0.51 root800=+0.76
+10616 a21 CYA r6 al2 n22 IC played C3->D3  p=0.09 | top C3->E5  0.20 v=+0.72 | c100 C3->D3  c800 C3->E3  Q800(c100)=+0.75 Q800(c800)=+0.77 Q800(pl)=+0.75 root100=+0.74 root800=+0.75  DIFF dQ=+0.02
+10616 a22 CYA r6 al1 n29 IC played D3->F3  p=0.89 | top D3->F3  0.89 v=+0.80 | c100 D3->F3  c800 D3->F3  Q800(c100)=+0.78 Q800(c800)=+0.78 Q800(pl)=+0.78 root100=+0.82 root800=+0.78
+10616 a25 CYA r7 al2 n29 KE played B2->C3  p=0.09 | top B2->B3  0.11 v=+0.81 | c100 B2->C3  c800 B2->C3  Q800(c100)=+0.99 Q800(c800)=+0.99 Q800(pl)=+0.99 root100=+0.74 root800=+0.95
+10616 a26 CYA r7 al1 n29 KE played C3->D4  p=0.87 | top C3->D4  0.87 v=+0.72 | c100 C3->D4  c800 C3->D4  Q800(c100)=+0.99 Q800(c800)=+0.99 Q800(pl)=+0.99 root100=+0.91 root800=+0.98
+10616 a29 CYA r8 al2 n30 IC played F3->D5  p=0.07 | top F3->E4  0.09 v=+0.96 | c100 F3->D5  c800 F3->E4  Q800(c100)=+1.00 Q800(c800)=+0.99 Q800(pl)=+1.00 root100=+0.96 root800=+0.99  DIFF dQ=-0.00
+10616 a30 CYA r8 al1 n27 IC played D5->C5  p=0.06 | top B4->C4  0.09 v=+0.94 | c100 D5->C5  c800 B4->C4  Q800(c100)=+0.99 Q800(c800)=+1.00 Q800(pl)=+0.99 root100=+0.96 root800=+0.98  DIFF dQ=+0.01
+10616 a33 CYA r9 al2 n22 IC played C5->E5  p=0.16 | top C5->E5  0.16 v=+1.00 | c100 C5->E5  c800 C5->E5  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+0.99 root800=+1.00
+10616 a34 CYA r9 al1 n26 IC played E5->G5  p=0.94 | top E5->G5  0.94 v=+1.00 | c100 E5->G5  c800 E5->G5  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+1.00 root800=+1.00
+10359 a 1 CYA r1 al2 n30 EX played D2->E4  p=0.18 | top D2->E4  0.18 v=-0.05 | c100 D2->E4  c800 D2->E4  Q800(c100)=+0.06 Q800(c800)=+0.06 Q800(pl)=+0.06 root100=+0.03 root800=+0.03
+10359 a 2 CYA r1 al1 n33 PI played B4->B6  p=0.02 | top E4->G5  0.47 v=+0.13 | c100 E4->G5  c800 E4->G5  Q800(c100)=+0.07 Q800(c800)=+0.07 Q800(pl)=-0.15 root100=+0.03 root800=+0.05
+10359 a 5 CYA r2 al2 n27 PI played B6->D6  p=0.13 | top B6->D6  0.13 v=-0.48 | c100 B6->C6  c800 B2->D4  Q800(c100)=-0.52 Q800(c800)=-0.45 Q800(pl)=-0.53 root100=-0.42 root800=-0.52  DIFF dQ=+0.07
+10359 a 6 CYA r2 al1 n29 PI played D6->E6  p=0.04 | top D6->E7  0.41 v=-0.55 | c100 D6->E7  c800 D6->E7  Q800(c100)=-0.56 Q800(c800)=-0.56 Q800(pl)=-0.57 root100=-0.51 root800=-0.56
+10359 a 9 CYA r3 al2 n26 PI played E6->G8  p=0.82 | top E6->G8  0.82 v=+0.31 | c100 E6->G8  c800 E6->G8  Q800(c100)=+0.51 Q800(c800)=+0.51 Q800(pl)=+0.51 root100=+0.46 root800=+0.51
+10359 a10 CYA r3 al1 n23 PI played G8->H7  p=0.86 | top G8->H7  0.86 v=+0.65 | c100 G8->H7  c800 G8->H7  Q800(c100)=+0.51 Q800(c800)=+0.51 Q800(pl)=+0.51 root100=+0.49 root800=+0.51
+10359 a13 CYA r4 al2 n20 DE played C1->C4  p=0.13 | top C1->C3  0.18 v=+0.46 | c100 C1->C4  c800 B2->D4  Q800(c100)=+0.61 Q800(c800)=+0.61 Q800(pl)=+0.61 root100=+0.56 root800=+0.60  DIFF dQ=+0.00
+10359 a14 CYA r4 al1 n24 DE played C4->E4  p=0.72 | top C4->E4  0.72 v=+0.57 | c100 C4->E4  c800 C4->E4  Q800(c100)=+0.36 Q800(c800)=+0.36 Q800(pl)=+0.36 root100=+0.70 root800=+0.35
+10359 a17 CYA r5 al2 n14 IC played B2->D4  p=0.31 | top B2->D4  0.31 v=+0.98 | c100 B2->D4  c800 B2->D4  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+0.94 root800=+0.98
+10359 a18 CYA r5 al1 n21 IC played D4->E4  p=0.97 | top D4->E4  0.97 v=+1.00 | c100 D4->E4  c800 D4->E4  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+1.00 root800=+1.00
+10304 a 3 MAG r1 al2 n30 PI played G5->G3  p=0.13 | top G5->G3  0.13 v=+0.18 | c100 G5->G3  c800 G5->G3  Q800(c100)=+0.41 Q800(c800)=+0.41 Q800(pl)=+0.41 root100=+0.34 root800=+0.37
+10304 a 4 MAG r1 al1 n33 EX played E7->F5  p=0.01 | top G3->E1  0.88 v=+0.50 | c100 G3->E1  c800 G3->E1  Q800(c100)=+0.41 Q800(c800)=+0.41 Q800(pl)=+nan root100=+0.51 root800=+0.41
+10304 a 7 MAG r2 al2 n27 PI played G3->E1  p=0.81 | top G3->E1  0.81 v=+0.46 | c100 G3->E1  c800 G3->E1  Q800(c100)=+0.24 Q800(c800)=+0.24 Q800(pl)=+0.24 root100=+0.31 root800=+0.26
+10304 a 8 MAG r2 al1 n27 IC played G7->F8  p=0.37 | top G7->F8  0.37 v=+0.16 | c100 G7->F8  c800 G7->F8  Q800(c100)=+0.26 Q800(c800)=+0.26 Q800(pl)=+0.26 root100=+0.27 root800=+0.22
+10304 a11 MAG r3 al2 n27 EX played F5->D4  p=0.06 | top H6->G6  0.12 v=+0.59 | c100 F5->D4  c800 F5->D4  Q800(c100)=+0.89 Q800(c800)=+0.89 Q800(pl)=+0.89 root100=+0.54 root800=+0.83
+10304 a12 MAG r3 al1 n28 EX played D4->B3  p=0.74 | top D4->B3  0.74 v=+0.66 | c100 D4->B3  c800 D4->B3  Q800(c100)=+0.89 Q800(c800)=+0.89 Q800(pl)=+0.89 root100=+0.78 root800=+0.88
+10304 a15 MAG r4 al2 n20 IC played F8->G7  p=0.15 | top F8->G7  0.15 v=+0.65 | c100 F8->G7  c800 F8->G7  Q800(c100)=+0.92 Q800(c800)=+0.92 Q800(pl)=+0.92 root100=+0.83 root800=+0.90
+10304 a16 MAG r4 al1 n20 IC played G7->G5  p=0.74 | top G7->G5  0.74 v=+0.88 | c100 G7->G5  c800 G7->G5  Q800(c100)=+0.92 Q800(c800)=+0.92 Q800(pl)=+0.92 root100=+0.88 root800=+0.92
+10304 a19 MAG r5 al2 n24 PI played E1->D1  p=0.06 | top E1->E3  0.13 v=+0.93 | c100 E1->D1  c800 E1->D1  Q800(c100)=+0.99 Q800(c800)=+0.99 Q800(pl)=+0.99 root100=+0.95 root800=+0.96
+10304 a20 MAG r5 al1 n25 PI played D1->B3  p=0.90 | top D1->B3  0.90 v=+0.97 | c100 D1->B3  c800 D1->B3  Q800(c100)=+0.98 Q800(c800)=+0.98 Q800(pl)=+0.98 root100=+0.98 root800=+0.98
+10304 a23 MAG r6 al2 n18 IC played G5->E3  p=0.15 | top G5->E3  0.15 v=+0.94 | c100 G5->E3  c800 G5->E3  Q800(c100)=+0.99 Q800(c800)=+0.99 Q800(pl)=+0.99 root100=+0.96 root800=+0.98
+10304 a24 MAG r6 al1 n22 KE played H8->G7  p=0.14 | top H8->G7  0.14 v=+0.94 | c100 H8->G7  c800 H8->G7  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+0.95 root800=+0.98
+10304 a27 MAG r7 al2 n26 IC played E3->F3  p=0.15 | top E3->F3  0.15 v=+1.00 | c100 E3->F3  c800 E3->F3  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+1.00 root800=+1.00
+10304 a28 MAG r7 al1 n26 IC played F3->D5  p=0.97 | top F3->D5  0.97 v=+1.00 | c100 F3->D5  c800 F3->D5  Q800(c100)=+1.00 Q800(c800)=+1.00 Q800(pl)=+1.00 root100=+1.00 root800=+1.00
+secs 87

@@ -1,0 +1,32 @@
+low-mat positions 148 games 11 [14998, 15150, 15273, 15627, 15778, 15780, 16051, 16211, 16302, 16438, 16469]
+--- all 20
+  CYA to move, mover LOST n= 31 games=3: az_res_v20 -0.58  az_res4f_v2 -0.67  az_res4f_v3 -0.61  hand_v4f -0.56
+  CYA to move, mover WON  n= 41 games=6: az_res_v20 +0.48  az_res4f_v2 +0.58  az_res4f_v3 +0.64  hand_v4f +0.51
+  MAG to move, mover LOST n= 37 games=6: az_res_v20 -0.36  az_res4f_v2 -0.47  az_res4f_v3 -0.58  hand_v4f -0.36
+  MAG to move, mover WON  n= 39 games=5: az_res_v20 +0.72  az_res4f_v2 +0.74  az_res4f_v3 +0.71  hand_v4f +0.68
+  az_res_v20    MSE 0.501 sign-acc 0.73
+  az_res4f_v2   MSE 0.375 sign-acc 0.83
+  az_res4f_v3   MSE 0.348 sign-acc 0.86
+  hand_v4f      MSE 0.416 sign-acc 0.83
+--- games 7-20
+  CYA to move, mover LOST n= 23 games=2: az_res_v20 -0.81  az_res4f_v2 -0.84  az_res4f_v3 -0.77  hand_v4f -0.75
+  CYA to move, mover WON  n= 31 games=5: az_res_v20 +0.61  az_res4f_v2 +0.72  az_res4f_v3 +0.72  hand_v4f +0.59
+  MAG to move, mover LOST n= 28 games=5: az_res_v20 -0.49  az_res4f_v2 -0.61  az_res4f_v3 -0.65  hand_v4f -0.47
+  MAG to move, mover WON  n= 28 games=3: az_res_v20 +0.88  az_res4f_v2 +0.85  az_res4f_v3 +0.82  hand_v4f +0.81
+  az_res_v20    MSE 0.303 sign-acc 0.84
+  az_res4f_v2   MSE 0.223 sign-acc 0.89
+  az_res4f_v3   MSE 0.255 sign-acc 0.91
+  hand_v4f      MSE 0.282 sign-acc 0.89
+--- per game: first position with each side K + <=1 piece
+  14998 MAG WON  lowmat from a27 r7 us ['mK', 'mT'] them ['cE', 'cK']
+  15150 MAG WON  lowmat from a20 r5 us ['mK', 'mT'] them ['cK', 'cT']
+  15273 MAG LOST lowmat from a28 r7 us ['mK', 'mT'] them ['cD', 'cK']
+  15627 MAG WON  lowmat from a31 r8 us ['mK', 'mT'] them ['cI', 'cK']
+  15778 CYA LOST lowmat from a35 r9 us ['cK'] them ['mK', 'mT']
+  15780 MAG LOST lowmat from a32 r8 us ['mK'] them ['cK', 'cT']
+  16051 MAG WON  lowmat from a26 r7 us ['mK', 'mT'] them ['cK']
+  16211 MAG LOST lowmat from a44 r11 us ['mK'] them ['cI', 'cK']
+  16302 CYA WON  lowmat from a33 r9 us ['cK', 'cT'] them ['mK', 'mT']
+  16438 MAG LOST lowmat from a26 r7 us ['mK', 'mT'] them ['cD', 'cK']
+  16469 CYA WON  lowmat from a33 r9 us ['cK', 'cT'] them ['mK']
+Counter({('CYA', 'no-lowmat', True): 4, ('MAG', 'lowmat', True): 4, ('MAG', 'lowmat', False): 4, ('CYA', 'lowmat', True): 2, ('CYA', 'lowmat', False): 1, ('CYA', 'no-lowmat', False): 1})

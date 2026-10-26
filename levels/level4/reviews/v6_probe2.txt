@@ -1,0 +1,33 @@
+=== 11686 a36 MAG (we=MAG) r9 al1 played G5->F5
+  az_res_v6   v=+0.49 root800=+0.22 prior top: G5->G6:0.23,F6->G6:0.18,G5->F5:0.18 | p(played)=0.18 Q800(played)=+0.06 | c100 F6->G6 (Q800 +0.26) c800 F6->G6 (Q800 +0.26)
+  az_res_v20  v=+0.29 root800=+0.42 prior top: G5->F5:0.20,G5->G6:0.16,F6->G6:0.14 | p(played)=0.20 Q800(played)=+0.40 | c100 G5->F5 (Q800 +0.40) c800 F6->G6 (Q800 +0.45)
+  hand_v4f    v=+0.21 root800=-0.00 prior top: G5->F5:0.19,F6->F5:0.15,G5->G6:0.14 | p(played)=0.19 Q800(played)=-0.14 | c100 G5->F5 (Q800 -0.14) c800 F6->G6 (Q800 +0.01)
+=== 12113 a32 MAG (we=MAG) r8 al1 played F6->F7
+  az_res_v6   v=+0.36 root800=+0.27 prior top: F6->G6:0.35,F6->F7:0.25,F6->F5:0.13 | p(played)=0.25 Q800(played)=+0.32 | c100 F6->G6 (Q800 +0.26) c800 F6->F7 (Q800 +0.32)
+  az_res_v20  v=+0.47 root800=-0.41 prior top: F6->F7:0.35,F6->G6:0.28,F6->F5:0.12 | p(played)=0.35 Q800(played)=-0.39 | c100 F6->F7 (Q800 -0.39) c800 F6->F7 (Q800 -0.39)
+  hand_v4f    v=+0.38 root800=-0.14 prior top: F6->F7:0.23,F6->G6:0.23,F6->F5:0.18 | p(played)=0.23 Q800(played)=-0.11 | c100 F6->F7 (Q800 -0.11) c800 F6->F7 (Q800 -0.11)
+=== 12113 a30 CYA (we=MAG) r8 al1 played B3->B4
+  az_res_v6   v=+0.05 root800=-0.28 prior top: C6->F6:0.70,C6->D6:0.05,C6->C5:0.04 | p(played)=0.02 Q800(played)=-0.22 | c100 B3->B4 (Q800 -0.22) c800 B3->B4 (Q800 -0.22)
+  az_res_v20  v=-0.13 root800=-0.13 prior top: C6->F6:0.75,C6->D6:0.04,C6->C4:0.04 | p(played)=0.01 Q800(played)=-0.05 | c100 B3->B4 (Q800 -0.05) c800 B3->B4 (Q800 -0.05)
+  hand_v4f    v=-0.20 root800=+0.03 prior top: C6->F6:0.35,B3->B4:0.13,C6->C4:0.13 | p(played)=0.13 Q800(played)=+0.08 | c100 B3->B4 (Q800 +0.08) c800 B3->B4 (Q800 +0.08)
+=== 11791 a55 MAG (we=MAG) r14 al2 played F7->F6
+  az_res_v6   v=-0.00 root800=-0.56 prior top: F7->F6:0.55,G7->F6:0.18,F7->E7:0.14 | p(played)=0.55 Q800(played)=-0.57 | c100 F7->F6 (Q800 -0.57) c800 F7->F6 (Q800 -0.57)
+  az_res_v20  v=+0.40 root800=-0.35 prior top: F7->F6:0.46,F7->E7:0.20,G7->G6:0.17 | p(played)=0.46 Q800(played)=-0.40 | c100 F7->F6 (Q800 -0.40) c800 F7->F6 (Q800 -0.40)
+  hand_v4f    v=+0.09 root800=-0.22 prior top: F7->F6:0.68,F7->E7:0.26,G7->F6:0.03 | p(played)=0.68 Q800(played)=-0.24 | c100 F7->F6 (Q800 -0.24) c800 F7->F6 (Q800 -0.24)
+=== 11791 a59 MAG (we=MAG) r15 al2 played F7->F6
+  az_res_v6   v=-0.15 root800=-0.81 prior top: F7->F6:0.57,G7->F6:0.17,F7->E7:0.14 | p(played)=0.57 Q800(played)=-0.83 | c100 F7->F6 (Q800 -0.83) c800 F7->F6 (Q800 -0.83)
+  az_res_v20  v=+0.31 root800=-0.80 prior top: F7->F6:0.45,F7->E7:0.21,G7->G6:0.18 | p(played)=0.45 Q800(played)=-0.82 | c100 F7->F6 (Q800 -0.82) c800 F7->F6 (Q800 -0.82)
+  hand_v4f    v=+0.07 root800=-0.75 prior top: F7->F6:0.68,F7->E7:0.26,G7->F6:0.03 | p(played)=0.68 Q800(played)=-0.77 | c100 F7->F6 (Q800 -0.77) c800 F7->F6 (Q800 -0.77)
+=== 11791 a47 MAG (we=MAG) r12 al2 played F7->F6
+  az_res_v6   v=+0.35 root800=-0.23 prior top: F7->F6:0.54,G7->F6:0.18,F7->E7:0.15 | p(played)=0.54 Q800(played)=-0.24 | c100 F7->F6 (Q800 -0.24) c800 F7->F6 (Q800 -0.24)
+  az_res_v20  v=+0.54 root800=-0.36 prior top: F7->F6:0.49,F7->E7:0.20,G7->G6:0.16 | p(played)=0.49 Q800(played)=-0.40 | c100 F7->F6 (Q800 -0.40) c800 F7->F6 (Q800 -0.40)
+  hand_v4f    v=+0.05 root800=-0.21 prior top: F7->F6:0.70,F7->E7:0.27,G7->F6:0.02 | p(played)=0.70 Q800(played)=-0.23 | c100 F7->F6 (Q800 -0.23) c800 F7->F6 (Q800 -0.23)
+=== 11686 a34 CYA (we=MAG) r9 al1 played F4->F6
+  az_res_v6   v=-0.24 root800=+0.10 prior top: F4->G5:0.41,F4->F6:0.39,F4->F2:0.03 | p(played)=0.39 Q800(played)=-0.23 | c100 F4->G5 (Q800 +0.01) c800 F4->F3 (Q800 +0.21)
+  az_res_v20  v=-0.24 root800=-0.13 prior top: F4->G5:0.49,F4->F6:0.30,F4->C4:0.04 | p(played)=0.30 Q800(played)=-0.39 | c100 F4->G5 (Q800 -0.09) c800 F4->G5 (Q800 -0.09)
+  hand_v4f    v=+0.15 root800=+0.06 prior top: F4->F6:0.76,F4->G5:0.12,F4->E4:0.02 | p(played)=0.76 Q800(played)=-0.13 | c100 F4->G5 (Q800 -0.07) c800 F4->C4 (Q800 +0.23)
+=== 11057 a24 MAG (we=MAG) r6 al1 played F7->E6
+  az_res_v6   v=+0.12 root800=-0.29 prior top: F6->E6:0.20,F6->G6:0.19,F7->E6:0.13 | p(played)=0.13 Q800(played)=-0.28 | c100 F7->E6 (Q800 -0.28) c800 F7->E7 (Q800 -0.25)
+  az_res_v20  v=-0.61 root800=-0.65 prior top: F6->E6:0.26,F6->G6:0.17,F7->E6:0.13 | p(played)=0.13 Q800(played)=-0.62 | c100 F7->E7 (Q800 -0.61) c800 F7->E7 (Q800 -0.61)
+  hand_v4f    v=-0.13 root800=-0.25 prior top: F6->E6:0.17,F7->E6:0.14,F6->G6:0.13 | p(played)=0.14 Q800(played)=-0.22 | c100 F7->E6 (Q800 -0.22) c800 F7->E6 (Q800 -0.22)
+secs 15

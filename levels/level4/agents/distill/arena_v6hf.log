@@ -1,0 +1,1 @@
+distill_v6hf.onnx vs az_res_v20.onnx: 51/100 = 51% [41%,61%] elo +7 | as cyan 56% as magenta 46% | 51 actions, 2.1s cpu/game (both sides), 113s

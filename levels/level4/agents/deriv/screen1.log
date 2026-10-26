@@ -1,0 +1,9 @@
+deriv_4f2_tta2.onnx vs az_res4f_v2.onnx: 52/100 = 52% [42%,62%] elo +14 | as cyan 54% as magenta 50% | 44 actions, 2.3s cpu/game (both sides), 67s
+deriv_4f2_tta4.onnx vs az_res4f_v2.onnx: 55/100 = 55% [45%,64%] elo +35 | as cyan 52% as magenta 58% | 46 actions, 4.2s cpu/game (both sides), 139s
+deriv_4f2_w6.onnx vs az_res4f_v2.onnx: 60/100 = 60% [50%,69%] elo +70 | as cyan 68% as magenta 52% | 45 actions, 2.0s cpu/game (both sides), 74s
+deriv_4f2_w4.onnx vs az_res4f_v2.onnx: 42/100 = 42% [33%,52%] elo -56 | as cyan 42% as magenta 42% | 46 actions, 1.8s cpu/game (both sides), 55s
+deriv_4f2_pt125.onnx vs az_res4f_v2.onnx: 42/100 = 42% [33%,52%] elo -56 | as cyan 40% as magenta 44% | 44 actions, 1.8s cpu/game (both sides), 60s
+deriv_4f2_vt125.onnx vs az_res4f_v2.onnx: 52/100 = 52% [42%,62%] elo +14 | as cyan 58% as magenta 46% | 48 actions, 1.7s cpu/game (both sides), 48s
+deriv_4f2_pt08.onnx vs az_res4f_v2.onnx: 54/100 = 54% [44%,63%] elo +28 | as cyan 48% as magenta 60% | 44 actions, 1.7s cpu/game (both sides), 48s
+deriv_4f2_vt08.onnx vs az_res4f_v2.onnx: 59/100 = 59% [49%,68%] elo +63 | as cyan 52% as magenta 66% | 45 actions, 1.4s cpu/game (both sides), 37s
+deriv_4f2_pt15.onnx vs az_res4f_v2.onnx: 50/100 = 50% [40%,60%] elo +0 | as cyan 50% as magenta 50% | 47 actions, 1.9s cpu/game (both sides), 55s

@@ -1,4 +1,60 @@
-# Upload gate (live seat az_res4f_v2.onnx since 15:19 UTC, md5 f0329dfae66e)
+# Upload gate: FINAL (15:55 UTC)
+
+**Live: deriv_4f2_rsv125.onnx** (md5 ab218071f1de, matches the gated file and champion.onnx), deployed ~15:50 UTC by user decision as a slight-edge bet.
+**Rollback:** models/rollback_az_res4f_v2.onnx (md5 f0329dfae66e).
+rsv125 did **not** pass the formal gate: 141/240 = 58.8%, lower bound 52.4 < 55. The fresh 140 games alone gave 55.7%, so its true edge is probably about +3-6 pp.
+Gating has stopped (poller ended).
+
+## Final standings vs az_res4f_v2
+
+My own games only; fresh seeds, 100 sims, alternating colours; pooled per candidate over all my runs; sorted by Wilson lower bound.
+
+| candidate | vs az_res4f_v2 (Wilson 95%) | cyan / magenta | distinct games | greedy | stopgap_v1 | cpu/game (both) |
+|---|---|---|---|---|---|---|
+| deriv_4f2_rsv125.onnx | 141/240 = 58.8% [52.4%, 64.8%] | 61% / 57% | 240/240 | 20/20 | 55/60 | 1.77 s |
+| deriv_4f2_rtta2.onnx | 96/160 = 60.0% [52.3%, 67.3%] | 72% / 48% | 160/160 | - | - | 1.57 s |
+| prior_4f2_v1w.onnx | 121/220 = 55.0% [48.4%, 61.4%] | 60% / 50% | 220/220 | - | - | 1.97 s |
+| deriv_4f2_tta8.onnx | 50/86 = 58.1% [47.6%, 68.0%] | 60% / 56% | 86/86 | - | - | 6.55 s |
+| az_res4f_v2_warm.onnx | 166/320 = 51.9% [46.4%, 57.3%] | 56% / 48% | 319/320 | - | - | 2.00 s |
+| deriv_4f2_w4.onnx | 56/100 = 56.0% [46.2%, 65.3%] | 54% / 58% | 100/100 | - | - | 2.10 s |
+| az_res4f_v3.onnx | 66/120 = 55.0% [46.1%, 63.6%] | 62% / 48% | 120/120 | - | - | 1.54 s |
+| az_res4f_v3_eg.onnx | 55/100 = 55.0% [45.2%, 64.4%] | 64% / 46% | 100/100 | - | - | 1.68 s |
+| deriv_4f2_tta4.onnx | 55/100 = 55.0% [45.2%, 64.4%] | 66% / 44% | 100/100 | - | - | 3.10 s |
+| az_res4f_v2_eg.onnx | 131/260 = 50.4% [44.3%, 56.4%] | 53% / 48% | 260/260 | - | - | 1.82 s |
+| deriv_4f2_vt125.onnx | 52/100 = 52.0% [42.3%, 61.5%] | 56% / 48% | 100/100 | - | - | 2.16 s |
+| az_res4f_v4.onnx | 31/60 = 51.7% [39.3%, 63.8%] | 60% / 43% | 60/60 | - | - | 1.52 s |
+| az_res4f_v5.onnx | 31/60 = 51.7% [39.3%, 63.8%] | 47% / 57% | 60/60 | - | - | 1.33 s |
+| prior_4f2_v0.onnx | 42/86 = 48.8% [38.6%, 59.2%] | 58% / 40% | 86/86 | - | - | 1.65 s |
+| deriv_4f2_rsp125.onnx | 48/100 = 48.0% [38.5%, 57.7%] | 58% / 38% | 100/100 | - | - | 1.79 s |
+| deriv_4f2_rtta4.onnx | 29/60 = 48.3% [36.2%, 60.7%] | 50% / 47% | 60/60 | - | - | 2.48 s |
+
+Notes:
+- **Independent gate B** (`gateB_RESULTS.md`, same garena method, its own seeds):
+  - tta2: 131/232 = 56.5% [50.0, 62.7]
+  - tta4: 56/120 = 46.7%
+  - prior_4f2_v0: 64/120 = 53.3%
+  - distill_v6hf: 54/120 = 45.0%
+  - distill_v6s8: 50/120 = 41.7%
+  - None passes.
+- **External numbers, not pooled into the table:**
+  - hand agent: v2_eg 149/300 (pooled with mine: 280/560 = 50.0%)
+  - deriv agent: tta2 52/100
+  - prior agent: prior_4f2_v1w 189/300 (not reproduced: 55.0% here)
+- **v2_eg exactness:** in the paired same-seed test, 124/200 games are identical. The 76 that diverge have a net outcome change of 0 (1 up, 1 down). Neutral.
+- **CPU:** tta8 (6.55 s) and tta4 (3.1-3.4 s) exceed the ~3 s budget.
+- **Colours:** rtta2's 60% is a cyan-only effect (cyan 72% / magenta 48%).
+- **Endgame calibration** (299 low-material live positions; correct sign / squared error / MAGENTA-lost mean):
+  - az_res_v20: 0.71 / 0.704 / -0.22
+  - az_res4f_v2: 0.79 / 0.487 / -0.30
+  - rsv125: 0.80 / 0.452 / -0.33
+  - tta2/4/8: about 0.78-0.82 / 0.49 / -0.31
+
+Rollback guidance (judgement, not a gate): with a true edge of about +3-6 pp, 20-30 live games cannot tell rsv125 from v2. Roll back only on a technical failure (forfeits or timeouts) or a collapse of more than 15 pp in live win rate over 20+ games.
+
+UPLOAD: none (no further uploads; live = deriv_4f2_rsv125, rollback = az_res4f_v2)
+
+---
+## History
 
 ## Final round (bar after 15:50: Wilson lower > 0.60), updated 15:49 UTC. Nothing passes; keep az_res4f_v2.
 
@@ -28,7 +84,7 @@ Fast protocol: md5, caps, validator, then a 60-game screen (kill if < 52%), then
 
 Conclusion: the trained az line has plateaued against v2 (v3 55%, v4 52%, v5 52%), and inference-time tweaks give at most a few pp. Nothing reaches even the ordinary 0.55 bound.
 
-UPLOAD: none (keep az_res4f_v2)
+(15:49 verdict: keep az_res4f_v2; superseded by the user's decision to ship rsv125 at ~15:50)
 
 ---
 

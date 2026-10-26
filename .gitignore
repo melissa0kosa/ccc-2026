@@ -33,3 +33,7 @@ levels/*/out/
 *.cbm
 catboost_info/
 .playwright-mcp/
+
+# Agent-generated training data (self-play/teacher/oracle labels; ~1 GB, regenerable)
+levels/*/agents/*/data/
+levels/*/ext/

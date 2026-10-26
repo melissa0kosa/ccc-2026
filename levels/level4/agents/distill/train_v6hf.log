@@ -1,0 +1,6 @@
+  + 244258 child value samples
+loaded 42073 positions from 31 files
+ep 2 train pol 2.103 val 0.125 | valid pol 2.096 val 0.141 top1 0.492 | 61s
+ep 5 train pol 2.072 val 0.117 | valid pol 2.072 val 0.138 top1 0.509 | 119s
+ep 7 train pol 2.065 val 0.115 | valid pol 2.068 val 0.137 top1 0.507 | 158s
+exported C:\Users\melis\Downloads\cloudflight-coding-contest\levels\level4\models\distill_v6hf.onnx 1085913 bytes

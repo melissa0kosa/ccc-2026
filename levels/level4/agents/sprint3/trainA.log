@@ -1,0 +1,16 @@
+16:18:29 s3: labels new 5030 (+2761 prior v2-labelled w0.5), held-out 723 from ['lab_31008.pkl']
+16:18:31 s3: replay 125529 positions
+16:18:32 s3: train mismatch frac 0.423 (weight x3.0), target pow 4.0, mode distill
+16:18:32 s3: trainable params 70257
+16:18:34 s3: ckpt vs v6.onnx parity max|dp| 6.22e-04 max|dv| 9.83e-07
+16:18:34 s3: BEFORE held-out CE 1.701 top1 0.533
+16:18:35 s3 step 0: lpol_lab 2.009 lpol_rep 1.876 lval(distill) 0.0027 | held CE 1.700 top1 0.530 max|dv| 0.032
+16:18:41 s3 step 200: lpol_lab 1.447 lpol_rep 1.939 lval(distill) 0.0042 | held CE 1.317 top1 0.588 max|dv| 0.381
+16:18:49 s3 step 400: lpol_lab 1.310 lpol_rep 2.008 lval(distill) 0.0045 | held CE 1.261 top1 0.602 max|dv| 0.454
+16:18:56 s3 step 600: lpol_lab 1.192 lpol_rep 2.064 lval(distill) 0.0045 | held CE 1.258 top1 0.603 max|dv| 0.449
+16:19:04 s3 step 800: lpol_lab 1.156 lpol_rep 2.077 lval(distill) 0.0039 | held CE 1.251 top1 0.596 max|dv| 0.491
+16:19:11 s3 step 1000: lpol_lab 1.223 lpol_rep 2.049 lval(distill) 0.0038 | held CE 1.250 top1 0.602 max|dv| 0.461
+16:19:16 s3 step 1199: lpol_lab 1.290 lpol_rep 2.100 lval(distill) 0.0047 | held CE 1.245 top1 0.606 max|dv| 0.480
+16:19:16 s3: trained 1200 steps in 42s, SWA 10
+16:19:16 s3: AFTER (SWA) held-out CE 1.701->1.245 top1(800-best) 0.533->0.606 max|dv| vs v6 0.530
+16:19:17 s3: exported levels\level4\agents\sprint3\candA.onnx graph (278, 321)

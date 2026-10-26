@@ -1,0 +1,20 @@
+deriv_4f2_vt08.onnx vs az_res4f_v2.onnx: 79/200 = 40% [33%,46%] elo -74 | as cyan 36% as magenta 43% | 47 actions, 1.9s cpu/game (both sides), 102s
+deriv_4f2_vt07.onnx vs az_res4f_v2.onnx: 49/100 = 49% [39%,59%] elo -7 | as cyan 48% as magenta 50% | 46 actions, 1.8s cpu/game (both sides), 50s
+deriv_4f2_vt08w6.onnx vs az_res4f_v2.onnx: 49/100 = 49% [39%,59%] elo -7 | as cyan 56% as magenta 42% | 43 actions, 1.6s cpu/game (both sides), 48s
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=25336, pipe_handle=768)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\melis\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\multiprocessing\spawn.py", line 108, in spawn_main
+    source_process = _winapi.OpenProcess(
+        _winapi.SYNCHRONIZE | _winapi.PROCESS_DUP_HANDLE,
+        False, parent_pid)
+OSError: [WinError 87] The parameter is incorrect
+deriv_4f2_w6.onnx vs az_res4f_v2.onnx: 96/200 = 48% [41%,55%] elo -14 | as cyan 53% as magenta 43% | 48 actions, 1.8s cpu/game (both sides), 127s
+=25336, pipe_handle=836)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\melis\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\multiprocessing\spawn.py", line 108, in spawn_main
+    source_process = _winapi.OpenProcess(
+        _winapi.SYNCHRONIZE | _winapi.PROCESS_DUP_HANDLE,
+        False, parent_pid)
+OSError: [WinError 87] The parameter is incorrect

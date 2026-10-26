@@ -1,0 +1,5 @@
+14:11:08 res v0 (== hand_v2) parity: max|dpolicy| 0.00e+00 max|dvalue| 0.00e+00
+14:11:29 res v0 vs hand_v2 sanity: 14/40=35% [22%,50%] C40%/M30% 1.5s
+14:11:30 res: loaded hand sp_v2 31838 positions
+14:12:34 res v1: boot train 800 steps lpol 2.278 lval 0.597
+14:13:56 res v1 eval: HAND_V2 24/60=40% [29%,53%] C47%/M33% 2.2s | stopgap 31/40=78% [62%,88%] C80%/M75% 2.2s | seat 18/20=90% [70%,97%] C80%/M100% 0.7s 

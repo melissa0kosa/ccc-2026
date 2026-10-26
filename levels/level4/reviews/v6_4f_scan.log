@@ -1,0 +1,14 @@
+19499 done 1s
+19684 done 3s
+19847 done 6s
+19881 done 7s
+19980 done 9s
+20020 done 11s
+20222 done 16s
+20258 done 25s
+VERIFY post-warmup (k>=8): local c100 == played 132/132; warmup (k<8): 18/32
+secs 25
+
+real	0m31.328s
+user	0m0.015s
+sys	0m0.031s

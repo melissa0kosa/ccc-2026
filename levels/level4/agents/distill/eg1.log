@@ -1,0 +1,41 @@
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\melis\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\melis\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "C:\Users\melis\Downloads\cloudflight-coding-contest\levels\level4\agents\distill\endgame.py", line 89, in worker
+    np.savez(out, obs=np.stack(O), li=np.stack(LI), sc=np.stack(SC), best=np.array(BEST, np.float32),
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+             z=np.array(Z, np.float32), act=np.array(NA, np.int16),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+             ch_obs=np.stack(CO), ch_v=np.array(CV, np.float32))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\melis\Downloads\cloudflight-coding-contest\.venv\Lib\site-packages\numpy\lib\_npyio_impl.py", line 673, in savez
+    _savez(file, args, kwds, False, allow_pickle=allow_pickle)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\melis\Downloads\cloudflight-coding-contest\.venv\Lib\site-packages\numpy\lib\_npyio_impl.py", line 779, in _savez
+    zipf = zipfile_factory(file, mode="w", compression=compression)
+  File "C:\Users\melis\Downloads\cloudflight-coding-contest\.venv\Lib\site-packages\numpy\lib\_npyio_impl.py", line 112, in zipfile_factory
+    return zipfile.ZipFile(file, *args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\melis\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\zipfile\__init__.py", line 1487, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\melis\\Downloads\\cloudflight-coding-contest\\levels\\level4\\agents\\distill\\data\\eg1_w0.npz'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\melis\Downloads\cloudflight-coding-contest\levels\level4\agents\distill\endgame.py", line 115, in <module>
+    print(pool.map(worker, [(tag, w, minutes, base * 100 + w) for w in range(workers)]), flush=True)
+          ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\melis\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\multiprocessing\pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\melis\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\multiprocessing\pool.py", line 774, in get
+    raise self._value
+OSError: [Errno 22] Invalid argument: 'C:\\Users\\melis\\Downloads\\cloudflight-coding-contest\\levels\\level4\\agents\\distill\\data\\eg1_w0.npz'

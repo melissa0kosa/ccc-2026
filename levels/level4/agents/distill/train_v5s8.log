@@ -1,0 +1,34 @@
+  + 112823 child value samples
+loaded 18958 positions from 20 files
+ep 2 train pol 2.488 val 0.098 | valid pol 2.490 val 0.120 top1 0.378 | 29s
+ep 5 train pol 2.406 val 0.083 | valid pol 2.402 val 0.142 top1 0.431 | 67s
+ep 8 train pol 2.360 val 0.077 | valid pol 2.387 val 0.119 top1 0.426 | 104s
+ep 11 train pol 2.327 val 0.073 | valid pol 2.350 val 0.120 top1 0.439 | 147s
+ep 14 train pol 2.298 val 0.069 | valid pol 2.342 val 0.112 top1 0.435 | 185s
+ep 17 train pol 2.272 val 0.066 | valid pol 2.320 val 0.111 top1 0.453 | 225s
+ep 20 train pol 2.250 val 0.062 | valid pol 2.312 val 0.100 top1 0.465 | 260s
+ep 23 train pol 2.229 val 0.059 | valid pol 2.300 val 0.102 top1 0.457 | 295s
+ep 26 train pol 2.219 val 0.058 | valid pol 2.300 val 0.102 top1 0.458 | 344s
+ep 29 train pol 2.210 val 0.057 | valid pol 2.299 val 0.101 top1 0.458 | 387s
+Traceback (most recent call last):
+  File "C:\Users\melis\Downloads\cloudflight-coding-contest\levels\level4\agents\distill\train.py", line 373, in <module>
+    path = L4 / "models" / f"{out}.onnx"
+    ^^^^^^
+  File "C:\Users\melis\Downloads\cloudflight-coding-contest\levels\level4\agents\distill\train.py", line 368, in main
+    tlm = np.mean(tl, 0)
+  File "C:\Users\melis\Downloads\cloudflight-coding-contest\levels\level4\agents\distill\export_util.py", line 27, in export
+    raise RuntimeError(f"validator rejected {path}:\n{msg}")
+RuntimeError: validator rejected C:\Users\melis\Downloads\cloudflight-coding-contest\levels\level4\models\distill_v5s8.onnx:
+====================================================================
+Colony: One -- submission validator
+model: C:\Users\melis\Downloads\cloudflight-coding-contest\levels\level4\models\distill_v5s8.onnx
+====================================================================
+
+1/3  Tournament acceptance contract
+
+  [FAIL] Your model is too slow to check: the check must finish within 2 seconds of CPU time and 3 seconds in total. Use a smaller or simpler network.
+
+====================================================================
+REJECTED -- see docs/submission.md
+====================================================================
+
